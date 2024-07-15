@@ -8,7 +8,7 @@ const getVideoUrl = (file) => {
 };
 
 const movies = {
-    flash: {
+    1: {
         title: "Señal Colombia",
         json: {
             title: "Señal Colombia",
