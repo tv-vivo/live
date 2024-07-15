@@ -1,6 +1,6 @@
 const getVideoUrl = (file) => {
     switch (file) {
-        case "5":
+        case "sñlcol":
             return "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8?PlaylistM3UCL";
         default:
             return file;
