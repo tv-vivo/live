@@ -17,7 +17,7 @@ const movies = {
         json: {
             title: "The Flash",
             id: 1,
-            url: "tv-vivo.github.io/live/movies/reproductor?id=1"
+            url: "vpnmovie.onrender.com/movies/reproductor?id=1"
         }
     },
     blackAdam: {
@@ -25,7 +25,7 @@ const movies = {
         json: {
             title: "Black Adam",
             id: 2,
-            url: "tv-vivo.github.io/live/movies/reproductor?id=2"
+            url: "vpnmovie.onrender.com/movies/reproductor?id=2"
         }
     },
     minions: {
@@ -33,7 +33,7 @@ const movies = {
         json: {
             title: "Minions: The Rise of Gru",
             id: 3,
-            url: "tv-vivo.github.io/live/movies/reproductor?id=3"
+            url: "vpnmovie.onrender.com/live/movies/reproductor?id=3"
         }
     }
 };
