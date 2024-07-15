@@ -1,20 +1,20 @@
 const urlParams = new URLSearchParams(window.location.search);
 const file = urlParams.get('file') || urlParams.get('id');
-let id = "";
+let id = null;
 
-if (file === 1) {
+if (file === "1") {
     id = "https://vlink.lol/vfm/play/CineMaxApp/TheFlash_1080P.mp4";
-} else if(file === 2) {
+} else if (file === "2") {
     id = "https://vlink.lol/vfm/play/CineMaxApp/BlackAdam.mp4";
-} else if(file === 3) {
+} else if (file === "3") {
     id = "https://vlink.lol/vfm/play/CineMaxApp/MiVillanoFavorito4.mp4";
-} else if(file) {
+} else if (file) {
     id = file;
 }
 
 var player = jwplayer("megaplay");
 player.setup({
-    "title": "VPN•Movie",
+    "title": "Vpn•Movie",
     sources: [{
         "file": id,
     }],
