@@ -1,7 +1,7 @@
 const getVideoUrl = (file) => {
     switch (file) {
         case "1":
-            return "https://vlink.lol/vfm/play/CineMaxApp/TheFlash_1080P.mp4";
+            return "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8?PlaylistM3UCL";
         case "2":
             return "https://vlink.lol/vfm/play/CineMaxApp/BlackAdam.mp4";
         case "3":
