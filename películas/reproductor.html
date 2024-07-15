@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VPN MOVIE</title>
+<script src="https://ssl.p.jwpcdn.com/player/v/8.18.4/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key = "W7zSm81+mmIsg7F+fyHRKhF3ggLkTqtGMhvI92kbqf/ysE99";</script>
+<style type="text/css" media="screen">
+html,body {
+padding: 0;
+margin: 0;
+height: 100%;
+}
+#megaplay {
+width: 100% !important;
+height: 100% !important;
+overflow: hidden;
+background-color: #000;
+box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Sombras roja con 80% de opacidad */
+}
+</style>
+</head>
+<body>
+<div id="megaplay"></div>
+<script type="text/javascript">
+const urlParams = new URLSearchParams(window.location.search);
+const file = urlParams.get('file') || urlParams.get('r')
+var player = jwplayer("megaplay");
+player.setup({
+"title": "Vpn•Movie",
+sources: [{
+"file": file,
+}],
+width: "100vw",
+height: "100vh",
+stretching : "fill",
+aspectratio: "16:9",
+startparam: "start",
+primary: "html5",
+autostart: false,
+preload: "auto",
+image: "",
+advertising: {
+client: "vast",
+tag: ""
+},
+skin: {
+name: "Vpn-Player"
+},
+logo: {
+file: "https://i.ibb.co/PZNtyDK/VERSION-20240616-022100-0000-2-removebg-preview.png"
+},
+captions: {
+color: "#f3f368",
+fontSize: 16,
+backgroundOpacity: 0,
+fontfamily: "Helvetica",
+edgeStyle: "raised"
+},
+tracks: [{
+file: "",
+label: "Español",
+kind: "captions"
+}]
+});
+</script>
+<script src='https://cdn.jsdelivr.net/gh/da2l/host@1/dist/js/wgd-core.min.js'></script>
+</body>
+</html>
