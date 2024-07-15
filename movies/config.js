@@ -33,7 +33,7 @@ const movies = {
         json: {
             title: "Minions: The Rise of Gru",
             id: 3,
-            url: "vpnmovie.onrender.com/live/movies/reproductor?id=3"
+            url: "vpnmovie.onrender.com/movies/reproductor?id=3"
         }
     }
 };
