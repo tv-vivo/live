@@ -10,3 +10,30 @@ const getVideoUrl = (file) => {
             return file;
     }
 };
+
+const movies = {
+    flash: {
+        title: "The Flash",
+        json: {
+            title: "The Flash",
+            id: 1,
+            url: "tv-vivo.github.io/live/movies/reproductor?id=1"
+        }
+    },
+    blackAdam: {
+        title: "Black Adam",
+        json: {
+            title: "Black Adam",
+            id: 2,
+            url: "tv-vivo.github.io/live/movies/reproductor?id=2"
+        }
+    },
+    minions: {
+        title: "Minions: The Rise of Gru",
+        json: {
+            title: "Minions: The Rise of Gru",
+            id: 3,
+            url: "tv-vivo.github.io/live/movies/reproductor?id=3"
+        }
+    }
+};
