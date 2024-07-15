@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOVIE</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    select {
+        font-size: 16px;
+        padding: 10px;
+        margin: 20px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 300px;
+    }
+    .panel {
+        display: none;
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .panel-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .json-panel {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        font-family: "Courier New", Courier, monospace;
+        white-space: pre-wrap;
+        border-radius: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Select a Movie</h1>
+    <select id="movieSelect">
+        <option value="">Select...</option>
+        <option value="flash">The Flash</option>
+        <option value="blackAdam">Black Adam</option>
+        <option value="minions">Minions: The Rise of Gru</option>
+    </select>
+
+    <div id="moviePanel" class="panel">
+        <div id="movieTitle" class="panel-title"></div>
+        <div id="jsonPanel" class="json-panel"></div>
+    </div>
+</div>
+
+<script src="config.js"></script>
+<script>
+    document.getElementById('movieSelect').addEventListener('change', function() {
+        const selectedMovie = this.value;
+        if (selectedMovie) {
+            const movieData = movies[selectedMovie];
+            document.getElementById('movieTitle').innerText = movieData.title;
+            document.getElementById('jsonPanel').innerText = JSON.stringify(movieData.json, null, 2);
+            document.getElementById('moviePanel').style.display = 'block';
+        } else {
+            document.getElementById('moviePanel').style.display = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>
