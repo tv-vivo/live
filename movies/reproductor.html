@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JWPlayer</title>
+<title>MOVIES</title>
 <script src="https://ssl.p.jwpcdn.com/player/v/8.18.4/jwplayer.js"></script>
 <script type="text/javascript">jwplayer.key = "W7zSm81+mmIsg7F+fyHRKhF3ggLkTqtGMhvI92kbqf/ysE99";</script>
 <style type="text/css" media="screen">
@@ -24,12 +24,16 @@ box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Sombras roja con 80% de opacidad *
 <div id="megaplay"></div>
 <script type="text/javascript">
 const urlParams = new URLSearchParams(window.location.search);
-const file = urlParams.get('file') || urlParams.get('r')
+const file = urlParams.get('file') || urlParams.get('id')
+var id = ""
+if(file === "1" ) {
+id = "https://vlink.lol/vfm/play/CineMaxApp/TheFlash_1080P.mp4"
+}
 var player = jwplayer("megaplay");
 player.setup({
 "title": "Vpn•Movie",
 sources: [{
-"file": file,
+"file": id,
 }],
 width: "100vw",
 height: "100vh",
