@@ -16,39 +16,41 @@
         #player {
             width: 80%;
             height: 80%;
-            position: relative; /* Añade posición relativa para que el logo se posicione correctamente */
+            position: relative;
         }
 
         .clappr-logo {
             background-image: url('https://telegra.ph/file/7af07da609c73477db23f.jpg');
             background-size: contain;
             background-repeat: no-repeat;
-            width: 100px; /* ajusta el tamaño según sea necesario */
-            height: 30px; /* ajusta el tamaño según sea necesario */
+            width: 100px;
+            height: 30px;
             position: absolute;
             top: 10px;
             left: 10px;
-            z-index: 1000; /* asegúrate de que esté por encima del reproductor */
+            z-index: 1000;
         }
     </style>
 </head>
 <body>
     <div id="player"></div>
     <div class="clappr-logo"></div>
-<script src="https://raw.githubusercontent.com/tv-vivo/live/main/tv/config.js"></script>
+
+    <script src="config.js"></script>
     <script>
-        // Obtener el parámetro 'file' de la URL
-        const urlParams = new URLSearchParams(window.location.search);
-    const file = urlParams.get('file') || urlParams.get('id');
+        document.addEventListener('DOMContentLoaded', function() {
+            // Obtener el parámetro 'file' de la URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const file = urlParams.get('file') || urlParams.get('id');
+            const id = getVideoUrl(file);
 
-    const id = getVideoUrl(file);
-
-        // Crear el reproductor Clappr con la fuente obtenida del parámetro 'file'
-        var player = new Clappr.Player({
-            source: id,
-            parentId: '#player',
-            height: '100%',
-            width: '100%',
+            // Crear el reproductor Clappr con la fuente obtenida del parámetro 'file'
+            var player = new Clappr.Player({
+                source: id,
+                parentId: '#player',
+                height: '100%',
+                width: '100%',
+            });
         });
     </script>
 </body>
