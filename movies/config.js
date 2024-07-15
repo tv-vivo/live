@@ -1,6 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const file = urlParams.get('file') || urlParams.get('id');
-var id = "";
+let id = "";
 
 if (file === "1") {
     id = "https://vlink.lol/vfm/play/CineMaxApp/TheFlash_1080P.mp4";
