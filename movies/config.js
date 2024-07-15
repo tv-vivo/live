@@ -10,7 +10,7 @@ if (file === "1") {
 
 var player = jwplayer("megaplay");
 player.setup({
-    "title": "Vpn•Movie",
+    "title": "VPN•Movie",
     sources: [{
         "file": id,
     }],
