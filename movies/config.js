@@ -11,7 +11,35 @@ if (file === "1") {
 } else if (file) {
     id = file;
 }
-
+const movies = {
+    flash: {
+        title: "The Flash",
+        json: {
+            title: "The Flash",
+            year: 2023,
+            genre: "Action",
+            director: "Andy Muschietti"
+        }
+    },
+    blackAdam: {
+        title: "Black Adam",
+        json: {
+            title: "Black Adam",
+            year: 2022,
+            genre: "Action",
+            director: "Jaume Collet-Serra"
+        }
+    },
+    minions: {
+        title: "Minions: The Rise of Gru",
+        json: {
+            title: "Minions: The Rise of Gru",
+            year: 2022,
+            genre: "Animation",
+            director: "Kyle Balda"
+        }
+    }
+};
 var player = jwplayer("megaplay");
 player.setup({
     "title": "Vpn•Movie",
