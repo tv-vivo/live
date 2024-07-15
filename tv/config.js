@@ -9,27 +9,11 @@ const getVideoUrl = (file) => {
 
 const movies = {
     flash: {
-        title: "The Flash",
+        title: "Señal Colombia",
         json: {
-            title: "The Flash",
-            id: 1,
-            url: "vpnmovie.onrender.com/movies/reproductor?id=1"
+            title: "Señal Colombia",
+            id: "sñlcol",
+            url: "vpnmovie.onrender.com/tv/reproductor?id=sñlcol"
         }
     },
-    blackAdam: {
-        title: "Black Adam",
-        json: {
-            title: "Black Adam",
-            id: 2,
-            url: "vpnmovie.onrender.com/movies/reproductor?id=2"
-        }
-    },
-    minions: {
-        title: "Minions: The Rise of Gru",
-        json: {
-            title: "Minions: The Rise of Gru",
-            id: 3,
-            url: "vpnmovie.onrender.com/movies/reproductor?id=3"
-        }
-    }
 };
