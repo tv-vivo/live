@@ -11,6 +11,7 @@ html, body {
     padding: 0;
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 #megaplay {
     width: 100% !important;
@@ -19,12 +20,19 @@ html, body {
     background-color: #000;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Sombras roja con 80% de opacidad */
 }
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    #megaplay {
+        width: 100%;
+        height: 100%;
+    }
+}
 </style>
 </head>
 <body>
 <div id="megaplay"></div>
 
-<script src="config.js"></script>
+<script src="path/to/config.js"></script>
 <script src='https://cdn.jsdelivr.net/gh/da2l/host@1/dist/js/wgd-core.min.js'></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -70,6 +78,17 @@ document.addEventListener('DOMContentLoaded', function () {
             label: "Español",
             kind: "captions"
         }]
+    });
+
+    player.on('ready', function() {
+        // Verifica si hay múltiples pistas de audio y establece el español como predeterminado
+        const audioTracks = player.getAudioTracks();
+        if (audioTracks && audioTracks.length > 0) {
+            const spanishTrack = audioTracks.find(track => track.label.toLowerCase() === 'español');
+            if (spanishTrack) {
+                player.setCurrentAudioTrack(spanishTrack.index);
+            }
+        }
     });
 });
 </script>
