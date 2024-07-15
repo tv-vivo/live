@@ -5,7 +5,11 @@ let id = "";
 if (file === 1) {
     id = "https://vlink.lol/vfm/play/CineMaxApp/TheFlash_1080P.mp4";
 } else if(file === 2) {
-    id = "https://vlink.lol/vfm/play/CineMaxApp/BlackAdam.mp4"
+    id = "https://vlink.lol/vfm/play/CineMaxApp/BlackAdam.mp4";
+} else if(file === 3) {
+    id = "https://vlink.lol/vfm/play/CineMaxApp/MiVillanoFavorito4.mp4";
+} else if(file) {
+    id = file;
 }
 
 var player = jwplayer("megaplay");
