@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VPN MOVIE</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #player {
+            width: 80%;
+            height: 80%;
+            position: relative; /* Añade posición relativa para que el logo se posicione correctamente */
+        }
+
+        .clappr-logo {
+            background-image: url('https://telegra.ph/file/7af07da609c73477db23f.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100px; /* ajusta el tamaño según sea necesario */
+            height: 30px; /* ajusta el tamaño según sea necesario */
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1000; /* asegúrate de que esté por encima del reproductor */
+        }
+    </style>
+</head>
+<body>
+    <div id="player"></div>
+    <div class="clappr-logo"></div>
+
+    <script>
+        // Obtener el parámetro 'file' de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+    const file = urlParams.get('file') || urlParams.get('id');
+
+    const id = getVideoUrl(file);
+
+        // Crear el reproductor Clappr con la fuente obtenida del parámetro 'file'
+        var player = new Clappr.Player({
+            source: id,
+            parentId: '#player',
+            height: '100%',
+            width: '100%',
+        });
+    </script>
+</body>
+</html>
