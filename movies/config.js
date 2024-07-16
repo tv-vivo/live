@@ -1,39 +1,19 @@
 const getVideoUrl = (file) => {
     switch (file) {
         case "1":
-            return "https://vlink.lol/vfm/play/CineMaxApp/TheFlash_1080P.mp4";
-        case "2":
-            return "https://vlink.lol/vfm/play/CineMaxApp/BlackAdam.mp4";
-        case "3":
-            return "https://vlink.lol/vfm/play/CineMaxApp/MiVillanoFavorito4.mp4";
-        default:
+            return "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9zd2R5dS5jb20vZS8yamdiNzVrMjhjNmw=";
+            default:
             return file;
     }
 };
 
 const movies = {
-    flash: {
-        title: "The Flash",
+    1: {
+        title: "Un Lugar En Silencio (2024)",
         json: {
-            title: "The Flash",
+            title: "Un Lugar En Silencio (2024)",
             id: 1,
             url: "vpnmovie.onrender.com/movies/reproductor?id=1"
         }
     },
-    blackAdam: {
-        title: "Black Adam",
-        json: {
-            title: "Black Adam",
-            id: 2,
-            url: "vpnmovie.onrender.com/movies/reproductor?id=2"
-        }
-    },
-    minions: {
-        title: "Minions: The Rise of Gru",
-        json: {
-            title: "Minions: The Rise of Gru",
-            id: 3,
-            url: "vpnmovie.onrender.com/movies/reproductor?id=3"
-        }
-    }
 };
