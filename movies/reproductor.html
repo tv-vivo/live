@@ -44,11 +44,47 @@ document.addEventListener('DOMContentLoaded', function () {
     const iframe = document.getElementById('embed-player');
 
     if (file) {
-    const id = getVideoUrl(file); 
+        const id = getVideoUrl(file); 
         iframe.src = id;
     } else {
         iframe.src = file;
     }
+
+    document.addEventListener('fullscreenchange', function () {
+        const logo = document.getElementById('logo');
+        if (document.fullscreenElement) {
+            logo.style.display = 'block';
+        } else {
+            logo.style.display = 'block';
+        }
+    });
+
+    document.addEventListener('webkitfullscreenchange', function () {
+        const logo = document.getElementById('logo');
+        if (document.webkitFullscreenElement) {
+            logo.style.display = 'block';
+        } else {
+            logo.style.display = 'block';
+        }
+    });
+
+    document.addEventListener('mozfullscreenchange', function () {
+        const logo = document.getElementById('logo');
+        if (document.mozFullScreenElement) {
+            logo.style.display = 'block';
+        } else {
+            logo.style.display = 'block';
+        }
+    });
+
+    document.addEventListener('msfullscreenchange', function () {
+        const logo = document.getElementById('logo');
+        if (document.msFullscreenElement) {
+            logo.style.display = 'block';
+        } else {
+            logo.style.display = 'block';
+        }
+    });
 });
 </script>
 </body>
