@@ -6,6 +6,8 @@ const getVideoUrl = (file) => {
             return "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lLzJhYzNhbDVobDNwYw=="
         case "3":
             return "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lL2w4MGw4Zms3ZTduZg=="
+        case "4":
+            return "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lL2g5NGg2MjltaDIwNg=="
         default:
             return file;
     }
@@ -37,6 +39,15 @@ const movies = {
             id: 1,
             image: "https://media.themoviedb.org/t/p/w220_and_h330_face/gAEUXC37vl1SnM7PXsHTF23I2vq.jpg",
             url: "https://vpnmovie.onrender.com/movies/reproductor?id=3"
+        }
+    },
+    4: {
+        title: "Atlas (2024)",
+        json: {
+            title: "Atlas (2024)",
+            id: 1,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg",
+            url: "https://vpnmovie.onrender.com/movies/reproductor?id=4"
         }
     },
 };
