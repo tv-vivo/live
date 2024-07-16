@@ -10,6 +10,8 @@ const getVideoUrl = (file) => {
             return "https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8"
         case "ctnetwork":
             return "https://jactvpro.xyz:443/Upb93ECM5B/RRzkDRt6w8/10295.m3u8"
+        case "disneyjr":
+            return "https://jactvpro.xyz:443/Upb93ECM5B/RRzkDRt6w8/10297.m3u8"
         default:
             return file;
     }
@@ -54,6 +56,14 @@ const movies = {
             title: "Cartoon Network",
             id: "ctnetwork",
             url: "vpnmovie.onrender.com/tv/reproductor?id=ctnetwork"
+        }
+    },
+    6: {
+        title: "Disney Jr",
+        json: {
+            title: "Disney Jr",
+            id: "disneyjr",
+            url: "vpnmovie.onrender.com/tv/reproductor?id=disneyjr"
         }
     },
 };
