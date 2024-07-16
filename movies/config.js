@@ -13,7 +13,7 @@ const movies = {
         json: {
             title: "Un Lugar En Silencio (2024)",
             id: 1,
-            url: "vpnmovie.onrender.com/movies/reproductor?id=1"
+            url: "https://vpnmovie.onrender.com/movies/reproductor?id=1"
         }
     },
 };
