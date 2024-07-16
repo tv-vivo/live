@@ -3,103 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MOVIE</title>
-<script src="https://ssl.p.jwpcdn.com/player/v/8.18.4/jwplayer.js"></script>
-<script type="text/javascript">jwplayer.key = "W7zSm81+mmIsg7F+fyHRKhF3ggLkTqtGMhvI92kbqf/ysE99";</script>
+<title>VPN Movie Player</title>
 <style type="text/css" media="screen">
-html,body {
-
-            padding: 0;
-
-            margin: 0;
-
-            height: 100%;
-
-        }
-
-        #megaplay {
-
-            width: 100% !important;
-
-            height: 100% !important;
-
-            overflow: hidden;
-
-            background-color: #000;
-
-            box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Sombras roja con 80% de opacidad */
-
-        }
-/* Estilos para dispositivos móviles */
-@media only screen and (max-width: 600px) {
-    #megaplay {
-        width: 100%;
-        height: 100%;
-    }
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#player-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+#embed-player {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    z-index: 10;
 }
 </style>
 </head>
 <body>
-<div id="megaplay"></div>
-
+<div id="player-container">
+    <iframe id="embed-player" src="" allowfullscreen></iframe>
+    <img id="logo" src="https://i.ibb.co/PZNtyDK/VERSION-20240616-022100-0000-2-removebg-preview.png" alt="Logo">
+</div>
 <script src="config.js"></script>
-<script src='https://cdn.jsdelivr.net/gh/da2l/host@1/dist/js/wgd-core.min.js'></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const file = urlParams.get('file') || urlParams.get('id');
+    const iframe = document.getElementById('embed-player');
 
-    const id = getVideoUrl(file);
-
-    var player = jwplayer("megaplay");
-    player.setup({
-        "title": "Vpn•Movie",
-        sources: [{
-            "file": id,
-        }],
-        width: "100vw",
-        height: "100vh",
-        stretching: "fill",
-        aspectratio: "16:9",
-        startparam: "start",
-        primary: "html5",
-        autostart: false,
-        preload: "auto",
-        image: "",
-        advertising: {
-            client: "vast",
-            tag: ""
-        },
-        skin: {
-            name: "Vpn-Player"
-        },
-        logo: {
-            file: "https://i.ibb.co/PZNtyDK/VERSION-20240616-022100-0000-2-removebg-preview.png"
-        },
-        captions: {
-            color: "#f3f368",
-            fontSize: 16,
-            backgroundOpacity: 0,
-            fontfamily: "Helvetica",
-            edgeStyle: "raised"
-        },
-        tracks: [{
-            file: "",
-            label: "Español",
-            kind: "captions"
-        }]
-    });
-
-    player.on('ready', function() {
-        // Verifica si hay múltiples pistas de audio y establece el español como predeterminado
-        const audioTracks = player.getAudioTracks();
-        if (audioTracks && audioTracks.length > 0) {
-            const spanishTrack = audioTracks.find(track => track.label.toLowerCase() === 'español');
-            if (spanishTrack) {
-                player.setCurrentAudioTrack(spanishTrack.index);
-            }
-        }
-    });
+    if (file) {
+    const id = getVideoUrl(file); 
+        iframe.src = id;
+    } else {
+        iframe.src = file;
+    }
 });
 </script>
 </body>
