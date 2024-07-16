@@ -6,6 +6,8 @@ const getVideoUrl = (file) => {
           return "https://ss3.domint.net:3134/otv_str/orbittv/playlist.m3u8?PlaylistM3UCL";
         case "disneych": 
             return "https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge2/smil:21_HD.smil/manifest.m3u8"
+        case "canal1":
+            return "https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8"
         default:
             return file;
     }
@@ -34,6 +36,14 @@ const movies = {
             title: "Disney Chanel",
             id: "disneych",
             url: "vpnmovie.onrender.com/tv/reproductor?id=disneych"
+        }
+    },
+    4: {
+        title: "Canal 1",
+        json: {
+            title: "Canal 1",
+            id: "canal1",
+            url: "vpnmovie.onrender.com/tv/reproductor?id=canal1"
         }
     },
 };
