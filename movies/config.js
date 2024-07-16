@@ -20,11 +20,11 @@ const movies = {
         }
     },
     1: {
-        title: "Un Lugar En Silencio (2024)",
+        title: "Free Guy",
         json: {
-            title: "Un Lugar En Silencio (2024)",
+            title: "Free Guy",
             id: 1,
-            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/jGOi939xU8BDRfAAhN6eiTSf3H8.jpg",
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
             url: "https://vpnmovie.onrender.com/movies/reproductor?id=2"
         }
     },
