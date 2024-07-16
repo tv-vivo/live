@@ -23,7 +23,7 @@ const movies = {
         json: {
             title: "Señal Colombia",
             id: "sñlcol",
-            url: "vpnmovie.onrender.com/tv/reproductor?id=sñlcol"
+            url: "https://vpnmovie.onrender.com/tv/reproductor?id=sñlcol"
         }
     },
     2: {
@@ -31,7 +31,7 @@ const movies = {
         json: {
             title: "Orbit Tv",
             id: "orbittv",
-            url: "vpnmovie.onrender.com/tv/reproductor?id=orbittv"
+            url: "https://vpnmovie.onrender.com/tv/reproductor?id=orbittv"
         }
     },
     3: {
@@ -39,7 +39,7 @@ const movies = {
         json: {
             title: "Disney Chanel",
             id: "disneych",
-            url: "vpnmovie.onrender.com/tv/reproductor?id=disneych"
+            url: "https://vpnmovie.onrender.com/tv/reproductor?id=disneych"
         }
     },
     4: {
@@ -47,7 +47,7 @@ const movies = {
         json: {
             title: "Canal 1",
             id: "canal1",
-            url: "vpnmovie.onrender.com/tv/reproductor?id=canal1"
+            url: "https://vpnmovie.onrender.com/tv/reproductor?id=canal1"
         }
     },
     5: {
@@ -55,7 +55,7 @@ const movies = {
         json: {
             title: "Cartoon Network",
             id: "ctnetwork",
-            url: "vpnmovie.onrender.com/tv/reproductor?id=ctnetwork"
+            url: "https://vpnmovie.onrender.com/tv/reproductor?id=ctnetwork"
         }
     },
     6: {
