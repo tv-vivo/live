@@ -19,7 +19,7 @@ const movies = {
             url: "https://vpnmovie.onrender.com/movies/reproductor?id=1"
         }
     },
-    1: {
+    2: {
         title: "Free Guy",
         json: {
             title: "Free Guy",
