@@ -35,7 +35,7 @@ const movies = {
         json: {
             title: "Tarot (2024)",
             id: 1,
-            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/gAEUXC37vl1SnM7PXsHTF23I2vq.jpg",
             url: "https://vpnmovie.onrender.com/movies/reproductor?id=3"
         }
     },
