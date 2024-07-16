@@ -8,6 +8,8 @@ const getVideoUrl = (file) => {
             return "https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge2/smil:21_HD.smil/manifest.m3u8"
         case "canal1":
             return "https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8"
+        case "ctnetwork":
+            return "https://jactvpro.xyz:443/Upb93ECM5B/RRzkDRt6w8/10295.m3u8"
         default:
             return file;
     }
@@ -44,6 +46,14 @@ const movies = {
             title: "Canal 1",
             id: "canal1",
             url: "vpnmovie.onrender.com/tv/reproductor?id=canal1"
+        }
+    },
+    5: {
+        title: "Cartoon Network",
+        json: {
+            title: "Cartoon Network",
+            id: "ctnetwork",
+            url: "vpnmovie.onrender.com/tv/reproductor?id=ctnetwork"
         }
     },
 };
