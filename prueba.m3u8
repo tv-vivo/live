@@ -1,3 +1,4 @@
 #EXTM3U
-#EXTINF:-1, Cartón Neword
-http://181.78.100.131:8000/play/a028/index.m3u8
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=800000
+https://svtv.xyz:8080/live/GustavoGar/XBSXA/278202.ts
