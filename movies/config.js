@@ -2,6 +2,8 @@ const embed = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const getVideoUrl = (file) => {
     switch (file) {
+        case "7":
+            return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lL2FqNXF2eHY3MDVyeg=="
         case "6":
             return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lLzVoeTh5ams3bXdmZg=="
         case "5":
@@ -20,6 +22,15 @@ const getVideoUrl = (file) => {
 };
 
 const movies = {
+    7: {
+        title: "Transformers: Rise of the Beasts (2023)",
+        json: {
+            title: "Transformers: Rise of the Beasts (2023)",
+            id: 7,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
+            url: dominio + "7"
+        }
+    },
     6: {
         title: "IntensaMente 2 (2024)",
         json: {
