@@ -48,7 +48,6 @@ html, body {
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const file = urlParams.get('file') || urlParams.get('id');
-
     const tiempo = urlParams.get('time') || urlParams.get('tiempo');
     const iframe = document.getElementById('embed-player');
     if (file) {
@@ -59,10 +58,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 if(tiempo > 3) {
                 sleep(tiempo).then(() => {
     iframe.src = id; 
+                })
                 } else {
                     sleep(3).then(() => {
     iframe.src = id; 
-                }
+                })
 });
                           
             } else {
