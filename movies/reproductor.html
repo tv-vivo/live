@@ -36,7 +36,7 @@ html, body {
     <iframe id="embed-player" src="" allowfullscreen></iframe>
     <img id="logo" src="https://i.ibb.co/PZNtyDK/VERSION-20240616-022100-0000-2-removebg-preview.png" alt="Logo">
 </div>
-<script src="config.js"></script>
+<script src="config2.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const iframe = document.getElementById('embed-player');
 
     if (file) {
-        const id = vpn_movie(file); 
+        const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="); 
         iframe.src = id;
     } else {
         iframe.src = file;
