@@ -65,6 +65,9 @@
         overflow: hidden;
         text-align: center;
         transition: transform 0.3s;
+        height: 300px; /* Tamaño fijo para los paneles */
+        display: flex;
+        flex-direction: column;
     }
     .movie-panel:hover {
         transform: scale(1.05);
@@ -72,6 +75,8 @@
     .movie-panel img {
         width: 100%;
         height: auto;
+        object-fit: contain; /* Ajusta la imagen para que quepa en el panel sin deformarse */
+        flex-grow: 1;
     }
     .movie-panel .panel-title {
         font-size: 18px;
@@ -122,14 +127,14 @@
     <img src="https://i.ibb.co/PZNtyDK/VERSION-20240616-022100-0000-2-removebg-preview.png" alt="Logo">
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Buscar película...">
-        </div>
+    </div>
 </header>
 
 <div class="container">
     <div class="movie-grid" id="movieGrid"></div>
 </div>
 
-<script src="config.js"></script>
+<script src="http://tv-vivo.github.io/live/tv/config.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const movieGrid = document.getElementById('movieGrid');
@@ -154,7 +159,7 @@
 
                 const movieLink = document.createElement('a');
                 movieLink.href = movie.json.url; // Asegúrate de que `url` sea la URL de la película
-                movieLink.innerText = 'Ver película';
+                movieLink.innerText = 'Ver Canal';
                 moviePanel.appendChild(movieLink);
 
                 movieGrid.appendChild(moviePanel);
