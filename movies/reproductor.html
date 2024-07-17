@@ -42,12 +42,20 @@ document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const file = urlParams.get('file') || urlParams.get('id');
     const iframe = document.getElementById('embed-player');
-
     if (file) {
-        const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="); 
+        try {
+            const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=");
+            if (id) {
+           const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="); 
         iframe.src = id;
+            } else {
+                iframe.src = 'https://vpnmovie.onrender.com/vpnmovie.html';
+            }
+        } catch (error) {
+            iframe.src = 'https://vpnmovie.onrender.com/vpnmovie.html';
+        }
     } else {
-        iframe.src = file;
+        iframe.src = 'https://vpnmovie.onrender.com/vpnmovie.html';
     }
 
     document.addEventListener('fullscreenchange', function () {
