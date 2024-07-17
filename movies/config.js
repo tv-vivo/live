@@ -2,6 +2,8 @@ const embed = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const getVideoUrl = (file) => {
     switch (file) {
+        case "6":
+            return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lLzVoeTh5ams3bXdmZg=="
         case "5":
             return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lLzR6cGplNXZudmpsYg=="
         case "1":
@@ -18,6 +20,15 @@ const getVideoUrl = (file) => {
 };
 
 const movies = {
+    6: {
+        title: "IntensaMente 2 (2024)",
+        json: {
+            title: "IntensaMente 2 (2024)",
+            id: 6,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/aQnbNiadeGzGSjWLaXyeNxpAUIx.jpg",
+            url: dominio + "6"
+        }
+    },
     5: {
         title: "Iron Man 2 (2010)",
         json: {
