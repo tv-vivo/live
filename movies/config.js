@@ -2,7 +2,7 @@ const embed = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const getVideoUrl = (file) => {
     switch (file) {
-        case "8"
+        case "8":
             return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lL3ludTdqaXZ5MjBtag=="
         case "7":
             return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lL2FqNXF2eHY3MDVyeg=="
