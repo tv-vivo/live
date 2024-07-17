@@ -30,6 +30,15 @@ const getVideoUrl = (file) => {
 };
 
 const movies = {
+    11: {
+        title: "Bad Boys: Corre o muere (2024)",
+        json: {
+            title: "Bad Boys: Corre o muere (2024)",
+            id: 10,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/nP6RliHjxsz4irTKsxe8FRhKZYl.jpg",
+            url: dominio + "11"
+        }
+    },
     10: {
         title: "Coco (2017)",
         json: {
