@@ -46,16 +46,18 @@ document.addEventListener('DOMContentLoaded', function () {
         try {
             const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=");
             if (id) {
-           const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="); 
+            iframe.src = "../vpnmovie.html";
+                setTimeout(() => {
         iframe.src = id;
+    }, 2000);
             } else {
-                iframe.src = 'https://vpnmovie.onrender.com/vpnmovie.html';
+                iframe.src = '../vpnmovie.html';
             }
         } catch (error) {
-            iframe.src = 'https://vpnmovie.onrender.com/vpnmovie.html';
+            iframe.src = '../vpnmovie.html';
         }
     } else {
-        iframe.src = 'https://vpnmovie.onrender.com/vpnmovie.html';
+        iframe.src = '../vpnmovie.html';
     }
 
     document.addEventListener('fullscreenchange', function () {
