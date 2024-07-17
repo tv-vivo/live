@@ -25,7 +25,6 @@ const movies = {
         json: {
             title: "LOS PADRINOS MAGICOS 24/7",
             id: "pdmagicos",
-            image: "https://telegra.ph/file/fcb81189982939fbdc2de.jpg",
             url: "https://vpnmovie.onrender.com/tv/reproductor2?id=pdmagicos"
         }
     },
@@ -34,6 +33,7 @@ const movies = {
         json: {
             title: "Señal Colombia",
             id: "sñlcol",
+            image: "https://telegra.ph/file/fcb81189982939fbdc2de.jpg",
             url: "https://vpnmovie.onrender.com/tv/reproductor?id=sñlcol"
         }
     },
