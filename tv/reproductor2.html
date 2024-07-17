@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VPN Movie Player</title>
+<style type="text/css" media="screen">
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#player-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+#embed-player {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    z-index: 10;
+}
+</style>
+</head>
+<body>
+<div id="player-container">
+    <iframe id="embed-player" src="" allowfullscreen></iframe>
+    <img id="logo" src="https://i.ibb.co/PZNtyDK/VERSION-20240616-022100-0000-2-removebg-preview.png" alt="Logo">
+</div>
+<script src="config.js"></script>
+<script>
+    function sleep(seconds) {
+    return new Promise(resolve => setTimeout(resolve, seconds * 1000));
+}
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const file = urlParams.get('file') || urlParams.get('id');
+    const tiempo = urlParams.get('time') || urlParams.get('tiempo');
+    const iframe = document.getElementById('embed-player');
+    if (file) {
+    try {
+        const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=");
+        if (id) {
+            iframe.src = "../vpnmovie.html";
+            if (tiempo > 3) {
+                sleep(tiempo).then(() => {
+                    iframe.src = id;
+                });
+            } else {
+                sleep(3).then(() => {
+                    iframe.src = id;
+                });
+            }
+        } else {
+            iframe.src = '../vpnmovie.html';
+        }
+    } catch (error) {
+        iframe.src = '../vpnmovie.html';
+    }
+} else {
+    iframe.src = '../vpnmovie.html';
+                }
+    
+    document.addEventListener('fullscreenchange', function () {
+        const logo = document.getElementById('logo');
+        if (document.fullscreenElement) {
+            logo.style.display = 'block';
+        } else {
+            logo.style.display = 'block';
+        }
+    });
+
+    document.addEventListener('webkitfullscreenchange', function () {
+        const logo = document.getElementById('logo');
+        if (document.webkitFullscreenElement) {
+            logo.style.display = 'block';
+        } else {
+            logo.style.display = 'block';
+        }
+    });
+
+    document.addEventListener('mozfullscreenchange', function () {
+        const logo = document.getElementById('logo');
+        if (document.mozFullScreenElement) {
+            logo.style.display = 'block';
+        } else {
+            logo.style.display = 'block';
+        }
+    });
+
+    document.addEventListener('msfullscreenchange', function () {
+        const logo = document.getElementById('logo');
+        if (document.msFullscreenElement) {
+            logo.style.display = 'block';
+        } else {
+            logo.style.display = 'block';
+        }
+    });
+});
+</script>
+</body>
+</html>
