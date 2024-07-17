@@ -1,9 +1,4 @@
-const embed = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
-const vpn_movie = require("./config2.js")
-const getVideoUrl = (file) => {
-    return vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=")
-}
 const movies = {
     11: {
         title: "Bad Boys: Corre o muere (2024)",
