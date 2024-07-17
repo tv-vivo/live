@@ -3,91 +3,173 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MOVIE</title>
+<title>VPN•MOVIE</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
     body {
-        font-family: Arial, sans-serif;
-        background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(120deg, #2980b9, #6dd5fa);
         margin: 0;
         padding: 0;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
     }
-    .container {
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 40px;
-        border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    header {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
-    select {
+    header img {
+        height: 50px;
+    }
+    header .search-container {
+        position: relative;
+    }
+    header .search-container input {
         font-size: 16px;
         padding: 10px;
-        margin: 20px 0;
         border: 1px solid #ccc;
-        border-radius: 5px;
+        border-radius: 20px;
+        width: 300px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding-right: 40px;
+    }
+    header .search-container .search-icon {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .container {
+        flex: 1;
+        padding: 20px;
         width: 100%;
-        max-width: 300px;
+        max-width: 1200px;
     }
-    .panel {
-        display: none;
-        margin-top: 20px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    .movie-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    .movie-panel {
+        background-color: white;
         border-radius: 10px;
-    }
-    .panel-title {
-        font-size: 24px;
-        margin-bottom: 10px;
-        font-weight: bold;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
         text-align: center;
+        transition: transform 0.3s;
     }
-    .json-panel {
-        background-color: #000;
+    .movie-panel:hover {
+        transform: scale(1.05);
+    }
+    .movie-panel img {
+        width: 100%;
+        height: auto;
+    }
+    .movie-panel .panel-title {
+        font-size: 18px;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    .movie-panel a {
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #3498db;
         color: #fff;
-        padding: 20px;
-        font-family: "Courier New", Courier, monospace;
-        white-space: pre-wrap;
-        border-radius: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .movie-panel a:hover {
+        background-color: #1a5276;
+    }
+    @media (max-width: 768px) {
+        header .search-container input {
+            width: 200px;
+        }
+        .container {
+            padding: 10px;
+        }
+        .movie-grid {
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+    }
+    @media (max-width: 480px) {
+        header .search-container input {
+            width: 150px;
+        }
+        .movie-grid {
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 5px;
+        }
     }
 </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>SELECCIONE EL CANAL</h1>
-    <select id="movieSelect">
-        <option value="">Canales disponibles</option>
-        <option value="1">Señal Colombia</option>
-        <option value="2">Orbit Tv</option>
-        <option value="3">Disney Channel</option>
-        <option value="4">Canal 1</option>
-        <option value="5">Cartoon Network</option>
-        <option value="6">Disney jr</option>
-        </select>
+<header>
+    <img src="https://i.ibb.co/PZNtyDK/VERSION-20240616-022100-0000-2-removebg-preview.png" alt="Logo">
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Buscar película...">
+        </div>
+</header>
 
-    <div id="moviePanel" class="panel">
-        <div id="movieTitle" class="panel-title"></div>
-        <div id="jsonPanel" class="json-panel"></div>
-    </div>
+<div class="container">
+    <div class="movie-grid" id="movieGrid"></div>
 </div>
 
 <script src="config.js"></script>
 <script>
-    document.getElementById('movieSelect').addEventListener('change', function() {
-        const selectedMovie = this.value;
-        if (selectedMovie) {
-            const movieData = movies[selectedMovie];
-            document.getElementById('movieTitle').innerText = movieData.title;
-            document.getElementById('jsonPanel').innerText = JSON.stringify(movieData.json, null, 2);
-            document.getElementById('moviePanel').style.display = 'block';
-        } else {
-            document.getElementById('moviePanel').style.display = 'none';
-        }
+    document.addEventListener('DOMContentLoaded', function () {
+        const movieGrid = document.getElementById('movieGrid');
+        const searchInput = document.getElementById('searchInput');
+
+        // Asumiendo que `movies` es definido en config.js
+        const displayMovies = (moviesToDisplay) => {
+            movieGrid.innerHTML = '';
+            moviesToDisplay.forEach(movie => {
+                const moviePanel = document.createElement('div');
+                moviePanel.className = 'movie-panel';
+
+                const img = document.createElement('img');
+                img.src = movie.json.image; // Asegúrate de que `image` sea la URL de la imagen de la película
+                img.alt = movie.title;
+                moviePanel.appendChild(img);
+
+                const title = document.createElement('div');
+                title.className = 'panel-title';
+                title.innerText = movie.title;
+                moviePanel.appendChild(title);
+
+                const movieLink = document.createElement('a');
+                movieLink.href = movie.json.url; // Asegúrate de que `url` sea la URL de la película
+                movieLink.innerText = 'Ver película';
+                moviePanel.appendChild(movieLink);
+
+                movieGrid.appendChild(moviePanel);
+            });
+        };
+
+        displayMovies(Object.values(movies));
+
+        searchInput.addEventListener('input', function() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const filteredMovies = Object.values(movies).filter(movie => 
+                movie.title.toLowerCase().includes(searchTerm)
+            );
+            displayMovies(filteredMovies);
+        });
     });
 </script>
 
