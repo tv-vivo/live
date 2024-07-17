@@ -2,6 +2,8 @@ const embed = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const getVideoUrl = (file) => {
     switch (file) {
+        case "8"
+            return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lL3ludTdqaXZ5MjBtag=="
         case "7":
             return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lL2FqNXF2eHY3MDVyeg=="
         case "6":
@@ -22,6 +24,15 @@ const getVideoUrl = (file) => {
 };
 
 const movies = {
+    8: {
+        title: "The Boxtrolls (2014)",
+        json: {
+            title: "The Boxtrolls (2014)",
+            id: 8,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/npBf0yc5Gt7aAyyVOcYtFyT2IPa.jpg",
+            url: dominio + "8"
+        }
+    },
     7: {
         title: "Transformers: Rise of the Beasts (2023)",
         json: {
