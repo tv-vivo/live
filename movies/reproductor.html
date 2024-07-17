@@ -51,30 +51,29 @@ document.addEventListener('DOMContentLoaded', function () {
     const tiempo = urlParams.get('time') || urlParams.get('tiempo');
     const iframe = document.getElementById('embed-player');
     if (file) {
-        try {
-            const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=");
-            if (id) {
-               iframe.src = "../vpnmovie.html"
-                if(tiempo > 3) {
+    try {
+        const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=");
+        if (id) {
+            iframe.src = "../vpnmovie.html";
+            if (tiempo > 3) {
                 sleep(tiempo).then(() => {
-    iframe.src = id; 
-                })
-                } else {
-                    sleep(3).then(() => {
-    iframe.src = id; 
-                })
-});
-                          
+                    iframe.src = id;
+                });
             } else {
-                iframe.src = '../vpnmovie.html';
+                sleep(3).then(() => {
+                    iframe.src = id;
+                });
             }
-        } catch (error) {
+        } else {
             iframe.src = '../vpnmovie.html';
         }
-    } else {
+    } catch (error) {
         iframe.src = '../vpnmovie.html';
     }
-
+} else {
+    iframe.src = '../vpnmovie.html';
+                }
+    
     document.addEventListener('fullscreenchange', function () {
         const logo = document.getElementById('logo');
         if (document.fullscreenElement) {
