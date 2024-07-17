@@ -1,3 +1,4 @@
+const dominio = "https://vpnmovie.onrender.com/tv/"
 const vpn_movie = (file) => {
     switch (file) {
         case "pdmagicos":
@@ -25,7 +26,7 @@ const movies = {
         json: {
             title: "LOS PADRINOS MAGICOS 24/7",
             id: "pdmagicos",
-            url: "https://vpnmovie.onrender.com/tv/reproductor2?id=pdmagicos"
+            url: dominio + "reproductor2?id=pdmagicos"
         }
     },
     1: {
@@ -34,7 +35,7 @@ const movies = {
             title: "Señal Colombia",
             id: "sñlcol",
             image: "https://telegra.ph/file/fcb81189982939fbdc2de.jpg",
-            url: "https://vpnmovie.onrender.com/tv/reproductor?id=sñlcol"
+            url: dominio + "reproductor?id=sñlcol"
         }
     },
     2: {
@@ -42,7 +43,7 @@ const movies = {
         json: {
             title: "Orbit Tv",
             id: "orbittv",
-            url: "https://vpnmovie.onrender.com/tv/reproductor?id=orbittv"
+            url: dominio + "reproductor?id=orbittv"
         }
     },
     3: {
@@ -50,7 +51,7 @@ const movies = {
         json: {
             title: "Disney Chanel",
             id: "disneych",
-            url: "https://vpnmovie.onrender.com/tv/reproductor?id=disneych"
+            url: dominio + "reproductor?id=disneych"
         }
     },
     4: {
@@ -58,7 +59,7 @@ const movies = {
         json: {
             title: "Canal 1",
             id: "canal1",
-            url: "https://vpnmovie.onrender.com/tv/reproductor?id=canal1"
+            url: dominio + "reproductor?id=canal1"
         }
     },
     5: {
@@ -66,7 +67,8 @@ const movies = {
         json: {
             title: "Cartoon Network",
             id: "ctnetwork",
-            url: "https://vpnmovie.onrender.com/tv/reproductor?id=ctnetwork"
+            image: "https://telegra.ph/file/2ea5baa94fcaa17fe2de7.jpg",
+            url: dominio + "reproductor?id=ctnetwork"
         }
     },
     6: {
@@ -74,7 +76,7 @@ const movies = {
         json: {
             title: "Disney Jr",
             id: "disneyjr",
-            url: "vpnmovie.onrender.com/tv/reproductor?id=disneyjr"
+            url: dominio + "reproductor?id=disneyjr"
         }
     },
 };
