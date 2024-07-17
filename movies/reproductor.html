@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ion<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -48,14 +48,21 @@ html, body {
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const file = urlParams.get('file') || urlParams.get('id');
+
+    const tiempo = urlParams.get('time') || urlParams.get('tiempo');
     const iframe = document.getElementById('embed-player');
     if (file) {
         try {
             const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=");
             if (id) {
                iframe.src = "../vpnmovie.html"
-                sleep(3).then(() => {
+                if(tiempo > 3) {
+                sleep(tiempo).then(() => {
     iframe.src = id; 
+                } else {
+                    sleep(3).then(() => {
+    iframe.src = id; 
+                }
 });
                           
             } else {
