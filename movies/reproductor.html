@@ -46,10 +46,11 @@ document.addEventListener('DOMContentLoaded', function () {
         try {
             const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=");
             if (id) {
-            iframe.src = "../vpnmovie.html";
                 setTimeout(() => {
-        iframe.src = id;
-    }, 20000);
+        iframe.src = "../vpnmovie.html";
+    }, 2000).then(() => {
+        iframe.src = id            
+    });
             } else {
                 iframe.src = '../vpnmovie.html';
             }
