@@ -43,6 +43,7 @@ const movies = {
         json: {
             title: "Orbit Tv",
             id: "orbittv",
+            image: "https://telegra.ph/file/f5f55d2302cffeab2b745.jpg"
             url: dominio + "reproductor?id=orbittv"
         }
     },
