@@ -2,6 +2,8 @@ const embed = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const getVideoUrl = (file) => {
     switch (file) {
+        case "10":
+            return embed + "aHR0cHM6Ly9zd2R5dS5jb20vZS9yamdodW0wbzVwcDk="
         case "9":
             return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lLzV4MDFtM21hZThxeg"
         case "8":
@@ -26,6 +28,15 @@ const getVideoUrl = (file) => {
 };
 
 const movies = {
+    10: {
+        title: "Coco (2017)",
+        json: {
+            title: "Coco (2017)",
+            id: 10,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/lUZZhYLLDU4g4XGQ5tvjYNVytxc.jpg",
+            url: dominio + "10"
+        }
+    },
     9: {
         title: "Hombres de negro: Internacional (2019)",
         json: {
