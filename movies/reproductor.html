@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const iframe = document.getElementById('embed-player');
 
     if (file) {
-        const id = getVideoUrl(file); 
+        const id = vpn_movie(file); 
         iframe.src = id;
     } else {
         iframe.src = file;
