@@ -26,6 +26,7 @@ const movies = {
         json: {
             title: "LOS PADRINOS MAGICOS 24/7",
             id: "pdmagicos",
+            image: "https://telegra.ph/file/6ab3331956eb2984e4470.jpg",
             url: dominio + "reproductor2?id=pdmagicos"
         }
     },
@@ -43,7 +44,7 @@ const movies = {
         json: {
             title: "Orbit Tv",
             id: "orbittv",
-            image: "https://telegra.ph/file/f5f55d2302cffeab2b745.jpg"
+            image: "https://telegra.ph/file/f5f55d2302cffeab2b745.jpg",
             url: dominio + "reproductor?id=orbittv"
         }
     },
@@ -52,6 +53,7 @@ const movies = {
         json: {
             title: "Disney Chanel",
             id: "disneych",
+            image: "https://telegra.ph/file/335745e1da7c43e63f8c8.jpg",
             url: dominio + "reproductor?id=disneych"
         }
     },
@@ -60,6 +62,7 @@ const movies = {
         json: {
             title: "Canal 1",
             id: "canal1",
+            image: "https://telegra.ph/file/7bdeda4fa548b1d9674fa.jpg",
             url: dominio + "reproductor?id=canal1"
         }
     },
@@ -77,6 +80,7 @@ const movies = {
         json: {
             title: "Disney Jr",
             id: "disneyjr",
+            image: "https://telegra.ph/file/a0271e29771c5a33854fd.jpg",
             url: dominio + "reproductor?id=disneyjr"
         }
     },
