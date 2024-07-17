@@ -1,5 +1,7 @@
-const getVideoUrl = (file) => {
+const vpn_movie = (file) => {
     switch (file) {
+        case "pdmagicos":
+            return "https://jmp2.uk/PlutoTV/6322099c822bbc00074857db-alt.m3u8"
         case "sñlcol":
             return "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8?PlaylistM3UCL";
         case "orbittv":
@@ -18,6 +20,14 @@ const getVideoUrl = (file) => {
 };
 
 const movies = {
+    7: {
+        title: "LOS PADRINOS MAGICOS 24/7",
+        json: {
+            title: "LOS PADRINOS MAGICOS 24/7",
+            id: "pdmagicos",
+            url: "https://vpnmovie.onrender.com/tv/reproductor2?id=pdmagicos"
+        }
+    },
     1: {
         title: "Señal Colombia",
         json: {
