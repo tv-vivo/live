@@ -26,3 +26,7 @@ const vpn_movie = (file, embed) => {
             return file;
     }
 };
+
+module.export = {
+    vpn_movie
+}
