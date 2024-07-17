@@ -1,4 +1,4 @@
-const vpn_movie = (file, embed) => {
+function vpn_movie(file, embed){
     switch (file) {
         case "11":
             return embed + "aHR0cHM6Ly9zdHJ3aXNoLmNvbS9lL2E1NmNjcTNqdHdlMA=="
