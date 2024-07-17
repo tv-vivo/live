@@ -38,6 +38,13 @@ html, body {
 </div>
 <script src="config2.js"></script>
 <script>
+    function sleep(seconds) {
+    return new Promise(resolve => setTimeout(resolve, seconds * 1000));
+}
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const file = urlParams.get('file') || urlParams.get('id');
@@ -46,11 +53,11 @@ document.addEventListener('DOMContentLoaded', function () {
         try {
             const id = vpn_movie(file, "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=");
             if (id) {
-                setTimeout(() => {
-                    iframe.src = "../vpnmovie.html";
-                 }, 2000)
-               iframe.src = id; 
-                
+               iframe.src = "../vpnmovie.html"
+                sleep(2).then(() => {
+    iframe.src = id; 
+});
+                          
             } else {
                 iframe.src = '../vpnmovie.html';
             }
