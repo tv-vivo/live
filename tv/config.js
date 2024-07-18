@@ -1,6 +1,8 @@
 const dominio = "https://vpnmovie.onrender.com/tv/"
 const vpn_movie = (file) => {
     switch (file) {
+        case "dskids":
+            return "https://jactvpro.xyz:443/Upb93ECM5B/RRzkDRt6w8/10301.m3u8"
         case "yugioh":
             return "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5fceaab478f2af00080ff51f/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceModel=unknown&deviceVersion=unknown&appVersion=unknown&deviceLat=90&deviceLon=0&deviceDNT=TARGETOPT&deviceId=PSID&advertisingId=PSID&us_privacy=1YNY&profileLimit=&profileFloor=&embedPartner="
         case "naruto":
@@ -27,6 +29,15 @@ const vpn_movie = (file) => {
 };
 
 const movies = {
+    11: {
+        title: "Discovery kids",
+        json: {
+            title: "Discovery kids",
+            id: "dskids",
+            image: "https://telegra.ph/file/b6c20f4f902eeb622aeb0.jpg",
+            url: dominio + "reproductor2?id=dskids"
+        }
+    },
     10: {
         title: "YU-GI-OH 24/7",
         json: {
