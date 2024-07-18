@@ -35,7 +35,7 @@ const movies = {
             title: "Discovery kids",
             id: "dskids",
             image: "https://telegra.ph/file/b6c20f4f902eeb622aeb0.jpg",
-            url: dominio + "reproductor2?id=dskids"
+            url: dominio + "reproductor?id=dskids"
         }
     },
     10: {
