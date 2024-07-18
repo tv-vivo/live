@@ -42,7 +42,7 @@
             // Obtener el parámetro 'file' de la URL
             const urlParams = new URLSearchParams(window.location.search);
             const file = urlParams.get('file') || urlParams.get('id');
-            const id = getVideoUrl(file);
+            const id = vpn_movie(file);
 
             // Crear el reproductor Clappr con la fuente obtenida del parámetro 'file'
             var player = new Clappr.Player({
