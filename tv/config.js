@@ -1,6 +1,8 @@
 const dominio = "https://vpnmovie.onrender.com/tv/"
 const vpn_movie = (file) => {
     switch (file) {
+        case "yugioh":
+            return "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5fceaab478f2af00080ff51f/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceModel=unknown&deviceVersion=unknown&appVersion=unknown&deviceLat=90&deviceLon=0&deviceDNT=TARGETOPT&deviceId=PSID&advertisingId=PSID&us_privacy=1YNY&profileLimit=&profileFloor=&embedPartner="
         case "naruto":
             return "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ee92e72fb286e0007285fec/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceModel=unknown&deviceVersion=unknown&appVersion=unknown&deviceLat=90&deviceLon=0&deviceDNT=TARGETOPT&deviceId=PSID&advertisingId=PSID&us_privacy=1YNY&profileLimit=&profileFloor=&embedPartner="
         case "bobesponja":
@@ -25,6 +27,15 @@ const vpn_movie = (file) => {
 };
 
 const movies = {
+    10: {
+        title: "YU-GI-OH 24/7",
+        json: {
+            title: "YU-GI-OH 24/7",
+            id: "yugioh",
+            image: "https://telegra.ph/file/aa749f98840c049178a4d.jpg",
+            url: dominio + "reproductor2?id=yugioh"
+        }
+    },
      9: {
         title: "NARUTO 24/7",
         json: {
