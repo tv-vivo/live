@@ -1,6 +1,8 @@
 const dominio = "https://vpnmovie.onrender.com/tv/"
 const vpn_movie = (file) => {
     switch (file) {
+        case "naruto":
+            return "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ee92e72fb286e0007285fec/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceModel=unknown&deviceVersion=unknown&appVersion=unknown&deviceLat=90&deviceLon=0&deviceDNT=TARGETOPT&deviceId=PSID&advertisingId=PSID&us_privacy=1YNY&profileLimit=&profileFloor=&embedPartner="
         case "bobesponja":
             return "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS"
         case "pdmagicos":
@@ -23,6 +25,15 @@ const vpn_movie = (file) => {
 };
 
 const movies = {
+     9: {
+        title: "NARUTO 24/7",
+        json: {
+            title: "NARUTO 24/7",
+            id: "naruto",
+            image: "https://telegra.ph/file/60dbdb3bba1cef1bd6f1d.jpg",
+            url: dominio + "reproductor2?id=naruto"
+        }
+    },
     8: {
         title: "BOB ESPONJA 24/7",
         json: {
