@@ -1,5 +1,14 @@
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const movies = {
+    12: {
+        title: "Los Simpson: La película (2007)",
+        json: {
+            title: "Los Simpson: La película (2007)",
+            id: 12,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/d9wHkwF9ttnNKuOoEIStve32jEk.jpg",
+            url: dominio + "12"
+        }
+    },
     11: {
         title: "Bad Boys: Corre o muere (2024)",
         json: {
