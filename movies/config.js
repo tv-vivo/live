@@ -1,5 +1,14 @@
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const movies = {
+    13: {
+        title: "Shrek (2001)",
+        json: {
+            title: "Shrek (2001)",
+            id: 12,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+            url: dominio + "13"
+        }
+    },
     12: {
         title: "Los Simpson: La película (2007)",
         json: {
