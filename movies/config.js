@@ -1,5 +1,14 @@
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const movies = {
+    14: {
+        title: "Deadpool & Wolverine - 2024",
+        json: {
+            title: "Deadpool & Wolverine - 2024",
+            id: 12,
+            image: "https://image.tmdb.org/t/p/w300//9TFSqghEHrlBMRR63yTx80Orxva.jpg",
+            url: dominio + "14"
+        }
+    },
     13: {
         title: "Shrek (2001)",
         json: {
