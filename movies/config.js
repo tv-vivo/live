@@ -1,10 +1,19 @@
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const movies = {
+    15: {
+        title: "Luca (2021)",
+        json: {
+            title: "Luca (2021)",
+            id: 15,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
+            url: dominio + "14"
+        }
+    },
     14: {
         title: "Deadpool & Wolverine - 2024",
         json: {
             title: "Deadpool & Wolverine - 2024",
-            id: 12,
+            id: 14,
             image: "https://image.tmdb.org/t/p/w300//9TFSqghEHrlBMRR63yTx80Orxva.jpg",
             url: dominio + "14"
         }
@@ -13,7 +22,7 @@ const movies = {
         title: "Shrek (2001)",
         json: {
             title: "Shrek (2001)",
-            id: 12,
+            id: 13,
             image: "https://media.themoviedb.org/t/p/w220_and_h330_face/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
             url: dominio + "13"
         }
