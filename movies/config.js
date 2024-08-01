@@ -5,7 +5,7 @@ const movies = {
         json: {
             title: "Winnie the Pooh: Miel y Sangre - 2023",
             id: 17,
-            image: "https://image.tmdb.org/t/p/w300//aV3vprqPAZBbriI2UZA5bMNqMjk.jpg",
+            image: "https://image.tmdb.org/t/p/w300//ZmbSkGEpXFufbDhgfTnSrFAguo.jpg",
             url: dominio + "17"
         }
     },
