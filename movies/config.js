@@ -1,5 +1,14 @@
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const movies = {
+    18: {
+        title: "Toy Story (1995)",
+        json: {
+            title: "Toy Story (1995)",
+            id: 18,
+            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+            url: dominio + "18"
+        }
+    },
     17: {
         title: "Winnie the Pooh: Miel y Sangre - 2023",
         json: {
