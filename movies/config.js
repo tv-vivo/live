@@ -1,5 +1,14 @@
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const movies = {
+    17: {
+        title: "Winnie the Pooh: Miel y Sangre - 2023",
+        json: {
+            title: "Winnie the Pooh: Miel y Sangre - 2023",
+            id: 17,
+            image: "https://image.tmdb.org/t/p/w300//aV3vprqPAZBbriI2UZA5bMNqMjk.jpg",
+            url: dominio + "17"
+        }
+    },
     16: {
         title: "12 Horas para sobrevivir: El Inicio - 2018",
         json: {
