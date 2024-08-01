@@ -1,5 +1,7 @@
 function vpn_movie(file, embed){
     switch (file) {
+        case "18":
+            return embed + "aHR0cHM6Ly93aXNob25seS5zaXRlL2UvYXk5cGs0ZWExY3Z0"
         case "17":
             return embed + "aHR0cHM6Ly93aXNob25seS5zaXRlL2UvaWV3MTRmd2J2cmdk"
         case "16":
