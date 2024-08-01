@@ -1,12 +1,21 @@
 const dominio = "https://vpnmovie.onrender.com/movies/reproductor?id="
 const movies = {
+    16: {
+        title: "12 Horas para sobrevivir: El Inicio - 2018",
+        json: {
+            title: "12 Horas para sobrevivir: El Inicio - 2018",
+            id: 16,
+            image: "https://image.tmdb.org/t/p/w300//aV3vprqPAZBbriI2UZA5bMNqMjk.jpg",
+            url: dominio + "16"
+        }
+    },
     15: {
         title: "Luca (2021)",
         json: {
             title: "Luca (2021)",
             id: 15,
             image: "https://media.themoviedb.org/t/p/w220_and_h330_face/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
-            url: dominio + "14"
+            url: dominio + "15"
         }
     },
     14: {
