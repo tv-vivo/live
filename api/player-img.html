@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN API - PLAYER</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+            animation: gradientBackground 10s ease infinite;
+            background-size: 400% 400%;
+        }
+
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .player {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            padding: 25px;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.5);
+            position: relative;
+        }
+
+        .player img {
+            border-radius: 20px;
+            width: 100%;
+            max-width: 250px;
+            border: 5px solid #00ffcc;
+            box-shadow: 0px 0px 15px #00ffcc;
+        }
+
+        .track-info {
+            margin-top: 20px;
+        }
+
+        .track-info h2 {
+            margin: 5px 0;
+            font-size: 28px;
+            color: #00ffcc;
+            text-shadow: 0px 0px 10px #00ffcc;
+        }
+
+        .track-info p {
+            margin: 5px 0;
+            font-size: 20px;
+            color: #aaa;
+        }
+
+        .track-info .time {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .progress {
+            background: #555;
+            border-radius: 10px;
+            height: 12px;
+            margin-top: 15px;
+            position: relative;
+            box-shadow: inset 0px 0px 10px #00ffcc;
+        }
+
+        .progress div {
+            background: #00ffcc;
+            height: 100%;
+            border-radius: 10px;
+            width: 30%;
+            box-shadow: 0px 0px 15px #00ffcc;
+        }
+    </style>
+</head>
+<body>
+    <div class="player">
+        <img id="albumArt" src="" alt="Album Art">
+        <div class="track-info">
+            <h2 id="title">Título</h2>
+            <p id="artist">Artista</p>
+            <div class="progress">
+                <div id="progressBar"></div>
+            </div>
+            <p class="time"><span id="currentTime">1:40</span> / <span id="totalTime">4:56</span></p>
+        </div>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const title = urlParams.get('title') || 'Título';
+        const artist = urlParams.get('artist') || 'Artista';
+        const totalTime = urlParams.get('totalTime') || '4:56';
+        const currentTime = urlParams.get('currentTime') || '1:40';
+        const albumArt = urlParams.get('img') || 'https://via.placeholder.com/250';
+
+        document.getElementById('title').textContent = title;
+        document.getElementById('artist').textContent = artist;
+        document.getElementById('totalTime').textContent = totalTime;
+        document.getElementById('currentTime').textContent = currentTime;
+        document.getElementById('albumArt').src = albumArt;
+
+        // Update progress bar width
+        const totalSeconds = parseInt(totalTime.split(':')[0]) * 60 + parseInt(totalTime.split(':')[1]);
+        const currentSeconds = parseInt(currentTime.split(':')[0]) * 60 + parseInt(currentTime.split(':')[1]);
+        const progressPercentage = (currentSeconds / totalSeconds) * 100;
+        document.getElementById('progressBar').style.width = progressPercentage + '%';
+    </script>
+</body>
+</html>
