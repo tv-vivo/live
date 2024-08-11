@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Mi Empresa</title>
+    <style>
+        /* Reseteo de estilos por defecto */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Estilo del menú principal */
+        .header {
+            height: 100vh;
+            background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        /* Rectángulos en 3D */
+        .header::before, .header::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background-color: #cfd8dc;
+            transform: rotate(45deg);
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+            z-index: -1;
+        }
+
+        .header::before {
+            top: -100px;
+            left: -100px;
+        }
+
+        .header::after {
+            bottom: -100px;
+            right: -100px;
+            background-color: #b0bec5;
+        }
+
+        /* Estilo del contenido */
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #333;
+            z-index: 1;
+        }
+
+        .header p {
+            font-size: 24px;
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #666;
+            z-index: 1;
+        }
+
+        .header nav {
+            margin-top: 20px;
+            z-index: 1;
+        }
+
+        .header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header nav ul li {
+            margin: 0 15px;
+        }
+
+        .header nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 16px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .header nav ul li a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Sección de introducción */
+        .intro {
+            background-color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 36px;
+            color: #0044cc;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Sección de planes */
+        .plans-section {
+            background-color: #f0f0f0;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .plans-section h2 {
+            font-size: 36px;
+            color: #0044cc;
+            margin-bottom: 40px;
+        }
+
+        .plans {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .plan {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 15px;
+            padding: 30px 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .plan:hover {
+            transform: translateY(-10px);
+        }
+
+        .plan h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .plan p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .plan .price {
+            font-size: 28px;
+            color: #0044cc;
+            margin-bottom: 20px;
+        }
+
+        .plan a {
+            display: inline-block;
+            background-color: #0044cc;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .plan a:hover {
+            background-color: #003399;
+        }
+
+        /* Pie de página */
+        .footer {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 36px;
+            }
+
+            .header p {
+                font-size: 18px;
+            }
+
+            .plan {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+        .table-plans {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.table-plans th, .table-plans td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.table-plans th {
+    background-color: #0044cc;
+    color: white;
+}
+
+.table-plans tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>VPN MOVIE</h1>
+        <p>Obten VPN MOVIE y disfruta de una experiencia cinematográfica única. Accede a una amplia selección de películas gratuitas en alta calidad. ¡Descárgala ahora y sumérgete en el mundo del cine desde la comodidad de tu hogar!</p>
+        <nav>
+            <ul>
+                <li><a href="#intro">Nosotros</a></li>
+                <li><a href="#plans">Planes</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="intro" id="intro">
+        <h2>Sobre Nosotros</h2>
+        <p>¡Gracias por tu interés en VPN MOVIE! Somos distribuidores de streaming dedicados a ofrecerte una experiencia cinematográfica inigualable. Con nuestra app, podrás acceder a una amplia selección de películas en alta calidad, completamente gratis. Descárgala ahora y disfruta de tus películas favoritas desde la comodidad de tu hogar. ¡Sumérgete en el mundo del cine con VPN MOVIE!</p>
+    </div>
+
+    <div class="plans-section" id="plans">
+        <h2>Nuestros Planes</h2>
+
+        <div class="plans">
+            <div class="plan">
+                <h3>Plan Básico</h3>
+                <p>
+                
+                <table class="table-plans">
+    <tbody>
+        <tr>
+            <td>Soporte</td>
+            <td>✓ Telegram</td>
+            <td>X Whatsapp</td>
+            <td>X Email</td>
+        </tr>
+        <tr>
+            <td>Duracion</td>
+            <td>✓ 30 Dias</td>
+            <td>X 60 Dias</td>
+            <td>X 90 Dias</td>
+        </tr>
+         <tr>
+            <td>Dispositivo</td>
+            <td>✓ 4</td>
+            <td>X 6</td>
+            <td>X 8</td>
+        </tr>
+         <td>Calidades</td>
+            <td>✓ 420p</td>
+            <td>✓ 720p</td>
+            <td>✓ HD</td>
+            </tr>
+    </tbody>
+</table>
+                
+                </p>
+                <div class="price">$10.000/mes</div>
+                <a href="https://t.me/ANDRES_VPN?text=%20Hola%20Quisiera%20adquirir%20un%20un%20usuario%20BASICO">Comprar Ahora</a>
+            </div>
+
+
+
+            <div class="plan">
+                <h3>Plan Pro</h3>
+                <p>
+                
+                <table class="table-plans">
+    <tbody>
+        <tr>
+            <td>Soporte</td>
+            <td>✓ Telegram</td>
+            <td>✓ Whatsapp</td>
+            <td>X Email</td>
+        </tr>
+        <tr>
+            <td>Duracion</td>
+            <td>✓ 30 Dias</td>
+            <td>✓ 60 Dias</td>
+            <td>X 90 Dias</td>
+        </tr>
+         <tr>
+            <td>Dispositivo</td>
+            <td>✓ 4</td>
+            <td>✓ 6</td>
+            <td>X 8</td>
+        </tr>
+         <td>Calidades</td>
+            <td>✓ 420p</td>
+            <td>✓ 720p</td>
+            <td>✓ HD</td>
+            </tr>
+    </tbody>
+   </table>    
+                </p>
+                <div class="price">$18.000/2 Meses</div>
+                <a href="https://t.me/ANDRES_VPN?text=%20Hola%20Quisiera%20adquirir%20un%20un%20usuario%20PRO">Comprar Ahora</a>
+            </div>
+
+
+
+            <div class="plan">
+                <h3>Plan Premium</h3>
+                <p>
+                
+                <table class="table-plans">
+    <tbody>
+        <tr>
+            <td>Soporte</td>
+            <td>✓ Telegram</td>
+            <td>✓ Whatsapp</td>
+            <td>✓ Email</td>
+        </tr>
+        <tr>
+            <td>Duracion</td>
+            <td>✓ 30 Dias</td>
+            <td>✓ 60 Dias</td>
+            <td>✓ 90 Dias</td>
+        </tr>
+         <tr>
+            <td>Dispositivo</td>
+            <td>✓ 4</td>
+            <td>✓ 6</td>
+            <td>✓ 8</td>
+        </tr>
+         <td>Calidades</td>
+            <td>✓ 420p</td>
+            <td>✓ 720p</td>
+            <td>✓ HD</td>
+            </tr>
+    </tbody>
+                </table>
+                </p>
+                <div class="price">$24.000/ 3 Meses</div>
+                <a href="https://t.me/ANDRES_VPN?text=%20Hola%20Quisiera%20adquirir%20un%20un%20usuario%20PREMIUM">Comprar Ahora</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="contact">
+        <p>&copy; 2024 VPN MOVIE. Todos los derechos reservados.</p>
+    </div>
+
+    <script>
+        // Suaviza el desplazamiento a las secciones de la página
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
