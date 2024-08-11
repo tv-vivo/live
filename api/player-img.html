@@ -101,8 +101,8 @@
         const urlParams = new URLSearchParams(window.location.search);
         const title = urlParams.get('title') || 'Título';
         const artist = urlParams.get('artist') || 'Artista';
-        const totalTime = urlParams.get('totalTime') || '4:56';
-        const currentTime = urlParams.get('currentTime') || '1:40';
+        const totalTime = urlParams.get('timetotal') || '4:56';
+        const currentTime = urlParams.get('timestart') || '1:40';
         const albumArt = urlParams.get('img') || 'https://via.placeholder.com/250';
 
         document.getElementById('title').textContent = title;
