@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN MOVIE GEN</title>
+    <script src="https://ssl.p.jwpcdn.com/player/v/8.18.4/jwplayer.js"></script>
+    <script type="text/javascript">jwplayer.key = "W7zSm81+mmIsg7F+fyHRKhF3ggLkTqtGMhvI92kbqf/ysE99";</script>
+    <style type="text/css">
+        html, body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #00BFFF;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 100%;
+            height: auto;
+            width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+        }
+        .controls {
+            margin-bottom: 20px;
+        }
+        .controls input {
+            width: calc(100% - 22px);
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-bottom: 10px; /* Espacio entre input y botón */
+            box-sizing: border-box; /* Asegura que el padding no sobresalga del ancho */
+        }
+        .controls button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: black;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .controls button:hover {
+            background-color: #0056b3;
+        }
+        .controls button:active {
+            transform: scale(0.98);
+        }
+        .link-container {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .link-container h2 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #007bff;
+        }
+        .link-container a {
+            color: #007bff;
+            text-decoration: none;
+            word-break: break-word; /* Asegura que el enlace largo se ajuste al contenedor */
+        }
+        .link-container a:hover {
+            text-decoration: underline;
+        }
+        .copy-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: black;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .copy-button:hover {
+            background-color: #218838;
+        }
+        .copy-button:active {
+            transform: scale(0.98);
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                margin: 20px;
+            }
+            .controls input {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://tv-vivo.github.io/live/img/VERSION_20240616_022100_0000_2-removebg-preview.png" alt="Logo Vpnmovie">
+        </div>
+        <div class="controls">
+            <input type="text" id="videoUrl" placeholder="Ingrese la URL del video" />
+            <button onclick="generateLink()">Generar Enlace</button>
+        </div>
+        <div class="link-container" id="generatedLink">
+            <!-- El enlace generado se insertará aquí -->
+        </div>
+        <button class="copy-button" id="copyButton" onclick="copyToClipboard()">Copiar Enlace</button>
+    </div>
+    
+    <script type="text/javascript">
+    function encodeBase64(str) {
+        return btoa(unescape(encodeURIComponent(str)));
+    }
+
+    function generateLink() {
+        var url = document.getElementById('videoUrl').value;
+        var urll = window.location.href;
+        if (url) {
+            var encodedUrl = encodeBase64(url);
+            var playerPageUrl = urll.split("gen")[0] + "v?" + encodedUrl;
+            document.getElementById('generatedLink').innerHTML = 
+                '<h2>Enlace generado:</h2> <a href="' + playerPageUrl + '" target="_blank">' + playerPageUrl + '</a>';
+        } else {
+            alert('Por favor, ingrese una URL de video.');
+        }
+    }
+
+    function copyToClipboard() {
+        var linkElement = document.querySelector('#generatedLink a');
+        if (linkElement) {
+            var link = linkElement.href;
+            navigator.clipboard.writeText(link).then(function() {
+                alert('Enlace copiado al portapapeles!');
+            }, function(err) {
+                alert('Error al copiar el enlace: ' + err);
+            });
+        } else {
+            alert('No hay ningún enlace para copiar.');
+        }
+    }
+    </script>
+</body>
+</html>
