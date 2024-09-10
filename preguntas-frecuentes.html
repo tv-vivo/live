@@ -138,6 +138,29 @@
                 font-size: 1em;
             }
         }
+
+        .button-group {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .button-group a {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 16px;
+            color: #005bb5;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
@@ -191,7 +214,9 @@
             </div>
         </div>
     </div>
-
+<div class="button-group">
+            <a href="/" class="back-btn"><i class="fas fa-arrow-left"></i> Volver al Inicio</a>
+        </div>
     <!-- Footer -->
     <div class="footer">
         <p>&copy; 2024 VPNMOVIE. Todos los derechos reservados.</p>
