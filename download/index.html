@@ -188,6 +188,28 @@
                 font-size: 16px;
             }
         }
+
+        .button-group {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .button-group a {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 16px;
+            color: #005bb5;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -206,9 +228,11 @@
         <img src="../img/capture1.jpg" alt="VPNMOVIE para Android">
         <h2>¡Descarga VPNMOVIE para Android!</h2>
         <p>Disfruta de nuestra aplicación en tu dispositivo Android y accede a una amplia selección de películas en alta calidad. Con nuestra app, la experiencia de streaming es más fluida y segura.</p>
-        <a href="../download/VPN MOVIE.apk" class="download-btn" id="downloadBtn"><i class="fab fa-android"></i> Descargar APK</a>
+        <a href="VPN MOVIE.apk" class="download-btn" id="downloadBtn"><i class="fab fa-android"></i> Descargar APK</a>
     </div>
-
+    <div class="button-group">
+        <a href="/" class="back-btn"><i class="fas fa-arrow-left"></i> Volver al Inicio</a>
+    </div>
     <!-- Footer -->
     <div class="footer">
         <p>&copy; 2024 VPNMOVIE. Todos los derechos reservados.</p>
