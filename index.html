@@ -3,398 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Mi Empresa</title>
+    <title>VPNMOVIE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        /* Reseteo de estilos por defecto */
+        /* Reset general */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
         }
 
         body {
-            font-family: 'Arial', sans-serif;
+            background: #f5f7fa;
             color: #333;
-            background-color: #f4f4f4;
-            line-height: 1.6;
             overflow-x: hidden;
         }
 
-        /* Estilo del menú principal */
-        .header {
-            height: 100vh;
-            background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
-        }
-
-        /* Rectángulos en 3D */
-        .header::before, .header::after {
-            content: '';
+        /* Background Rectangles */
+        .background-rect {
             position: absolute;
-            width: 400px;
-            height: 400px;
-            background-color: #cfd8dc;
-            transform: rotate(45deg);
-            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             z-index: -1;
+            background: linear-gradient(135deg, #e0e0e0 25%, transparent 25%) 0 0,
+                        linear-gradient(225deg, #e0e0e0 25%, transparent 25%) 0 0,
+                        linear-gradient(315deg, #e0e0e0 25%, transparent 25%) 0 0,
+                        linear-gradient(45deg, #e0e0e0 25%, transparent 25%);
+            background-size: 50px 50px;
+            background-repeat: repeat;
+            opacity: 0.5;
         }
 
-        .header::before {
-            top: -100px;
-            left: -100px;
-        }
-
-        .header::after {
-            bottom: -100px;
-            right: -100px;
-            background-color: #b0bec5;
-        }
-
-        /* Estilo del contenido */
-        .header h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-            color: #333;
-            z-index: 1;
-        }
-
-        .header p {
-            font-size: 24px;
-            max-width: 600px;
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #003366, #005bb5);
+            padding: 60px;
             text-align: center;
-            margin-bottom: 20px;
-            color: #666;
-            z-index: 1;
-        }
-
-        .header nav {
-            margin-top: 20px;
-            z-index: 1;
-        }
-
-        .header nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-        }
-
-        .header nav ul li {
-            margin: 0 15px;
-        }
-
-        .header nav ul li a {
-            color: #333;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 8px 16px;
-            background-color: #fff;
-            border-radius: 4px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .header nav ul li a:hover {
-            background-color: #333;
             color: white;
+            border-radius: 0 0 50px 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
         }
 
-        /* Sección de introducción */
-        .intro {
-            background-color: white;
-            padding: 60px 20px;
+        .header h1 {
+            font-size: 4em;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
 
-        .intro h2 {
-            font-size: 36px;
-            color: #0044cc;
-            margin-bottom: 20px;
-        }
-
-        .intro p {
-            font-size: 18px;
-            max-width: 800px;
-            margin: 0 auto;
-            line-height: 1.8;
-        }
-
-        /* Sección de planes */
-        .plans-section {
-            background-color: #f0f0f0;
-            padding: 60px 20px;
-            text-align: center;
-        }
-
-        .plans-section h2 {
-            font-size: 36px;
-            color: #0044cc;
+        .container p {
+            font-size: 1.2em;
+            color: #003366;
             margin-bottom: 40px;
+            line-height: 1.6;
         }
 
-        .plans {
+        /* Features Section */
+        .features {
             display: flex;
-            justify-content: center;
             flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 30px;
+            position: relative;
+            z-index: 1;
         }
 
-        .plan {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            margin: 15px;
-            padding: 30px 20px;
-            transition: transform 0.3s ease;
+        .feature {
+            text-align: center;
+            padding: 25px;
+            background: #ffffff;
+            border-radius: 15px;
+            width: 22%;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            color: #003366;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transform: perspective(1000px) rotateY(0deg);
         }
 
-        .plan:hover {
-            transform: translateY(-10px);
+        .feature:hover {
+            transform: perspective(1000px) rotateY(10deg);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
         }
 
-        .plan h3 {
-            font-size: 24px;
-            color: #333;
+        .feature i {
+            font-size: 3.5em;
+            color: #003366;
             margin-bottom: 15px;
         }
 
-        .plan p {
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 20px;
+        .feature p {
+            font-size: 1.1em;
+            margin-top: 10px;
         }
 
-        .plan .price {
-            font-size: 28px;
-            color: #0044cc;
-            margin-bottom: 20px;
+        /* Buttons */
+        .button-group {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            position: relative;
+            z-index: 1;
         }
 
-        .plan a {
+        .button-group a {
             display: inline-block;
-            background-color: #0044cc;
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
+            padding: 15px 35px;
             font-size: 16px;
-            transition: background-color 0.3s ease;
-        }
-
-        .plan a:hover {
-            background-color: #003399;
-        }
-
-        /* Pie de página */
-        .footer {
-            background-color: #0044cc;
             color: white;
-            padding: 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
             text-align: center;
-            font-size: 14px;
+            font-weight: bold;
         }
 
-        .footer p {
-            margin: 0;
+        .download-btn {
+            background: linear-gradient(135deg, #005bb5, #004a9a);
         }
 
-        /* Estilos responsivos */
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 36px;
+        .download-btn:hover {
+            background: linear-gradient(135deg, #004a9a, #003366);
+            transform: scale(1.05);
+        }
+
+        .web-version-btn {
+            background: linear-gradient(135deg, #0091ea, #007ac1);
+        }
+
+        .web-version-btn:hover {
+            background: linear-gradient(135deg, #007ac1, #005bb5);
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            border-top: 5px solid #005bb5;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Additional Functionalities */
+        .testimonial {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #003366;
+        }
+
+        .testimonial p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 900px) {
+            .features {
+                flex-direction: column;
+                gap: 30px;
             }
 
-            .header p {
+            .feature {
+                width: 100%;
+            }
+
+            .button-group {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .button-group a {
+                width: 100%;
+                padding: 20px;
                 font-size: 18px;
             }
-
-            .plan {
-                width: 100%;
-                margin: 10px 0;
-            }
         }
-        .table-plans {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 16px;
-    text-align: left;
-}
-
-.table-plans th, .table-plans td {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-}
-
-.table-plans th {
-    background-color: #0044cc;
-    color: white;
-}
-
-.table-plans tr:nth-child(even) {
-    background-color: #f4f4f4;
-}
     </style>
 </head>
 <body>
 
+    <!-- Background Rectangles -->
+    <div class="background-rect"></div>
+
+    <!-- Header -->
     <div class="header">
-        <h1>VPN MOVIE</h1>
-        <p>Obten VPN MOVIE y disfruta de una experiencia cinematográfica única. Accede a una amplia selección de películas gratuitas en alta calidad. ¡Descárgala ahora y sumérgete en el mundo del cine desde la comodidad de tu hogar!</p>
-        <nav>
-            <ul>
-                <li><a href="#intro">Nosotros</a></li>
-                <li><a href="#plans">Planes</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+        <h1>VPNMOVIE</h1>
     </div>
 
-    <div class="intro" id="intro">
-        <h2>Sobre Nosotros</h2>
-        <p>¡Gracias por tu interés en VPN MOVIE! Somos distribuidores de streaming dedicados a ofrecerte una experiencia cinematográfica inigualable. Con nuestra app, podrás acceder a una amplia selección de películas en alta calidad, completamente gratis. Descárgala ahora y disfruta de tus películas favoritas desde la comodidad de tu hogar. ¡Sumérgete en el mundo del cine con VPN MOVIE!</p>
-    </div>
+    <!-- Container -->
+    <div class="container">
+        <p>Descarga VPN MOVIE y disfruta de una experiencia cinematográfica única. Accede a una amplia selección de películas gratuitas en alta calidad. ¡Descárgala ahora y sumérgete en el mundo del cine desde la comodidad de tu hogar!</p>
 
-    <div class="plans-section" id="plans">
-        <h2>Nuestros Planes</h2>
-
-        <div class="plans">
-            <div class="plan">
-                <h3>Plan Básico</h3>
-                <p>
-                
-                <table class="table-plans">
-    <tbody>
-        <tr>
-            <td>Soporte</td>
-            <td>✓ Telegram</td>
-            <td>X Whatsapp</td>
-            <td>X Email</td>
-        </tr>
-        <tr>
-            <td>Duracion</td>
-            <td>✓ 30 Dias</td>
-            <td>X 60 Dias</td>
-            <td>X 90 Dias</td>
-        </tr>
-         <tr>
-            <td>Dispositivo</td>
-            <td>✓ 4</td>
-            <td>X 6</td>
-            <td>X 8</td>
-        </tr>
-         <td>Calidades</td>
-            <td>✓ 420p</td>
-            <td>✓ 720p</td>
-            <td>✓ HD</td>
-            </tr>
-    </tbody>
-</table>
-                
-                </p>
-                <div class="price">$10.000/mes</div>
-                <a href="https://t.me/ANDRES_VPN?text=%20Hola%20Quisiera%20adquirir%20un%20usuario%20BASICO">Comprar Ahora</a>
+        <!-- Features Section -->
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-bolt"></i>
+                <p>Alta Velocidad</p>
             </div>
-
-
-
-            <div class="plan">
-                <h3>Plan Pro</h3>
-                <p>
-                
-                <table class="table-plans">
-    <tbody>
-        <tr>
-            <td>Soporte</td>
-            <td>✓ Telegram</td>
-            <td>✓ Whatsapp</td>
-            <td>X Email</td>
-        </tr>
-        <tr>
-            <td>Duracion</td>
-            <td>✓ 30 Dias</td>
-            <td>✓ 60 Dias</td>
-            <td>X 90 Dias</td>
-        </tr>
-         <tr>
-            <td>Dispositivo</td>
-            <td>✓ 4</td>
-            <td>✓ 6</td>
-            <td>X 8</td>
-        </tr>
-         <td>Calidades</td>
-            <td>✓ 420p</td>
-            <td>✓ 720p</td>
-            <td>✓ HD</td>
-            </tr>
-    </tbody>
-   </table>    
-                </p>
-                <div class="price">$18.000/2 Meses</div>
-                <a href="https://t.me/ANDRES_VPN?text=%20Hola%20Quisiera%20adquirir%20un%20usuario%20PRO">Comprar Ahora</a>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <p>Seguridad Avanzada</p>
             </div>
-
-
-
-            <div class="plan">
-                <h3>Plan Premium</h3>
-                <p>
-                
-                <table class="table-plans">
-    <tbody>
-        <tr>
-            <td>Soporte</td>
-            <td>✓ Telegram</td>
-            <td>✓ Whatsapp</td>
-            <td>✓ Email</td>
-        </tr>
-        <tr>
-            <td>Duracion</td>
-            <td>✓ 30 Dias</td>
-            <td>✓ 60 Dias</td>
-            <td>✓ 90 Dias</td>
-        </tr>
-         <tr>
-            <td>Dispositivo</td>
-            <td>✓ 4</td>
-            <td>✓ 6</td>
-            <td>✓ 8</td>
-        </tr>
-         <td>Calidades</td>
-            <td>✓ 420p</td>
-            <td>✓ 720p</td>
-            <td>✓ HD</td>
-            </tr>
-    </tbody>
-                </table>
-                </p>
-                <div class="price">$24.000/ 3 Meses</div>
-                <a href="https://t.me/ANDRES_VPN?text=%20Hola%20Quisiera%20adquirir%20un%20usuario%20PREMIUM">Comprar Ahora</a>
+            <div class="feature">
+                <i class="fas fa-video"></i>
+                <p>Calidad HD</p>
             </div>
+            <div class="feature">
+                <i class="fas fa-user-shield"></i>
+                <p>Privacidad Garantizada</p>
+            </div>
+        </div>
+
+        <!-- Testimonial Section -->
+        <div class="testimonial">
+            <h2>Testimonios</h2>
+            <p>"VPNMOVIE ha transformado la forma en que disfruto de mis películas favoritas. La velocidad es increíble y la privacidad, sin igual. ¡Totalmente recomendado!" - Cliente Satisfecho</p>
+        </div>
+
+        <!-- Button Group -->
+        <div class="button-group">
+            <a href="descargar-android.html" class="download-btn"><i class="fab fa-android"></i> Descargar para Android</a>
+            <a href="https://vpnmovie-pro.blogspot.com" class="web-version-btn"><i class="fas fa-globe"></i> Usar Versión Web</a>
         </div>
     </div>
 
-    <div class="footer" id="contact">
-        <p>&copy; 2024 VPN MOVIE. Todos los derechos reservados.</p>
-    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 VPNMOVIE. Todos los derechos reservados.</p>
+    </footer>
 
-    <script>
-        // Suaviza el desplazamiento a las secciones de la página
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
