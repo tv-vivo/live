@@ -123,6 +123,35 @@
             margin-top: 10px;
         }
 
+        /* Testimonial Section */
+        .testimonial {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .testimonial h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #003366;
+        }
+
+        .testimonial-slide {
+            display: none;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .testimonial-slide.active {
+            display: block;
+        }
+
         /* Buttons */
         .button-group {
             margin-top: 50px;
@@ -183,30 +212,6 @@
             border-top: 5px solid #005bb5;
             position: relative;
             z-index: 1;
-        }
-
-        /* Additional Functionalities */
-        .testimonial {
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-            margin-top: 50px;
-            position: relative;
-            z-index: 1;
-            overflow: hidden;
-        }
-
-        .testimonial h2 {
-            margin-bottom: 20px;
-            font-size: 2em;
-            color: #003366;
-        }
-
-        .testimonial p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            color: #666;
         }
 
         /* Responsiveness */
@@ -279,14 +284,20 @@
             <div class="testimonial-slide">
                 <p>"No hay comparación con otras plataformas. VPNMOVIE ofrece una experiencia superior con una interfaz amigable y una gran variedad de contenido." - Usuario Contento</p>
             </div>
+            <div class="testimonial-slide">
+                <p>"VPNMOVIE es mi opción favorita para ver películas. La velocidad de carga es rápida y la calidad es excelente. ¡Muy recomendable!" - Fan de Cine</p>
+            </div>
+            <div class="testimonial-slide">
+                <p>"Una plataforma fantástica para ver películas. La privacidad y la calidad del streaming están a la altura de las mejores." - Usuario Satisfecho</p>
+            </div>
         </div>
 
         <!-- Button Group -->
         <div class="button-group">
             <a href="download" class="download-btn"><i class="fab fa-android"></i> Descargar para Android</a>
             <a href="https://vpnmovie-pro.blogspot.com" class="web-version-btn"><i class="fas fa-globe"></i> Usar Versión Web</a>
-            <a href="preguntas-frecuentes.html" class="faq-btn"><i class="fas fa-question-circle"></i> Preguntas Frecuentes</a>
-            <a href="contacto.html" class="faq-btn"><i class="fas fa-address-book"></i> Contacto</a>
+            <a href="preguntas-frecuentes" class="faq-btn"><i class="fas fa-question-circle"></i> Preguntas Frecuentes</a>
+            <a href="contacto" class="faq-btn"><i class="fas fa-address-book"></i> Contacto</a>
         </div>
     </div>
 
