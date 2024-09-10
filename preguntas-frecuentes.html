@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preguntas Frecuentes y ¿Qué Somos? - VPNMOVIE">
+    <meta name="keywords" content="VPNMOVIE, preguntas frecuentes, qué somos, despliegue de contenido">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Preguntas Frecuentes y ¿Qué Somos? - VPNMOVIE">
+    <meta property="og:description" content="Encuentra respuestas a tus preguntas frecuentes y descubre más sobre VPNMOVIE y su propósito.">
+    <meta property="og:image" content="https://vpnmovie.onrender.com">
+    <meta property="og:url" content="https://vpnmovie.onrender.com/preguntas-frecuentes">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Preguntas Frecuentes y ¿Qué Somos? - VPNMOVIE">
+    <meta name="twitter:description" content="Encuentra respuestas a tus preguntas frecuentes y conoce más sobre VPNMOVIE.">
+    <meta name="twitter:image" content="">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/logo.png">
+    
+    <title>Preguntas Frecuentes y ¿Qué Somos? - VPNMOVIE</title>
+    <style>
+        /* Reset general */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #003366, #005bb5);
+            padding: 60px;
+            text-align: center;
+            color: white;
+            border-radius: 0 0 50px 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .header h1 {
+            font-size: 4em;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            color: #003366;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .faq, .about {
+            border-radius: 10px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .faq-item, .about-item {
+            padding: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 5px;
+        }
+
+        .faq-item:hover, .about-item:hover {
+            background-color: #eaf0f9;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .faq-item span, .about-item span {
+            font-size: 1.2em;
+            color: #003366;
+            font-weight: bold;
+        }
+
+        .faq-content, .about-content {
+            display: none;
+            padding: 15px;
+            background-color: #fff;
+            border-top: 1px solid #ddd;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .faq-content p, .about-content p {
+            margin: 0;
+            font-size: 1.1em;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 5px solid #005bb5;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 900px) {
+            .faq-item, .about-item {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Preguntas Frecuentes</h1>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- ¿Qué Somos? Section -->
+        <div class="section">
+            <h2>¿Qué Somos?</h2>
+            <div class="about">
+                <div class="about-item" onclick="toggleContent('about1')">
+                    <span>Sobre VPNMOVIE</span>
+                </div>
+                <div id="about1" class="about-content">
+                    <p>VPNMOVIE es una plataforma de streaming diseñada para ofrecer una experiencia cinematográfica excepcional. La idea nació de la necesidad de combinar tecnología avanzada con una interfaz amigable para brindar contenido de alta calidad a los usuarios en todo el mundo.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Preguntas Frecuentes Section -->
+        <div class="section">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq">
+                <div class="faq-item" onclick="toggleContent('faq1')">
+                    <span>¿Cómo descargar la aplicación?</span>
+                </div>
+                <div id="faq1" class="faq-content">
+                    <p>Para descargar la aplicación VPNMOVIE, simplemente visita nuestra página de  <a href="download">descarga</a> y sigue las instrucciones. Asegúrate de tener suficiente espacio en tu dispositivo y una conexión a Internet estable.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="faq-item" onclick="toggleContent('faq2')">
+                    <span>¿Es segura la aplicación?</span>
+                </div>
+                <div id="faq2" class="faq-content">
+                    <p>Sí, VPNMOVIE utiliza tecnología avanzada de encriptación para proteger tu privacidad y datos personales. La seguridad de nuestros usuarios es una prioridad para nosotros.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="faq-item" onclick="toggleContent('faq3')">
+                    <span>¿Qué dispositivos son compatibles?</span>
+                </div>
+                <div id="faq3" class="faq-content">
+                    <p>VPNMOVIE es compatible con la mayoría de dispositivos Android. También puedes acceder a nuestra plataforma a través de navegadores web en diferentes sistemas operativos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 VPNMOVIE. Todos los derechos reservados.</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

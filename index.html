@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VPNMOVIE</title>
 
-
     <meta name="description" content="
     Descarga VPN MOVIE y disfruta de una experiencia cinematográfica única. Accede a una amplia selección de películas gratuitas en alta calidad. ¡Descárgala ahora y sumérgete en el mundo del cine desde la comodidad de tu hogar!">
     <meta name="keywords" content="
@@ -17,8 +16,6 @@
     <meta property="og:url" content="https://vpnmovie.onrender.com">
     <link rel="icon" href="img/logo.png" type="image/x-icon">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-
-
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
@@ -167,6 +164,15 @@
             transform: scale(1.05);
         }
 
+        .faq-btn {
+            background: linear-gradient(135deg, #ff5722, #e64a19);
+        }
+
+        .faq-btn:hover {
+            background: linear-gradient(135deg, #e64a19, #d32f2f);
+            transform: scale(1.05);
+        }
+
         /* Footer */
         footer {
             background-color: #003366;
@@ -188,6 +194,7 @@
             margin-top: 50px;
             position: relative;
             z-index: 1;
+            overflow: hidden;
         }
 
         .testimonial h2 {
@@ -263,13 +270,23 @@
         <!-- Testimonial Section -->
         <div class="testimonial">
             <h2>Testimonios</h2>
-            <p>"VPNMOVIE ha transformado la forma en que disfruto de mis películas favoritas. La velocidad es increíble y la privacidad, sin igual. ¡Totalmente recomendado!" - Cliente Satisfecho</p>
+            <div class="testimonial-slide active">
+                <p>"VPNMOVIE ha transformado la forma en que disfruto de mis películas favoritas. La velocidad es increíble y la privacidad, sin igual. ¡Totalmente recomendado!" - Cliente Satisfecho</p>
+            </div>
+            <div class="testimonial-slide">
+                <p>"La mejor experiencia de streaming que he tenido. La calidad de imagen es impresionante y la seguridad es de primer nivel. ¡No puedo pedir más!" - Usuario Feliz</p>
+            </div>
+            <div class="testimonial-slide">
+                <p>"No hay comparación con otras plataformas. VPNMOVIE ofrece una experiencia superior con una interfaz amigable y una gran variedad de contenido." - Usuario Contento</p>
+            </div>
         </div>
 
         <!-- Button Group -->
         <div class="button-group">
             <a href="download" class="download-btn"><i class="fab fa-android"></i> Descargar para Android</a>
             <a href="https://vpnmovie-pro.blogspot.com" class="web-version-btn"><i class="fas fa-globe"></i> Usar Versión Web</a>
+            <a href="preguntas-frecuentes.html" class="faq-btn"><i class="fas fa-question-circle"></i> Preguntas Frecuentes</a>
+            <a href="contacto.html" class="faq-btn"><i class="fas fa-address-book"></i> Contacto</a>
         </div>
     </div>
 
@@ -278,5 +295,24 @@
         <p>&copy; 2024 VPNMOVIE. Todos los derechos reservados.</p>
     </footer>
 
+    <!-- JavaScript for Testimonial Carousel -->
+    <script>
+        const slides = document.querySelectorAll('.testimonial-slide');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        showSlide(currentSlide);
+        setInterval(nextSlide, 5000);
+    </script>
 </body>
 </html>
