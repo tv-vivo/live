@@ -80,13 +80,13 @@
             text-align: center;
         }
 
-        .faq, .about {
+        .faq, .about, .project, .justification {
             border-radius: 10px;
             margin-bottom: 10px;
             overflow: hidden;
         }
 
-        .faq-item, .about-item {
+        .faq-item, .about-item, .project-item, .justification-item {
             padding: 15px;
             cursor: pointer;
             transition: background-color 0.3s, box-shadow 0.3s;
@@ -95,18 +95,18 @@
             margin-bottom: 5px;
         }
 
-        .faq-item:hover, .about-item:hover {
+        .faq-item:hover, .about-item:hover, .project-item:hover, .justification-item:hover {
             background-color: #eaf0f9;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
 
-        .faq-item span, .about-item span {
+        .faq-item span, .about-item span, .project-item span, .justification-item span {
             font-size: 1.2em;
             color: #003366;
             font-weight: bold;
         }
 
-        .faq-content, .about-content {
+        .faq-content, .about-content, .project-content, .justification-content {
             display: none;
             padding: 15px;
             background-color: #fff;
@@ -114,7 +114,7 @@
             border-radius: 0 0 10px 10px;
         }
 
-        .faq-content p, .about-content p {
+        .faq-content p, .about-content p, .project-content p, .justification-content p {
             margin: 0;
             font-size: 1.1em;
             color: #666;
@@ -134,7 +134,7 @@
 
         /* Responsiveness */
         @media (max-width: 900px) {
-            .faq-item, .about-item {
+            .faq-item, .about-item, .project-item, .justification-item {
                 font-size: 1em;
             }
         }
@@ -193,7 +193,7 @@
                     <span>¿Cómo descargar la aplicación?</span>
                 </div>
                 <div id="faq1" class="faq-content">
-                    <p>Para descargar la aplicación VPNMOVIE, simplemente visita nuestra página de  <a href="download">descarga</a> y sigue las instrucciones. Asegúrate de tener suficiente espacio en tu dispositivo y una conexión a Internet estable.</p>
+                    <p>Para descargar la aplicación VPNMOVIE, simplemente visita nuestra página de <a href="download">descarga</a> y sigue las instrucciones. Asegúrate de tener suficiente espacio en tu dispositivo y una conexión a Internet estable.</p>
                 </div>
             </div>
             <div class="faq">
@@ -213,10 +213,78 @@
                 </div>
             </div>
         </div>
-    </div>
-<div class="button-group">
-            <a href="/" class="back-btn"><i class="fas fa-arrow-left"></i> Volver al Inicio</a>
+
+        <!-- Proyecto y Justificación Section -->
+        <div class="section">
+            <h2>Proyecto y Justificación</h2>
+            <!-- Proyecto Section -->
+            <div class="project">
+                <div class="project-item" onclick="toggleContent('project1')">
+                    <span>¿Cuál es el tema del trabajo?</span>
+                </div>
+                <div id="project1" class="project-content">
+                    <p>El tema del trabajo es la creación y desarrollo de VPNMOVIE, una plataforma de streaming destinada a ofrecer una experiencia cinematográfica única. Este proyecto busca combinar tecnología avanzada con un diseño intuitivo para facilitar el acceso a contenido de alta calidad.</p>
+                </div>
+                <div class="project-item" onclick="toggleContent('project2')">
+                    <span>¿Por qué está realizando el trabajo?</span>
+                </div>
+                <div id="project2" class="project-content">
+                    <p>El trabajo se realiza para satisfacer la creciente demanda de plataformas de streaming que ofrezcan contenido de calidad en un entorno seguro y accesible. VPNMOVIE se crea para llenar este vacío en el mercado y proporcionar una solución innovadora a los usuarios.</p>
+                </div>
+                <div class="project-item" onclick="toggleContent('project3')">
+                    <span>¿Por qué su idea de negocio?</span>
+                </div>
+                <div id="project3" class="project-content">
+                    <p>La idea de negocio surge de la necesidad de una plataforma de streaming que combine tecnología de vanguardia con una experiencia de usuario amigable. Queremos ofrecer una alternativa que no solo cumpla con las expectativas de entretenimiento, sino que también garantice la seguridad y privacidad de los usuarios.</p>
+                </div>
+                <div class="project-item" onclick="toggleContent('project4')">
+                    <span>¿Cómo está pensado el proyecto?</span>
+                </div>
+                <div id="project4" class="project-content">
+                    <p>El proyecto está pensado en fases: desarrollo tecnológico, diseño de interfaz, implementación de seguridad y lanzamiento al mercado. Cada etapa está diseñada para asegurar que la plataforma cumpla con los estándares de calidad y ofrezca una experiencia fluida a los usuarios.</p>
+                </div>
+                <div class="project-item" onclick="toggleContent('project5')">
+                    <span>¿Cuáles son las limitaciones en el trabajo?</span>
+                </div>
+                <div id="project5" class="project-content">
+                    <p>Las limitaciones incluyen desafíos tecnológicos en la implementación de características avanzadas y la necesidad de cumplir con regulaciones de privacidad. También enfrentamos restricciones presupuestarias que pueden afectar el ritmo de desarrollo.</p>
+                </div>
+            </div>
+
+            <!-- Justificación Section -->
+            <div class="justification">
+                <div class="justification-item" onclick="toggleContent('justification1')">
+                    <span>Explica cómo el producto soluciona un problema y cuál es su contribución.</span>
+                </div>
+                <div id="justification1" class="justification-content">
+                    <p>VPNMOVIE soluciona el problema de la falta de plataformas de streaming que ofrezcan un equilibrio entre calidad de contenido y seguridad del usuario. Contribuye a la industria al proporcionar una experiencia cinematográfica superior, con impacto positivo en el corto, mediano y largo plazo al establecer un nuevo estándar en el mercado.</p>
+                </div>
+                <div class="justification-item" onclick="toggleContent('justification2')">
+                    <span>¿De qué manera los beneficia?</span>
+                </div>
+                <div id="justification2" class="justification-content">
+                    <p>El producto beneficia a los usuarios al ofrecer una interfaz intuitiva, una amplia selección de contenido de alta calidad y robustas medidas de seguridad. La novedad radica en su enfoque integrado y su compromiso con la privacidad, lo que hace que VPNMOVIE sea una opción atractiva en el mercado.</p>
+                </div>
+                <div class="justification-item" onclick="toggleContent('justification3')">
+                    <span>¿Por qué se hace el producto?</span>
+                </div>
+                <div id="justification3" class="justification-content">
+                    <p>El producto se desarrolla para responder a la necesidad de una plataforma de streaming más segura y accesible, que combine lo mejor en tecnología y diseño para ofrecer una experiencia de usuario óptima y confiable.</p>
+                </div>
+                <div class="justification-item" onclick="toggleContent('justification4')">
+                    <span>¿Cuál es el valor agregado del producto?</span>
+                </div>
+                <div id="justification4" class="justification-content">
+                    <p>El valor agregado de VPNMOVIE radica en su combinación única de tecnología avanzada, seguridad robusta y una experiencia de usuario excepcional. Esto no solo mejora el acceso al contenido, sino que también asegura la protección de los datos del usuario.</p>
+                </div>
+            </div>
         </div>
+    </div>
+
+    <div class="button-group">
+        <a href="/" class="back-btn"><i class="fas fa-arrow-left"></i> Volver al Inicio</a>
+    </div>
+
     <!-- Footer -->
     <div class="footer">
         <p>&copy; 2024 VPNMOVIE. Todos los derechos reservados.</p>
