@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colaboracion</title>
+    <style>
+        /* Estilos para el cuerpo de la página */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+            font-family: 'Arial', sans-serif;
+            overflow: hidden; /* Evita barras de desplazamiento */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Estilos para el panel del video */
+        .video-panel {
+            background: linear-gradient(135deg, #6a0dad, #3f51b5); /* Tonos morados y azules */
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            position: relative;
+            text-align: center;
+            max-width: 90vw;
+            max-height: 90vh;
+        }
+
+        video {
+            max-width: 100%;
+            max-height: calc(90vh - 40px); /* Ajusta la altura del video para dejar espacio para el eslogan */
+            border-radius: 10px;
+        }
+
+        /* Estilos para el eslogan */
+        .slogan {
+            font-size: 1.5em;
+            color: #fff; /* Texto blanco */
+            margin-top: 15px;
+            animation: fadeInOut 5s infinite;
+        }
+
+        /* Animación para el eslogan */
+        @keyframes fadeInOut {
+            0% { opacity: 0; transform: translateY(20px); }
+            50% { opacity: 1; transform: translateY(0); }
+            100% { opacity: 0; transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Panel del video con eslogan -->
+    <div class="video-panel">
+        <video controls autoplay loop>
+            <source src="https://vpnmovie.onrender.com/logo.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <!-- Eslogan dentro del panel -->
+        <div class="slogan">¡Cine y musica: una sinfonia visual!</div>
+    </div>
+
+</body>
+</html>
