@@ -1,9 +1,6 @@
-body.anuncio-visible {
-    overflow: hidden;
-}
-
-/* Contenedor del anuncio */
-.anuncio-body {
+/* Estilo general del overlay */
+#anuncio-overlay {
+    display: none; /* Inicialmente oculto */
     position: fixed;
     top: 0;
     left: 0;
@@ -16,8 +13,8 @@ body.anuncio-visible {
     z-index: 9999;
 }
 
-/* Estilo del contenedor del anuncio */
-.anuncio-container {
+/* Contenedor del anuncio */
+.anuncio-body {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 15px;
@@ -103,4 +100,4 @@ body.anuncio-visible {
     font-size: 20px;
     font-weight: bold;
     display: none;
-      }
+}
