@@ -1,103 +1,32 @@
-/* Estilo general del overlay */
-#anuncio-overlay {
-    display: none; /* Inicialmente oculto */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-}
-
-/* Contenedor del anuncio */
-.anuncio-body {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    position: relative;
-}
-
-/* Estilo del video */
-.anuncio-video {
-    width: 100%;
-    border-radius: 10px;
-}
-
-/* Botón de cerrar anuncio */
-.anuncio-botón {
-    display: none;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: rgba(255, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
-}
-
-.anuncio-botón:hover {
-    background-color: rgba(255, 0, 0, 0.8);
-}
-
-/* Estilo del botón de redirección */
-.anuncio-rtc {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 255, 0.5);
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.anuncio-rtc:hover {
-    background-color: rgba(0, 0, 255, 0.8);
-}
-
-/* Estilo del contador */
-.anuncio-contador {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 16px;
-}
-
-/* Estilo del mensaje de carga */
-#anuncio-loading-message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    display: none;
-}
-
-/* Estilo del mensaje de error */
-#anuncio-error-message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-    display: none;
-}
+const anuncios = {
+        anuncio1: {
+            URL: "https://vpnmovie.onrender.com/logo.mp4",
+            redireccion: "https://vpnmovie.onrender.com/",
+            titulo: "logo",
+            time: 2 // Tiempo en segundos para saltar
+        },
+        anuncio2: {
+            URL: "https://vpnmovie.onrender.com/logo.mp4",
+            redireccion: "https://vpnmovie.onrender.com/",
+            titulo: "anuncio2",
+            time: 5
+        },
+        anuncio3: {
+            URL: "https://vpnmovie.onrender.com/logo.mp4",
+            redireccion: "https://vpnmovie.onrender.com/",
+            titulo: "anuncio3",
+            time: 7
+        },
+        anuncio4: {
+            URL: "https://vpnmovie.onrender.com/logo.mp4",
+            redireccion: "https://vpnmovie.onrender.com/",
+            titulo: "anuncio4",
+            time: 10
+        },
+        anuncio5: {
+            URL: "https://vpnmovie.onrender.com/logo.mp4",
+            redireccion: "https://vpnmovie.onrender.com/",
+            titulo: "anuncio5",
+            time: 3
+        }
+    };
