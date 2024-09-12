@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    z-index: 9999; /* Asegurarse de que esté por encima de todo */
 }
 
 /* Contenedor del anuncio */
@@ -43,6 +43,7 @@
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s ease;
+    z-index: 10000; /* Asegurarse de que esté encima del contenedor del anuncio */
 }
 
 .anuncio-botón:hover {
@@ -88,6 +89,7 @@
     font-size: 20px;
     font-weight: bold;
     display: none;
+    z-index: 10001; /* Asegurarse de que esté encima del contenedor del anuncio */
 }
 
 /* Estilo del mensaje de error */
@@ -100,4 +102,5 @@
     font-size: 20px;
     font-weight: bold;
     display: none;
+    z-index: 10001; /* Asegurarse de que esté encima del contenedor del anuncio */
 }
