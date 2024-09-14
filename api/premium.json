@@ -1,6 +1,18 @@
 {
   "movies": [
     {
+  "titulo": "Up: Una Aventura de Altura",
+  "imb": 14160,
+  "img": "https://image.tmdb.org/t/p/w300/cy6TJ97pUgjM0I4yhF53duTjvWY.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3BreGE5N29oNjhwaA==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Aventura"
+  ]
+},
+    {
   "titulo": "Rebel Moon (Parte uno): La niña del fuego",
   "imb": 848326,
   "img": "https://image.tmdb.org/t/p/w300/2R7RUo3EGs3T3UdKPlfVQWkyUCD.jpg",
