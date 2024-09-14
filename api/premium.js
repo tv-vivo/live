@@ -1,6 +1,65 @@
 
   const movies = [
     {
+  "titulo": "Luck",
+  "imb": 585511,
+  "img": "https://image.tmdb.org/t/p/w300/bwlHp4KsAyuEIAtbYs4mxCkrgyx.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzhuMGZ5ejJjYzZ6aQ==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Comedia",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Toy Story",
+  "imb": 862,
+  "img": "https://image.tmdb.org/t/p/w300/jvn7wy3RSNEXnFSXLpH2of2LcV6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzAwMXVua3JtdW1zdQ==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Familia",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Toy Story 2",
+  "imb": 863,
+  "img": "https://image.tmdb.org/t/p/w300/8OTDKkJv2jXg5ZHKazFxBAttKkR.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL282aXd1OWpjejM0aQ==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Toy Story 3",
+  "imb": 10193,
+  "img": "https://image.tmdb.org/t/p/w300/pb547eLMX6XBV5U98BSGRYmM2VW.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzI3emx2OXBzazk5OQ==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Toy Story 4",
+  "imb": 301528,
+  "img": "https://image.tmdb.org/t/p/w300/yF1vPDuHVrAUMX5dy1tVMbAjkEL.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzRwYWI4ZGJqOHN1cg==",
+  "categoria": [
+    "Familia",
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Fantasía"
+  ]
+},
+    {
   "titulo": "Five Nights at Freddy's",
   "imb": 507089,
   "img": "https://image.tmdb.org/t/p/w300/t6RSJ1z8bDEYpk4fLwxfkXciUak.jpg",
