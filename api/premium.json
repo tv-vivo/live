@@ -1,5 +1,26 @@
 {
-  "movies": [
+  "movies": [{
+  "titulo": "Extrañas apariciones 2",
+  "imb": 150202,
+  "img": "https://image.tmdb.org/t/p/w300/1RbSSap6mbOkwMmKNWp2RayNHa6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3E5cTI0YmZ0OXFiZQ==",
+  "categoria": [
+    "Terror",
+    "Drama",
+    "Suspense"
+  ]
+},
+    {
+  "titulo": "Alerta roja",
+  "imb": 512195,
+  "img": "https://image.tmdb.org/t/p/w300/odBUpjZGxY3y7FBo5NBtEYGJf5r.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzVyamJzcWJxY3Rscw==",
+  "categoria": [
+    "Acción",
+    "Comedia",
+    "Crimen"
+  ]
+},
     {
   "titulo": "La Pequeña Serena: Un Océano de Aventuras",
   "imb": 1136767,
