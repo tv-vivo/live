@@ -1,6 +1,41 @@
 {
   "movies": [
     {
+  "titulo": "Las Leyendas: El Origen",
+  "imb": 667276,
+  "img": "https://image.tmdb.org/t/p/w300/fR49hZdFJ6ZtRS23JW79VYmZgI7.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzBpN2s2Y2h5Y3EzZQ==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Fantasía",
+    "Aventura",
+    "Familia",
+    "Terror"
+  ]
+},
+    {
+  "titulo": "Hijos de perra",
+  "imb": 912908,
+  "img": "https://image.tmdb.org/t/p/w300/qR2yPQOGw402RJMScTg5jmxLTkR.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2xyajZyeTV2N3hrMA==",
+  "categoria": [
+    "Comedia",
+    "Aventura"
+  ]
+},
+    {
+  "titulo": "Venom: Carnage Liberado",
+  "imb": 580489,
+  "img": "https://image.tmdb.org/t/p/w300/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2VxY2lvaDZ3dmU5OQ==",
+  "categoria": [
+    "Ciencia ficción",
+    "Acción",
+    "Aventura"
+  ]
+},
+    {
   "titulo": "La Leyenda de los Chaneques",
   "imb": 1150394,
   "img": "https://image.tmdb.org/t/p/w300/4f9ghI3utknpeBZSAzNuIKKATOA.jpg",
