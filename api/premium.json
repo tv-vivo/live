@@ -1,6 +1,19 @@
 {
   "movies": [
     {
+    "titulo": "Luca",
+    "imb": 508943,
+    "img": "https://image.tmdb.org/t/p/w300/dagjxde57bpFgiSDsfTDgLjzLyn.jpg",
+    "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3pseDZ6N2RnOWlnaA==",
+    "categoria": [
+        "Animación",
+        "Comedia",
+        "Fantasía",
+        "Aventura",
+        "Familia"
+    ]
+},
+    {
     "titulo": "A La Mierda Con Los Zombis",
     "imb": 273477,
     "img": "https://image.tmdb.org/t/p/w300/qxYhEeYxRb4MDwTCnCR6QD82gb1.jpg",
