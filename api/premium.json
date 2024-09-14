@@ -1,6 +1,18 @@
 {
   "movies": [
     {
+  "titulo": "La vida secreta de tus mascotas",
+  "imb": 328111,
+  "img": "https://image.tmdb.org/t/p/w300/kfMiEhfmsAxTUoldgR4mnKndDVv.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3ExNno5N3hjYmVpbA==",
+  "categoria": [
+    "Aventura",
+    "Comedia",
+    "Animación",
+    "Familia"
+  ]
+},
+    {
   "titulo": "La Vida Secreta De Tus Mascotas 2",
   "imb": 412117,
   "img": "https://image.tmdb.org/t/p/w300/dqGsG2uNV9JGgrfODbTafPUukci.jpg",
