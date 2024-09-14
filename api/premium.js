@@ -1,6 +1,29 @@
 
   const movies = [
     {
+  "titulo": "Aquaman y el reino perdido",
+  "imb": 572802,
+  "img": "https://image.tmdb.org/t/p/w300/a0QwtpUNIKjOlNoOVmk7d2LFnQW.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3hpaGNwcmRhaDY4aQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Wish: El poder de los deseos",
+  "imb": 1022796,
+  "img": "https://image.tmdb.org/t/p/w300/1VXMrUioKfPAPSsezHKexx77Dbz.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzRidWdtZzBpeWxjYw==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Fantasía",
+    "Aventura"
+  ]
+},
+    {
   "titulo": "Charlie y La Fábrica de Chocolate",
   "imb": 118,
   "img": "https://image.tmdb.org/t/p/w300/voJEk0WNtrcawz2hN9AwdNbvhrp.jpg",
