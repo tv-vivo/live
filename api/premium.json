@@ -1,6 +1,54 @@
 {
   "movies": [
     {
+  "titulo": "Titanes Del Pacífico",
+  "imb": 68726,
+  "img": "https://image.tmdb.org/t/p/w300/qGu6CHagpxv1XW6Bn3sUJ9SFaH0.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Zxa3NkN3oyZzdwcQ==",
+  "categoria": [
+    "Acción",
+    "Ciencia ficción",
+    "Aventura"
+  ]
+},
+    {
+  "titulo": "Bad Boys: Hasta la muerte",
+  "imb": 573435,
+  "img": "https://image.tmdb.org/t/p/w300/zp0Y7Nsl4UnWiwX4LxXQXgDfXSz.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2E1NmNjcTNqdHdlMA==",
+  "categoria": [
+    "Acción",
+    "Crimen",
+    "Suspense",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Black Adam",
+  "imb": 436270,
+  "img": "https://image.tmdb.org/t/p/w300/mPTzXksC8HcAj6EM6WjZFJVJEzF.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Z4MnU3Z3l5dXNjaA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+    {
+  "titulo": "Godzilla y Kong: El nuevo imperio",
+  "imb": 823464,
+  "img": "https://image.tmdb.org/t/p/w300/2YqZ6IyFk7menirwziJvfoVvSOh.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3B4YXV1dWExZ2wwOQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción",
+    "Fantasía",
+    "Suspense",
+    "Misterio"
+  ]
+},
+    {
   "titulo": "Up: Una Aventura de Altura",
   "imb": 14160,
   "img": "https://image.tmdb.org/t/p/w300/cy6TJ97pUgjM0I4yhF53duTjvWY.jpg",
