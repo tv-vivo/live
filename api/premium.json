@@ -1,6 +1,18 @@
 {
   "movies": [
     {
+  "titulo": "El rey león II: El reino de Simba",
+  "imb": 9732,
+  "img": "https://image.tmdb.org/t/p/w300/zdD5VcvTD43p048ueswYdgLJZh.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3R2MHo2MHBnNHllbA==",
+  "categoria": [
+    "Familia",
+    "Aventura",
+    "Animación",
+    "Acción"
+  ]
+},
+    {
   "titulo": "El rey león",
   "imb": 8587,
   "img": "https://image.tmdb.org/t/p/w300/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
