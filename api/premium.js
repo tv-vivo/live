@@ -1,6 +1,37 @@
 
   const movies = [
-    
+    {
+  "titulo": "Percy Jackson y el ladrón del rayo",
+  "imb": 32657,
+  "img": "https://image.tmdb.org/t/p/w300/piKMSnCCT0oqLZ9GWAALXX9e1qh.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzltOXVtbnppMWI5aQ==",
+  "categoria": [
+    "Aventura",
+    "Fantasía",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Percy Jackson y el mar de los monstruos",
+  "imb": 76285,
+  "img": "https://image.tmdb.org/t/p/w300/akbLEdUzQ5T2R7coc5nOEqk7FjE.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzAzd2Rsb2dkMWEzaQ==",
+  "categoria": [
+    "Aventura",
+    "Familia",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Entrenando a Papá",
+  "imb": 13680,
+  "img": "https://image.tmdb.org/t/p/w300/fdryOOeqeX0SSKdk7Pvz4mBXGid.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3hqYnMxbjF2bGNraA==",
+  "categoria": [
+    "Comedia",
+    "Familia"
+  ]
+},
     {
   "titulo": "Luck",
   "imb": 585511,
