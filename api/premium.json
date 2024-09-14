@@ -1,6 +1,42 @@
 {
   "movies": [
     {
+  "titulo": "Bolt: Un perro fuera de serie",
+  "imb": 13053,
+  "img": "https://image.tmdb.org/t/p/w300/hpunLKNEvjuzCLwLbuWJqzu3OE7.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL29qNnZrN29wdjJocg==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Super Mario Bros. La película",
+  "imb": 502356,
+  "img": "https://image.tmdb.org/t/p/w300/zNKs1T0VZuJiVuhuL5GSCNkGdxf.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2RmYzFvdXBjN3I3Nw==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Fantasía",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "El Pájaro Loco: La Película",
+  "imb": 462883,
+  "img": "https://image.tmdb.org/t/p/w300/3fe4fVFJ2QzwKHOo24QwkpuA6OI.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzdubjlmOXQ5OWYyNg==",
+  "categoria": [
+    "Comedia",
+    "Familia",
+    "Animación"
+  ]
+},
+    {
   "titulo": "Ted 2",
   "imb": 214756,
   "img": "https://image.tmdb.org/t/p/w300/bO59Vn36fQauTDQpKNlHxvcK9Nw.jpg",
