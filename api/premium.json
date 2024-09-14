@@ -1,6 +1,30 @@
 {
   "movies": [
     {
+  "titulo": "Avengers: Infinity War",
+  "imb": 299536,
+  "img": "https://image.tmdb.org/t/p/w300/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzVxZ3dzZTBncXhpYg==",
+  "categoria": [
+    "Aventura",
+    "Acción",
+    "Ciencia ficción"
+  ]
+},
+    {
+  "titulo": "Patos",
+  "imb": 940551,
+  "img": "https://image.tmdb.org/t/p/w300/diEeiB2DmZZadHISkg24RO2n0rT.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2s2eGlzcDN6NG90ag==",
+  "categoria": [
+    "Animación",
+    "Acción",
+    "Aventura",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
   "titulo": "Flash",
   "imb": 298618,
   "img": "https://image.tmdb.org/t/p/w300/x9Qc86JEyYkAKsdzjDpS5kbaAB7.jpg",
