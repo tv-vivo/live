@@ -1,15 +1,14 @@
 {
   "movies": [
     {
-    "titulo": "Los Pingüinos de Madagascar",
-    "imb": 270946,
-    "img": "https://image.tmdb.org/t/p/w300/lEnUxCpQUyntm2eLBzCTv3bfplV.jpg",
-    "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzVyNzgwa2l4MW5zMQ==",
+    "titulo": "El planeta de los simios: Nuevo reino",
+    "imb": 653346,
+    "img": "https://image.tmdb.org/t/p/w300/kkFn3KM47Qq4Wjhd8GuFfe3LX27.jpg",
+    "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Y1d3ZtYTQ1azhtNA==",
     "categoria": [
-        "Familia",
-        "Animación",
+        "Ciencia ficción",
         "Aventura",
-        "Comedia"
+        "Acción"
     ]
 },
     {
