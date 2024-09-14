@@ -1,6 +1,18 @@
 {
   "movies": [
     {
+  "titulo": "Zootopia",
+  "imb": 269149,
+  "img": "https://image.tmdb.org/t/p/w300/i3WnZpJkQYXXbSGplEGmyoyeskM.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzloc3JwaGFub2Frcw==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Familia",
+    "Comedia"
+  ]
+},
+    {
   "titulo": "Interestelar",
   "imb": 157336,
   "img": "https://image.tmdb.org/t/p/w300/nrSaXF39nDfAAeLKksRCyvSzI2a.jpg",
