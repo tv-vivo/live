@@ -1,5 +1,14 @@
         const usuarios = [
                 {
+                user: '12345',
+                key: '12345',
+                fechaVencimiento: {
+                    dia: 13,
+                    mes: 9,
+                    year: 2024
+                }
+            },
+                {
                 user: 'trkizaki502',
                 key: 'tmk09spro',
                 fechaVencimiento: {
