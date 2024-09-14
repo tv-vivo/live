@@ -1,6 +1,18 @@
 {
   "movies": [
     {
+  "titulo": "La Vida Secreta De Tus Mascotas 2",
+  "imb": 412117,
+  "img": "https://image.tmdb.org/t/p/w300/dqGsG2uNV9JGgrfODbTafPUukci.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3V6bnZrOTJhZWpqMQ==",
+  "categoria": [
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
   "titulo": "Kung Fu Panda 4",
   "imb": 1011985,
   "img": "https://image.tmdb.org/t/p/w300/zS8BSQdbOesql0EWbs17kPvLoAT.jpg",
