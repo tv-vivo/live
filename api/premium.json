@@ -1,6 +1,17 @@
 {
   "movies": [
     {
+  "titulo": "El rey león",
+  "imb": 8587,
+  "img": "https://image.tmdb.org/t/p/w300/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL21kd280MjVnZG1hcQ==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Drama"
+  ]
+},
+    {
   "titulo": "Telma: La Unicornio",
   "imb": 739547,
   "img": "https://image.tmdb.org/t/p/w300/t2QbM7VgCPMZmSwGMNKuNIiRFZM.jpg",
