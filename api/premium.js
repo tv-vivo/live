@@ -1,6 +1,31 @@
 
   const movies = [
     {
+  "titulo": "Charlie y La Fábrica de Chocolate",
+  "imb": 118,
+  "img": "https://image.tmdb.org/t/p/w300/voJEk0WNtrcawz2hN9AwdNbvhrp.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzg2c3Z4MWswczVseQ==",
+  "categoria": [
+    "Aventura",
+    "Comedia",
+    "Familia",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Rango",
+  "imb": 44896,
+  "img": "https://image.tmdb.org/t/p/w300/9p73gp8ugku8n1YNhO0dYryF1ll.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2ltbWRzeGZmaTBuOA==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Western",
+    "Aventura"
+  ]
+},
+    {
   "titulo": "Luck",
   "imb": 585511,
   "img": "https://image.tmdb.org/t/p/w300/bwlHp4KsAyuEIAtbYs4mxCkrgyx.jpg",
