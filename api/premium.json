@@ -1,6 +1,28 @@
 {
   "movies": [
     {
+  "titulo": "Five Nights at Freddy's",
+  "imb": 507089,
+  "img": "https://image.tmdb.org/t/p/w300/t6RSJ1z8bDEYpk4fLwxfkXciUak.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzVxa3ZjYTJmdW4zZg==",
+  "categoria": [
+    "Terror",
+    "Misterio"
+  ]
+},
+    {
+  "titulo": "Guerra mundial Z",
+  "imb": 72190,
+  "img": "https://image.tmdb.org/t/p/w300/a8ogjWFd0QS6BzBkzfDMWukc26i.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25ianNkYXYxdXM1dA==",
+  "categoria": [
+    "Acción",
+    "Terror",
+    "Ciencia ficción",
+    "Suspense"
+  ]
+},
+    {
   "titulo": "Las aventuras de Sharkboy y Lavagirl",
   "imb": 14199,
   "img": "https://image.tmdb.org/t/p/w300/h4fPiaxCmMyRCo2VD155GXonXXg.jpg",
