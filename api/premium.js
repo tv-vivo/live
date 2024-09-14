@@ -1,5 +1,5 @@
-{
-  "movies": [
+
+  const movies = [
     {
   "titulo": "Five Nights at Freddy's",
   "imb": 507089,
@@ -971,4 +971,3 @@
     ]
 }
   ]
-}
