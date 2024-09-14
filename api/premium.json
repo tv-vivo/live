@@ -1,6 +1,17 @@
 {
   "movies": [
-    
+    {
+  "titulo": "Kung Fu Panda 4",
+  "imbd": 1011985,
+  "img": "https://image.tmdb.org/t/p/w300/zS8BSQdbOesql0EWbs17kPvLoAT.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3dndDg4ZmxsNngzag==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Fantasía",
+    "Acción"
+  ]
+},    
     {
     "titulo": "El planeta de los simios: Nuevo reino",
     "imb": 653346,
