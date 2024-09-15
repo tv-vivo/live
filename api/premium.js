@@ -1,4 +1,91 @@
 const movies = [
+  }{
+  "titulo": "xXx: Reactivado",
+  "imb": 47971,
+  "img": "https://image.tmdb.org/t/p/w300/iOT9ca00e4hrMdgu1lDKvbIG6RI.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2t3c240cWp3NXJ1NQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Crimen"
+  ]
+},
+  {
+  "titulo": "Doctor Strange: Hechicero supremo",
+  "imb": 284052,
+  "img": "https://image.tmdb.org/t/p/w300/wJEZI3PWyMW7qcW6n9jyCh7Cclf.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2U4YzJ5b2I1dWQ0aA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Monster Trucks",
+  "imb": 262841,
+  "img": "https://image.tmdb.org/t/p/w300/t4KuI4lOW4B7X74poenJr7fh51U.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3BsZnM0NWVqNngzeg==",
+  "categoria": [
+    "Acción",
+    "Comedia",
+    "Ciencia ficción"
+  ]
+},
+  {
+  "titulo": "Animales Fantásticos: Y Dónde Encontrarlos",
+  "imb": 259316,
+  "img": "https://image.tmdb.org/t/p/w300/pLgSLx9dn2YYbwVk8p0F28KIU8C.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL212YzI3aWEydjNsNA==",
+  "categoria": [
+    "Fantasía",
+    "Aventura"
+  ]
+},
+  {
+  "titulo": "Bailarina",
+  "imb": 342473,
+  "img": "https://image.tmdb.org/t/p/w300/oHqHeJRE7NSK7qHeV48phbuDTe6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3RuZGJnMDVmZ2Vmbw==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "No Manches Frida",
+  "imb": 375794,
+  "img": "https://image.tmdb.org/t/p/w300/6HfyXfIEywLa2HvcswKi44dDKxL.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzI2bXphOTUzNjQ0dQ==",
+  "categoria": [
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Max Steel",
+  "imb": 286567,
+  "img": "https://image.tmdb.org/t/p/w300/ctNjf5YZqnFPap9RdLs5aXcDefP.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzZ5d3M5bzVzbjZoeA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+  {
+  "titulo": "La princesa y el sapo",
+  "imb": 10198,
+  "img": "https://image.tmdb.org/t/p/w300/lSNqVycC40mujo0tiRZvp6Ef5qQ.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2kydjltYXI5MTR4cw==",
+  "categoria": [
+    "Animación",
+    "Romance",
+    "Fantasía",
+    "Familia"
+  ]
+},
   {
   "titulo": "Una cigüeña en apuros",
   "imb": 378111,
