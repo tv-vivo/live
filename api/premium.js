@@ -1,5 +1,5 @@
 const movies = [
-  }{
+  {
   "titulo": "xXx: Reactivado",
   "imb": 47971,
   "img": "https://image.tmdb.org/t/p/w300/iOT9ca00e4hrMdgu1lDKvbIG6RI.jpg",
