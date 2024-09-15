@@ -1,10 +1,21 @@
 const dominio = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const movies = [
   {
+  "titulo": "¡Shazam!",
+  "imb": 287947,
+  "img": "https://image.tmdb.org/t/p/w300/4f5Rz8uYpcTvo1hHKcQRSaay0ek.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2U2cjRhbHB6YWY4Mg==",
+  "categoria": [
+    "Acción",
+    "Comedia",
+    "Fantasía"
+  ]
+},
+  {
   "titulo": "Elementos",
   "imb": 976573,
   "img": "https://image.tmdb.org/t/p/w300/d79DeKDCgFOM23O8Dr6MELZVooY.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3lwbnBnNXRpd3dveA==",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3lwbnBnNXRpd3dveA==",
   "categoria": [
     "Animación",
     "Comedia",
@@ -17,7 +28,7 @@ const movies = [
   "titulo": "Dragon Ball Super: Broly",
   "imb": 503314,
   "img": "https://image.tmdb.org/t/p/w300/6JilEC1SON8tWIRHcdJzf4uVBpX.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2J1MW93eGdqbThxbA==",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2J1MW93eGdqbThxbA==",
   "categoria": [
     "Acción",
     "Ciencia ficción",
