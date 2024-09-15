@@ -1,13 +1,13 @@
 const dominio = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const movies = [
   {
-  "titulo": "¡Shazam!",
-  "imb": 287947,
-  "img": "https://image.tmdb.org/t/p/w300/4f5Rz8uYpcTvo1hHKcQRSaay0ek.jpg",
+  "titulo": "¡Shazam! La furia de los dioses",
+  "imb": 594767,
+  "img": "https://image.tmdb.org/t/p/w300/igFLHxab9zG0M89OmEpnOM6TPXn.jpg",
   "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2U2cjRhbHB6YWY4Mg==",
   "categoria": [
-    "Acción",
     "Comedia",
+    "Acción",
     "Fantasía"
   ]
 },
