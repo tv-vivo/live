@@ -1,6 +1,30 @@
 const dominio = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const movies = [
   {
+  "titulo": "Elementos",
+  "imb": 976573,
+  "img": "https://image.tmdb.org/t/p/w300/d79DeKDCgFOM23O8Dr6MELZVooY.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3lwbnBnNXRpd3dveA==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Fantasía",
+    "Romance"
+  ]
+},
+  {
+  "titulo": "Dragon Ball Super: Broly",
+  "imb": 503314,
+  "img": "https://image.tmdb.org/t/p/w300/6JilEC1SON8tWIRHcdJzf4uVBpX.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2J1MW93eGdqbThxbA==",
+  "categoria": [
+    "Acción",
+    "Ciencia ficción",
+    "Animación"
+  ]
+},
+  {
 "titulo": "Spider-Man: A través del Spider-Verso",
 "imb": 569094,
 "img": "https://image.tmdb.org/t/p/w300/37WcNMgNOMxdhT87MFl7tq7FM1.jpg",
