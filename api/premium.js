@@ -1,5 +1,104 @@
 const movies = [
   {
+  "titulo": "Los Ilusionistas 2",
+  "imb": 291805,
+  "img": "https://image.tmdb.org/t/p/w300/pjGt13AXXTLxvkmdF6SpA1feFOw.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2E5MXdlNXc1bzVwdw==",
+  "categoria": [
+    "Crimen",
+    "Suspense",
+    "Acción",
+    "Misterio"
+  ]
+},
+  {
+  "titulo": "La Leyenda de Tarzán",
+  "imb": 258489,
+  "img": "https://image.tmdb.org/t/p/w300/zzsryqYKz60Hn73AiZqbJGgAbMk.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL28xYW9lbXQzODdoNg==",
+  "categoria": [
+    "Fantasía",
+    "Acción",
+    "Aventura"
+  ]
+},
+  {
+  "titulo": "El Conjuro 2: El caso Enfield",
+  "imb": 259693,
+  "img": "https://image.tmdb.org/t/p/w300/pdNW0HWw11Wn2N94VGea8O44wOA.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2luam1qOTNvcHpoNQ==",
+  "categoria": [
+    "Terror"
+  ]
+},
+  {
+  "titulo": "La era de hielo: Choque de mundos",
+  "imb": 278154,
+  "img": "https://image.tmdb.org/t/p/w300/wjgvznDSs2YZI0pr0dEe0NzDI7d.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2c4eGNweWk0a3k4NQ==",
+  "categoria": [
+    "Aventura",
+    "Animación",
+    "Familia",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Tortugas Ninja",
+  "imb": 98566,
+  "img": "https://image.tmdb.org/t/p/w300/cdNy1nz9HeaHoxPhbmamZ6psXKz.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL21tZGtqejVuc2Z0OA==",
+  "categoria": [
+    "Ciencia ficción",
+    "Acción",
+    "Aventura",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Warcraft: El primer encuentro de dos mundos",
+  "imb": 68735,
+  "img": "https://image.tmdb.org/t/p/w300/r62koy47q5TpDfCVzH0opsk7ZXv.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Q2bTN2MTY4MzNubg==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Capitán América: Civil War",
+  "imb": 271110,
+  "img": "https://image.tmdb.org/t/p/w300/g6UTwUVFYWI8VPWo5GylnbZVhin.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2w3ZmdlNWkwdWFwdw==",
+  "categoria": [
+    "Aventura",
+    "Acción",
+    "Ciencia ficción"
+  ]
+},
+  {
+  "titulo": "Yo Antes de Ti",
+  "imb": 296096,
+  "img": "https://image.tmdb.org/t/p/w300/k7rVpfmFq1hlRiP5qAcK0jv08rj.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL29xbGp2ODIwbGR6dQ==",
+  "categoria": [
+    "Drama",
+    "Romance"
+  ]
+},
+  {
+  "titulo": "Cazafantasmas",
+  "imb": 43074,
+  "img": "https://image.tmdb.org/t/p/w300/gG8Tv060zoUwmeGEk8lGBULO9hw.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Jrd3QyaWN5c2JsOQ==",
+  "categoria": [
+    "Acción",
+    "Fantasía",
+    "Comedia"
+  ]
+},
+  {
   "titulo": "Un espía y medio",
   "imb": 302699,
   "img": "https://image.tmdb.org/t/p/w300/vOZnX2PXASGjWXJdJSR4RjATDun.jpg",
