@@ -1,5 +1,126 @@
 const movies = [
   {
+  "titulo": "Grandes Héroes",
+  "imb": 177572,
+  "img": "https://image.tmdb.org/t/p/w300/qVU0ag4i5BCmH5h4o04cdvUo0Zf.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2duazhleW01aGU0aw==",
+  "categoria": [
+    "Aventura",
+    "Familia",
+    "Animación",
+    "Acción",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Los siete magníficos",
+  "imb": 333484,
+  "img": "https://image.tmdb.org/t/p/w300/uotXQy2IKigAA6vvUIUsBPNHkH0.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2YyNnc1bGV2Yjk2bA==",
+  "categoria": [
+    "Aventura",
+    "Acción",
+    "Western"
+  ]
+},
+  {
+  "titulo": "Las locuras de Robinson Crusoe",
+  "imb": 368940,
+  "img": "https://image.tmdb.org/t/p/w300/kpIVvfpP7ye5TexmvnuL8j3hMol.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzNkandic2k1ZGRwMA==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Metegol",
+  "imb": 153158,
+  "img": "https://image.tmdb.org/t/p/w300/JsVAm9FAw1A9qlTw3zNNR8zhLP.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzZ6MXd5ZmY0cTBiZg==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Romance"
+  ]
+},
+  {
+  "titulo": "Cómo entrenar a tu dragón 2",
+  "imb": 82702,
+  "img": "https://image.tmdb.org/t/p/w300/lVKSLbEYpx8y4YeJh5GJGAk0a0p.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2NvNHNtMmx1ZHJtag==",
+  "categoria": [
+    "Fantasía",
+    "Acción",
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "El especialista: Resurrección",
+  "imb": 278924,
+  "img": "https://image.tmdb.org/t/p/w300/bG3Q6EFcngpPn7uPuQTzTuq9DgV.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3lwdmp6ZDVid2F2cg==",
+  "categoria": [
+    "Acción",
+    "Crimen",
+    "Suspense"
+  ]
+},
+  {
+  "titulo": "Trolls",
+  "imb": 136799,
+  "img": "https://image.tmdb.org/t/p/w300/grCBNLzAGbRrGMzF4eTM9EXwP78.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzZobnY4dHR3ODVtOA==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Fantasía",
+    "Aventura",
+    "Comedia",
+    "Música"
+  ]
+},
+  {
+  "titulo": "La fiesta de las salchichas",
+  "imb": 223702,
+  "img": "https://image.tmdb.org/t/p/w300/4YiHAxavhMLaBqOzx7ZirmOwNkD.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2xpa3l5ajQxM2VjeA==",
+  "categoria": [
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Reyes de las olas 2",
+  "imb": 411840,
+  "img": "https://image.tmdb.org/t/p/w300/x67ohNuOdwcAvu0cTCHywnClEyt.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL256eXgza3dvbm5pNw==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Moana: Un mar de aventuras",
+  "imb": 277834,
+  "img": "https://image.tmdb.org/t/p/w300/y6wkgEH1gTWAafH9Bc7cNNut0Kf.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzBjZzhqMjNrc3ZvMA==",
+  "categoria": [
+    "Aventura",
+    "Comedia",
+    "Familia",
+    "Animación"
+  ]
+},
+  {
   "titulo": "xXx: Reactivado",
   "imb": 47971,
   "img": "https://image.tmdb.org/t/p/w300/iOT9ca00e4hrMdgu1lDKvbIG6RI.jpg",
