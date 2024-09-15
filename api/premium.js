@@ -1,4 +1,4 @@
-const dominio = dominio + ""
+const dominio = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 const movies = [
   {
 "titulo": "Spider-Man: A través del Spider-Verso",
