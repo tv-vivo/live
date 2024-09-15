@@ -1,6 +1,28 @@
 
   const movies = [
     {
+  "titulo": "Alicia a través del espejo",
+  "imb": 241259,
+  "img": "https://image.tmdb.org/t/p/w300/enTsjngbsWuf1JB6YoYOOd67GdE.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2tqMHRhcGF6NHFweg==",
+  "categoria": [
+    "Aventura",
+    "Familia",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Alicia en el país de las maravillas",
+  "imb": 12155,
+  "img": "https://image.tmdb.org/t/p/w300/lTL10rosTEhOZp8E3zoniXddyRC.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzVyOHAzc3ZqdGp3cg==",
+  "categoria": [
+    "Familia",
+    "Fantasía",
+    "Aventura"
+  ]
+},
+    {
   "titulo": "Percy Jackson y el ladrón del rayo",
   "imb": 32657,
   "img": "https://image.tmdb.org/t/p/w300/piKMSnCCT0oqLZ9GWAALXX9e1qh.jpg",
