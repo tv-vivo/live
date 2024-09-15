@@ -1,5 +1,92 @@
 const movies = [
   {
+  "titulo": "Un espía y medio",
+  "imb": 302699,
+  "img": "https://image.tmdb.org/t/p/w300/vOZnX2PXASGjWXJdJSR4RjATDun.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2gzbjU0ZWltNnB2Zw==",
+  "categoria": [
+    "Acción",
+    "Comedia",
+    "Crimen",
+    "Misterio"
+  ]
+},
+  {
+  "titulo": "Kubo y La Búsqueda del Samurái",
+  "imb": 313297,
+  "img": "https://image.tmdb.org/t/p/w300/b9L5BomkYAHwiRaVNp14WibZhHs.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2htZnNjdjE2YXliYQ==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Mi Amigo El Gigante",
+  "imb": 267935,
+  "img": "https://image.tmdb.org/t/p/w300/sglHfkazJxsIWHPlHrzb60mULLI.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzJlYWt6cnBxbjhhdQ==",
+  "categoria": [
+    "Aventura",
+    "Familia",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Cigüeñas: La historia que no te contaron",
+  "imb": 332210,
+  "img": "https://image.tmdb.org/t/p/w300/eEyLLrcUAvmAn6OoZwEvzCUG6Z6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzhwdDd4Ynk5a2Mydg==",
+  "categoria": [
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Mi amigo el dragón",
+  "imb": 294272,
+  "img": "https://image.tmdb.org/t/p/w300/b86WrC1hkgNPXL7tdPK1wwQX5zz.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2d0d200NHdrNDMxcQ==",
+  "categoria": [
+    "Aventura",
+    "Familia",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Miss Peregrine y los niños peculiares",
+  "imb": 283366,
+  "img": "https://image.tmdb.org/t/p/w300/b4585PS4VZEqvwvVZiqeYZkpxhC.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2ZqYzQ0OTdua2U5dg==",
+  "categoria": [
+    "Fantasía",
+    "Aventura"
+  ]
+},
+  {
+  "titulo": "Lilo y Stitch",
+  "imb": 11544,
+  "img": "https://image.tmdb.org/t/p/w300/9EkzzLf3TxYrhGmEo2ZTmH49KLE.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2k5MDZ1b3c1a3Ewcw==",
+  "categoria": [
+    "Animación",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "¿Qué culpa tiene el niño?",
+  "imb": 369299,
+  "img": "https://image.tmdb.org/t/p/w300/md3iYDpi6rlrAF6iyJyzdOzyUEV.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzd5ejZ1djZtcDBlMg==",
+  "categoria": [
+    "Comedia",
+    "Romance"
+  ]
+},
+  {
   "titulo": "Grandes Héroes",
   "imb": 177572,
   "img": "https://image.tmdb.org/t/p/w300/qVU0ag4i5BCmH5h4o04cdvUo0Zf.jpg",
