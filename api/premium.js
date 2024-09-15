@@ -2,6 +2,159 @@ const dominio = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 //dominio +
 const movies = [
   {
+  "titulo": "Una cigüeña en apuros",
+  "imb": 378111,
+  "img": "https://image.tmdb.org/t/p/w300/IaXwzJU42eYni9rU5bJFodaOE6.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzQzbm1zcmw3bTBnZg==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Fantasía",
+    "Aventura",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Un Jefe en Pañales",
+  "imb": 295693,
+  "img": "https://image.tmdb.org/t/p/w300/cl5GCE7kS5LETpa0B1YPym4mIG2.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2V1N2VhdGpweHlpZQ==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Aceptados",
+  "imb": 9788,
+  "img": "https://image.tmdb.org/t/p/w300/ed5W7iDp8BINUPw0bXPStxGxJOh.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL210ZzZsZXRscG9rbg==",
+  "categoria": [
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Cómo Impedir una Boda",
+  "imb": 879330,
+  "img": "https://image.tmdb.org/t/p/w300/5pfecans4q6Yh1Cu3G8Ldo2kXJh.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2Z1aDR2a3Vlc3k5aA==",
+  "categoria": [
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Life: Vida inteligente",
+  "imb": 395992,
+  "img": "https://image.tmdb.org/t/p/w300/xqkghrcEQsaG7B3f3iYWQFqmfVD.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3huZXNqdmFqbmJnNQ==",
+  "categoria": [
+    "Terror",
+    "Ciencia ficción",
+    "Misterio",
+    "Suspense"
+  ]
+},
+  {
+  "titulo": "La cruda verdad",
+  "imb": 20943,
+  "img": "https://image.tmdb.org/t/p/w300/vSQuBXiIdIvaeKDFPFvLXKNVFT8.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzc2ZzYyeDdpZzhkdA==",
+  "categoria": [
+    "Comedia",
+    "Romance"
+  ]
+},
+  {
+  "titulo": "Viaje Salvaje",
+  "imb": 373569,
+  "img": "https://image.tmdb.org/t/p/w300/vHGnuQIoCiCvt5OXGHBgT78hvvX.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Jqa3BrZGs1Z2tzbw==",
+  "categoria": [
+    "Acción",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Las aventuras del Capitán Calzoncillos: La película",
+  "imb": 268531,
+  "img": "https://image.tmdb.org/t/p/w300/hrqSqrUkXeLOt5aQCtuCRLtmVJF.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3doZGtrOHMwNzd4ZA==",
+  "categoria": [
+    "Acción",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Los Descendientes 2",
+  "imb": 417320,
+  "img": "https://image.tmdb.org/t/p/w300/cwADU2dxO9NN7T9pF9h3rv9kYTb.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3FjcXRjYXM1aWhoeA==",
+  "categoria": [
+    "Familia",
+    "Fantasía",
+    "Película de TV",
+    "Aventura"
+  ]
+},
+  {
+  "titulo": "Guardianes de la Galaxia 2",
+  "imb": 283995,
+  "img": "https://image.tmdb.org/t/p/w300/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL29rcW9oMG9rdng2aw==",
+  "categoria": [
+    "Ciencia ficción",
+    "Aventura",
+    "Acción"
+  ]
+},
+  {
+  "titulo": "Annabelle",
+  "imb": 250546,
+  "img": "https://image.tmdb.org/t/p/w300/wktIMdLEtHSS7o6XO6q57KRYPWi.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3ZqZGthbnB4ejZvaQ==",
+  "categoria": [
+    "Terror"
+  ]
+},
+  {
+  "titulo": "En el tornado",
+  "imb": 216282,
+  "img": "https://image.tmdb.org/t/p/w300/3uXIByYUDDhRgkY4uyIE9bgTdA3.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2d1Y2VjN2M5bXpzeA==",
+  "categoria": [
+    "Acción",
+    "Suspense"
+  ]
+},
+  {
+  "titulo": "Resident Evil: Venganza",
+  "imb": 400136,
+  "img": "https://image.tmdb.org/t/p/w300/A2Fz7NwUwKaw5FnFVaKbhJXzoYZ.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2p0M2J4dDdjNGJjeg==",
+  "categoria": [
+    "Animación",
+    "Terror",
+    "Aventura",
+    "Acción",
+    "Ciencia ficción"
+  ]
+},
+  {
+  "titulo": "Headspace",
+  "imb": 1065671,
+  "img": "https://image.tmdb.org/t/p/w300/qEHvx1YwyA2qfEcIrrf9XgkNxJP.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2tyYWxjaGJtMzBudQ==",
+  "categoria": [
+    "Animación",
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+  {
   "titulo": "El cadáver de la novia",
   "imb": 3933,
   "img": "https://image.tmdb.org/t/p/w300/3ALM0VeZjGUryAqWo6pqohzbLDh.jpg",
