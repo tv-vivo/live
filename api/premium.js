@@ -1,6 +1,30 @@
 
   const movies = [
     {
+  "titulo": "Orión y la oscuridad",
+  "imb": 1139829,
+  "img": "https://image.tmdb.org/t/p/w300/6cpb2IP2c8gEbS2E2VfLKfx04cP.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL255a2ppb3E2bXBrNw==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Comedia",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Jack: El Cazagigantes",
+  "imb": 81005,
+  "img": "https://image.tmdb.org/t/p/w300/e2QO4XUXIDvaRlix6Ybjal4pTqd.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2U1OHNqN2kzOWducA==",
+  "categoria": [
+    "Fantasía",
+    "Acción",
+    "Aventura",
+    "Drama"
+  ]
+},
+    {
   "titulo": "Alicia a través del espejo",
   "imb": 241259,
   "img": "https://image.tmdb.org/t/p/w300/enTsjngbsWuf1JB6YoYOOd67GdE.jpg",
