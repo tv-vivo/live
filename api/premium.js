@@ -1,6 +1,40 @@
 
   const movies = [
     {
+  "titulo": "Spider-Man: A través del Spider-Verso",
+  "imb": 569094,
+  "img": "https://image.tmdb.org/t/p/w300/37WcNMgNOMxdhT87MFl7tq7FM1.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2ttam5mdmJxdDd5bw==",
+  "categoria": [
+    "Animación",
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+    {
+  "titulo": "Spider-Man: Un Nuevo Universo",
+  "imb": 324857,
+  "img": "https://image.tmdb.org/t/p/w300/xRMZikjAHNFebD1FLRqgDZeGV4a.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL29waDZxb3NqeGxzeQ==",
+  "categoria": [
+    "Animación",
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+    {
+  "titulo": "Zombieland 2: Tiro de Gracia",
+  "imb": 338967,
+  "img": "https://image.tmdb.org/t/p/w300/mIUGQ89isLNj4IRujDsXrZFIZCQ.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25nN2M2YXhlaHJzNA==",
+  "categoria": [
+    "Comedia",
+    "Terror"
+  ]
+},
+    {
   "titulo": "Orión y la oscuridad",
   "imb": 1139829,
   "img": "https://image.tmdb.org/t/p/w300/6cpb2IP2c8gEbS2E2VfLKfx04cP.jpg",
