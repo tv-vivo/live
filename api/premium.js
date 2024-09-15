@@ -2,6 +2,17 @@ const dominio = "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r="
 //dominio +
 const movies = [
   {
+  "titulo": "El cadáver de la novia",
+  "imb": 3933,
+  "img": "https://image.tmdb.org/t/p/w300/3ALM0VeZjGUryAqWo6pqohzbLDh.jpg",
+  "url": dominio + "aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3N0b2l1eG45Y3RkdA==024/05/embed_27.html?",
+  "categoria": [
+    "Romance",
+    "Fantasía",
+    "Animación"
+  ]
+},
+  {
   "titulo": "¡Shazam! La furia de los dioses",
   "imb": 594767,
   "img": "https://image.tmdb.org/t/p/w300/igFLHxab9zG0M89OmEpnOM6TPXn.jpg",
