@@ -83,19 +83,6 @@ const movies = [
   ]
 },
   {
-  "titulo": "Kung Fu Panda 3",
-  "imb": 140300,
-  "img": "https://image.tmdb.org/t/p/w300/t11f8palNbICK9Ip5QLrUfhLJYq.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3NiaGY3a3B2c3NhYw==",
-  "categoria": [
-    "Acción",
-    "Aventura",
-    "Animación",
-    "Comedia",
-    "Familia"
-  ]
-},
-  {
   "titulo": "Comando Especial 2",
   "imb": 187017,
   "img": "https://image.tmdb.org/t/p/w300/2KNIG63EGYe6BmhGi7e7OfSDJcy.jpg",
