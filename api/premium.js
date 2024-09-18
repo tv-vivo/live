@@ -1,5 +1,16 @@
 const movies = [
   {
+  "titulo": "Thor: Ragnarok",
+  "imb": 284053,
+  "img": "https://image.tmdb.org/t/p/w300/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3R2N2tjcTQwcmdjbA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+  {
   "titulo": "La Cumbre Escarlata",
   "imb": 201085,
   "img": "https://image.tmdb.org/t/p/w300/5SbIDk0Gkyr0y22ZtydVq9Px423.jpg",
