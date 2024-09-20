@@ -1,5 +1,29 @@
 const movies = [
   {
+  "titulo": "Al rescate de Fondo de Bikini: La película de Arenita Mejillas",
+  "imb": 831815,
+  "img": "https://image.tmdb.org/t/p/w300/q8LdEq7DyeeHRWjhy8USd1CmesU.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2JhNXo1a3huYmNvcg==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Aventura",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Tinker Bell",
+  "imb": 13179,
+  "img": "https://image.tmdb.org/t/p/w300/1pUkm0XAVVD2CrTF4YdGOVfXjTY.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3EwMHB0YWhqcGQybw==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+  {
   "titulo": "Tinker Bell y el tesoro perdido",
   "imb": 25475,
   "img": "https://image.tmdb.org/t/p/w300/s5ggvZQMXhP3O2dQD8iQE46K6b6.jpg",
