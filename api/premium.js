@@ -1,5 +1,17 @@
 const movies = [
   {
+  "titulo": "Tinker Bell y el tesoro perdido",
+  "imb": 25475,
+  "img": "https://image.tmdb.org/t/p/w300/s5ggvZQMXhP3O2dQD8iQE46K6b6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL21tODY3b2FnaGk1MA==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+  {
   "titulo": "Thor: Ragnarok",
   "imb": 284053,
   "img": "https://image.tmdb.org/t/p/w300/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg",
