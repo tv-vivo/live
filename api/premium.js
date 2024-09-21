@@ -1,5 +1,5 @@
 const movies = [
-  {
+    {
   "titulo": "Al rescate de Fondo de Bikini: La película de Arenita Mejillas",
   "imb": 831815,
   "img": "https://image.tmdb.org/t/p/w300/q8LdEq7DyeeHRWjhy8USd1CmesU.jpg",
@@ -9,6 +9,201 @@ const movies = [
     "Comedia",
     "Aventura",
     "Familia"
+  ]
+},
+    {
+  "titulo": "Hotel Transylvania",
+  "imb": 76492,
+  "img": "https://image.tmdb.org/t/p/w300/zvWlwBGQWuJ0wog65q1uS37BApC.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3hhNjl2ZW55dHpiaw==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Hotel Transilvania 2",
+  "imb": 159824,
+  "img": "https://image.tmdb.org/t/p/w300/ndYVcm1k3h81MRDhzZCI4SxDzGp.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzhra2JmMDdvNzIzYw==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Hotel Transylvania 3: Monstruos de vacaciones",
+  "imb": 400155,
+  "img": "https://image.tmdb.org/t/p/w300/p5eBnMRoFWjSua4DYdiKjmHP3H5.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzJmbzg0dHplOWQzag==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Hotel Transylvania 4: Transformanía",
+  "imb": 585083,
+  "img": "https://image.tmdb.org/t/p/w300/xNF8AxJc966FWk4SYqXxGHaZLHZ.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2UwZHR5ZGxveWo1Nw==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "El espanta tiburones",
+  "imb": 10555,
+  "img": "https://image.tmdb.org/t/p/w300/3vI17Q3mfkIEpvwItomxMy5w1gw.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2UyazBtZzVxMXplaw==",
+  "categoria": [
+    "Animación",
+    "Acción",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Kung Fu Panda",
+  "imb": 9502,
+  "img": "https://image.tmdb.org/t/p/w300/zcORJ8s9zsBjvKxP0k4FASQSjpf.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzgycnJpcngxeGp3MA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Animación",
+    "Familia",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Kung Fu Panda 2",
+  "imb": 49444,
+  "img": "https://image.tmdb.org/t/p/w300/aNji9U9SPTecmoqGippQUBEyouy.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3NjZ3Fvc3gyd2R3Zw==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Kung Fu Panda 3",
+  "imb": 140300,
+  "img": "https://image.tmdb.org/t/p/w300/t11f8palNbICK9Ip5QLrUfhLJYq.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3R4YXRhZ3E4dzExcg==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
+"titulo": "Kung Fu Panda 4",
+"imb": 1011985,
+"img": "https://image.tmdb.org/t/p/w300/zS8BSQdbOesql0EWbs17kPvLoAT.jpg",
+"url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3dndDg4ZmxsNngzag==",
+"categoria": [
+  "Animación",
+  "Familia",
+  "Fantasía",
+  "Acción"
+]
+},
+  {
+  "titulo": "Cómo Entrenar A Tu Dragón",
+  "imb": 10191,
+  "img": "https://image.tmdb.org/t/p/w300/pteWJuPBLJvv4ieHHqmPwvsgxlA.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3p1ZGMwZGZ0YjR4cw==",
+  "categoria": [
+    "Fantasía",
+    "Aventura",
+    "Animación",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Como entrenar a tu dragón 2",
+  "imb": 82702,
+  "img": "https://image.tmdb.org/t/p/w300/lVKSLbEYpx8y4YeJh5GJGAk0a0p.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2J1aHdoZWl5ZG5oYg==",
+  "categoria": [
+    "Fantasía",
+    "Acción",
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Cómo Entrenar A Tu Dragón 3",
+  "imb": 166428,
+  "img": "https://image.tmdb.org/t/p/w300/rhnoAReqO3Xoe6GbJhT3409lnq8.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzMzM3Vqcmp2czJvbA==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura"
+  ]
+},
+  {
+  "titulo": "Buscando a Dory",
+  "imb": 127380,
+  "img": "https://image.tmdb.org/t/p/w300/wXBwo2DxTm6wZ8Cbu02t9kzzoK4.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzRoMjM1dXNlaWIwNw==",
+  "categoria": [
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Bichos: Una Aventura en Miniatura",
+  "imb": 9487,
+  "img": "https://image.tmdb.org/t/p/w300/3zc9gBzw0egrp7lMrE0zqFkNMms.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25mY215ZGo1cXczaQ==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Aventura",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Madagascar 2: Escape de África",
+  "imb": 10527,
+  "img": "https://image.tmdb.org/t/p/w300/2uL5unGWKgBnaLdJLRjqcZjMr3I.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3pvMHA1cTJweWYzcg==",
+  "categoria": [
+    "Familia",
+    "Aventura",
+    "Animación",
+    "Comedia"
+  ]
+},
+  {
+  "titulo": "Madagascar",
+  "imb": 953,
+  "img": "https://image.tmdb.org/t/p/w300/zrV5GnfCcLWzyjrFgYTpjQPRMfl.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2txejZjeHFrem5qbw==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Aventura",
+    "Comedia"
   ]
 },
   {
@@ -553,30 +748,6 @@ const movies = [
   ]
 },
   {
-  "titulo": "Hotel Transilvania 2",
-  "imb": 159824,
-  "img": "https://image.tmdb.org/t/p/w300/ndYVcm1k3h81MRDhzZCI4SxDzGp.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzhra2JmMDdvNzIzYw==",
-  "categoria": [
-    "Animación",
-    "Comedia",
-    "Familia",
-    "Fantasía"
-  ]
-},
-  {
-  "titulo": "Hotel Transylvania",
-  "imb": 76492,
-  "img": "https://image.tmdb.org/t/p/w300/zvWlwBGQWuJ0wog65q1uS37BApC.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3hhNjl2ZW55dHpiaw==",
-  "categoria": [
-    "Animación",
-    "Comedia",
-    "Familia",
-    "Fantasía"
-  ]
-},
-  {
   "titulo": "Los Ilusionistas 2",
   "imb": 291805,
   "img": "https://image.tmdb.org/t/p/w300/pjGt13AXXTLxvkmdF6SpA1feFOw.jpg",
@@ -807,20 +978,6 @@ const movies = [
     "Animación",
     "Aventura",
     "Romance"
-  ]
-},
-  {
-  "titulo": "Cómo entrenar a tu dragón 2",
-  "imb": 82702,
-  "img": "https://image.tmdb.org/t/p/w300/lVKSLbEYpx8y4YeJh5GJGAk0a0p.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2NvNHNtMmx1ZHJtag==",
-  "categoria": [
-    "Fantasía",
-    "Acción",
-    "Aventura",
-    "Animación",
-    "Comedia",
-    "Familia"
   ]
 },
   {
@@ -2125,18 +2282,6 @@ const movies = [
   "Animación",
   "Comedia",
   "Familia"
-]
-},
-  {
-"titulo": "Kung Fu Panda 4",
-"imb": 1011985,
-"img": "https://image.tmdb.org/t/p/w300/zS8BSQdbOesql0EWbs17kPvLoAT.jpg",
-"url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3dndDg4ZmxsNngzag==",
-"categoria": [
-  "Animación",
-  "Familia",
-  "Fantasía",
-  "Acción"
 ]
 },    
   {
