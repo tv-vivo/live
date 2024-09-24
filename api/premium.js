@@ -10,6 +10,75 @@ const movies = [
     "Aventura",
     "Familia"
   ]
+},   
+    {
+  "titulo": "Aves De Presa y La Fantabulosa Emancipación De Una Harley Quinn",
+  "imb": 495764,
+  "img": "https://image.tmdb.org/t/p/w300/4GCqF17I2ST5M8iSkwh1jwqvi7F.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3FhYXF6dXV6M2kwYQ==",
+  "categoria": [
+    "Acción",
+    "Crimen"
+  ]
+},
+    {
+  "titulo": "Coraline y la puerta secreta",
+  "imb": 14836,
+  "img": "https://image.tmdb.org/t/p/w300/szwW42eZsVEkAEZu7xtje64kO46.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3cxcmQzOXF6ems5bA==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Madagascar",
+  "imb": 953,
+  "img": "https://image.tmdb.org/t/p/w300/zrV5GnfCcLWzyjrFgYTpjQPRMfl.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2txejZjeHFrem5qbw==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Aventura",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Madagascar 2: Escape de África",
+  "imb": 10527,
+  "img": "https://image.tmdb.org/t/p/w300/2uL5unGWKgBnaLdJLRjqcZjMr3I.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3pvMHA1cTJweWYzcg==",
+  "categoria": [
+    "Familia",
+    "Aventura",
+    "Animación",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Madagascar 3: Los Fugitivos",
+  "imb": 80321,
+  "img": "https://image.tmdb.org/t/p/w300/8fKTIecTVNURB6CRFjYMypggRL2.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3RpYm56eGtsZXFqZA==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Comedia",
+    "Aventura"
+  ]
+},
+      {
+  "titulo": "Los Pingüinos de Madagascar",
+  "imb": 270946,
+  "img": "https://image.tmdb.org/t/p/w300/lEnUxCpQUyntm2eLBzCTv3bfplV.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzVyNzgwa2l4MW5zMQ==",
+  "categoria": [
+      "Familia",
+      "Animación",
+      "Aventura",
+      "Comedia"
+  ]
 },
     {
   "titulo": "Moana: Un mar de aventuras",
@@ -271,30 +340,6 @@ const movies = [
   "imb": 9487,
   "img": "https://image.tmdb.org/t/p/w300/3zc9gBzw0egrp7lMrE0zqFkNMms.jpg",
   "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25mY215ZGo1cXczaQ==",
-  "categoria": [
-    "Familia",
-    "Animación",
-    "Aventura",
-    "Comedia"
-  ]
-},
-  {
-  "titulo": "Madagascar 2: Escape de África",
-  "imb": 10527,
-  "img": "https://image.tmdb.org/t/p/w300/2uL5unGWKgBnaLdJLRjqcZjMr3I.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3pvMHA1cTJweWYzcg==",
-  "categoria": [
-    "Familia",
-    "Aventura",
-    "Animación",
-    "Comedia"
-  ]
-},
-  {
-  "titulo": "Madagascar",
-  "imb": 953,
-  "img": "https://image.tmdb.org/t/p/w300/zrV5GnfCcLWzyjrFgYTpjQPRMfl.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2txejZjeHFrem5qbw==",
   "categoria": [
     "Familia",
     "Animación",
@@ -2365,18 +2410,6 @@ const movies = [
       "Ciencia ficción",
       "Aventura",
       "Acción"
-  ]
-},
-  {
-  "titulo": "Los Pingüinos de Madagascar",
-  "imb": 270946,
-  "img": "https://image.tmdb.org/t/p/w300/lEnUxCpQUyntm2eLBzCTv3bfplV.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzVyNzgwa2l4MW5zMQ==",
-  "categoria": [
-      "Familia",
-      "Animación",
-      "Aventura",
-      "Comedia"
   ]
 },
   {
