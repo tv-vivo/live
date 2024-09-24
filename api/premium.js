@@ -12,6 +12,53 @@ const movies = [
   ]
 },  
     {
+  "titulo": "El Guardián del Zoológico",
+  "imb": 38317,
+  "img": "https://image.tmdb.org/t/p/w300/LAQu2Duelc6cYtg19uT6DAYR56.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2R6OGhndTM1anQ1dg==",
+  "categoria": [
+    "Comedia",
+    "Romance",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Sonic: La Película",
+  "imb": 454626,
+  "img": "https://image.tmdb.org/t/p/w300/rK25c71fYVi0Bv7RrTChK7NAQjC.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2txbXIxbmhuc3F5Mg==",
+  "categoria": [
+    "Acción",
+    "Ciencia ficción",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Sonic 2, La película",
+  "imb": 675353,
+  "img": "https://image.tmdb.org/t/p/w300/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3VqNDdlemc1ZDk0dQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Familia",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Soul",
+  "imb": 508442,
+  "img": "https://image.tmdb.org/t/p/w300/xJ7MCAy4oCLerPo3JjnB8lKOhl4.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2R5eTlhOWhldjlteg==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Comedia",
+    "Fantasía"
+  ]
+},
+    {
   "titulo": "Jojo Rabbit",
   "imb": 515001,
   "img": "https://image.tmdb.org/t/p/w300/1HZng5VBqkQ1ZdPVeQ2FoaU5aeB.jpg",
