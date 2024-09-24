@@ -12,6 +12,16 @@ const movies = [
   ]
 },  
     {
+  "titulo": "Cosmoball: Guardianes del universo",
+  "imb": 517096,
+  "img": "https://image.tmdb.org/t/p/w300/fz8wyADSxm1JR6MQRSDC3KEFYBc.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2p4MTFpdGRvOW9tbw==",
+  "categoria": [
+    "Ciencia ficción",
+    "Aventura"
+  ]
+},
+    {
   "titulo": "El Guardián del Zoológico",
   "imb": 38317,
   "img": "https://image.tmdb.org/t/p/w300/LAQu2Duelc6cYtg19uT6DAYR56.jpg",
