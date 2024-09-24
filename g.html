@@ -235,11 +235,12 @@
             fetch(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${apiKey}&language=es-MX`)
                 .then(response => response.json())
                 .then(data => {
+                    const res = btoa('https://playerwish.com/e/' + iframeUrl)
                     const jsonOutput = JSON.stringify({
                         titulo: data.title,
                         imb: data.id,
                         img: `https://image.tmdb.org/t/p/w300${data.poster_path}`,
-                        url: iframeUrl,
+                        url: 'https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=' + res,
                         categoria: data.genres.map(genre => genre.name),
                     }, null, 2);
 
