@@ -12,6 +12,18 @@ const movies = [
   ]
 },
     {
+  "titulo": "Moana: Un mar de aventuras",
+  "imb": 277834,
+  "img": "https://image.tmdb.org/t/p/w300/y6wkgEH1gTWAafH9Bc7cNNut0Kf.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3dwdHVlNWt6NWFrbA==",
+  "categoria": [
+    "Aventura",
+    "Comedia",
+    "Familia",
+    "Animación"
+  ]
+},
+    {
   "titulo": "Cars",
   "imb": 920,
   "img": "https://image.tmdb.org/t/p/w300/nqii8TqllZRainaNhQkJLNoSbMv.jpg",
