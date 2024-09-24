@@ -10,7 +10,54 @@ const movies = [
     "Aventura",
     "Familia"
   ]
-},   
+},  
+    {
+  "titulo": "Jojo Rabbit",
+  "imb": 515001,
+  "img": "https://image.tmdb.org/t/p/w300/1HZng5VBqkQ1ZdPVeQ2FoaU5aeB.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25seTA5dDF5YmJ2Mg==",
+  "categoria": [
+    "Comedia",
+    "Bélica",
+    "Drama"
+  ]
+},
+     {
+  "titulo": "Tinker Bell",
+  "imb": 13179,
+  "img": "https://image.tmdb.org/t/p/w300/1pUkm0XAVVD2CrTF4YdGOVfXjTY.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3EwMHB0YWhqcGQybw==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Tinker Bell y el tesoro perdido",
+  "imb": 25475,
+  "img": "https://image.tmdb.org/t/p/w300/s5ggvZQMXhP3O2dQD8iQE46K6b6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL21tODY3b2FnaGk1MA==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Tinker Bell: Hadas al Rescate",
+  "imb": 44683,
+  "img": "https://image.tmdb.org/t/p/w300/AmUOjwjgz1vGnAmnR51NVv0hqAe.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL294OWlwazBsbGhsYQ==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Familia",
+    "Fantasía"
+  ]
+},
     {
   "titulo": "Aves De Presa y La Fantabulosa Emancipación De Una Harley Quinn",
   "imb": 495764,
@@ -347,30 +394,7 @@ const movies = [
     "Comedia"
   ]
 },
-  {
-  "titulo": "Tinker Bell",
-  "imb": 13179,
-  "img": "https://image.tmdb.org/t/p/w300/1pUkm0XAVVD2CrTF4YdGOVfXjTY.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3EwMHB0YWhqcGQybw==",
-  "categoria": [
-    "Animación",
-    "Familia",
-    "Aventura",
-    "Fantasía"
-  ]
-},
-  {
-  "titulo": "Tinker Bell y el tesoro perdido",
-  "imb": 25475,
-  "img": "https://image.tmdb.org/t/p/w300/s5ggvZQMXhP3O2dQD8iQE46K6b6.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL21tODY3b2FnaGk1MA==",
-  "categoria": [
-    "Animación",
-    "Familia",
-    "Aventura",
-    "Fantasía"
-  ]
-},
+ 
   {
   "titulo": "Thor: Ragnarok",
   "imb": 284053,
