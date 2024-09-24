@@ -12,6 +12,90 @@ const movies = [
   ]
 },
     {
+  "titulo": "Cars",
+  "imb": 920,
+  "img": "https://image.tmdb.org/t/p/w300/nqii8TqllZRainaNhQkJLNoSbMv.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3hnMDV5dmswM2k0dg==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Cars 2",
+  "imb": 49013,
+  "img": "https://image.tmdb.org/t/p/w300/eQo1LQs5Vo9RHVHYUhNSfMZa3VB.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2V5bmQ4dThzbmQ2eQ==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Cars 3",
+  "imb": 260514,
+  "img": "https://image.tmdb.org/t/p/w300/4tp9W3QAbQcpanBtBceZtHD10UT.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzViYTcydG8zaDdjNQ==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Aventura",
+    "Comedia"
+  ]
+},
+ {
+  "titulo": "Los Minions",
+  "imb": 211672,
+  "img": "https://image.tmdb.org/t/p/w300/nmqLwaTfgyWLQWbYd82w159cAqJ.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3M4M3djZ3U1cGZ2Nw==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Aventura",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Mi Villano Favorito 2",
+  "imb": 93456,
+  "img": "https://image.tmdb.org/t/p/w300/ikz6zymN62kqSFioVWAqn8mPufM.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2w3bnEydm5vdHdjcA==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Mi Villano Favorito 3",
+  "imb": 324852,
+  "img": "https://image.tmdb.org/t/p/w300/hbcBR6G5qNLX4OwLtWHdNJVzpei.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3o0bTRkM3h6NTZwcw==",
+  "categoria": [
+    "Acción",
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Aventura"
+  ]
+},
+    {
+  "titulo": "Mi villano favorito 4",
+  "imb": 519182,
+  "img": "https://image.tmdb.org/t/p/w300/wTpzSDfbUuHPEgqgt5vwVtPHhrb.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2F4MjQ2cGpwa3JwMA==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Comedia",
+    "Acción"
+  ]
+},
+    {
   "titulo": "Hotel Transylvania",
   "imb": 76492,
   "img": "https://image.tmdb.org/t/p/w300/zvWlwBGQWuJ0wog65q1uS37BApC.jpg",
@@ -398,18 +482,6 @@ const movies = [
     "Comedia",
     "Familia",
     "Aventura"
-  ]
-},
-  {
-  "titulo": "Los Minions",
-  "imb": 211672,
-  "img": "https://image.tmdb.org/t/p/w300/nmqLwaTfgyWLQWbYd82w159cAqJ.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3M4M3djZ3U1cGZ2Nw==",
-  "categoria": [
-    "Familia",
-    "Animación",
-    "Aventura",
-    "Comedia"
   ]
 },
   {
@@ -1026,18 +1098,6 @@ const movies = [
     "Animación",
     "Familia",
     "Comedia"
-  ]
-},
-  {
-  "titulo": "Moana: Un mar de aventuras",
-  "imb": 277834,
-  "img": "https://image.tmdb.org/t/p/w300/y6wkgEH1gTWAafH9Bc7cNNut0Kf.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzBjZzhqMjNrc3ZvMA==",
-  "categoria": [
-    "Aventura",
-    "Comedia",
-    "Familia",
-    "Animación"
   ]
 },
   {
