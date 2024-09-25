@@ -1,5 +1,127 @@
 const movies = [
     {
+  "titulo": "Equipo foca",
+  "imb": 823610,
+  "img": "https://image.tmdb.org/t/p/w300/m7qA3Im0QNJped98ViHUXgnibnw.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25hM2dwbW4yMHlkdg==",
+  "categoria": [
+    "Animación",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Pie pequeño",
+  "imb": 446894,
+  "img": "https://image.tmdb.org/t/p/w300/8DIRqjOa2vjpLt8Ek8XIzjYggYM.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2g4aDAxNW5zcHkzdA==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Aventura",
+    "Fantasía",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "La familia del futuro",
+  "imb": 1267,
+  "img": "https://image.tmdb.org/t/p/w300/1V34tiUPo3memMuCFlGhpA7ODbj.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzhwanVndG1xOXlrcA==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Canguro Jack",
+  "imb": 10628,
+  "img": "https://image.tmdb.org/t/p/w300/rEJ6J0NqToxw9g4CDaY9JQMHVx5.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3B0b3g3a2h4d3MwYw==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Comedia",
+    "Familia",
+    "Crimen"
+  ]
+},
+    {
+  "titulo": "Space Jam: Una nueva era",
+  "imb": 379686,
+  "img": "https://image.tmdb.org/t/p/w300/1BjZAcj4oGokaIGoMDWh6njWzVr.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3pnbnZiNWt3anN6NQ==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Comedia",
+    "Ciencia ficción"
+  ]
+},
+    {
+  "titulo": "Ralph, el demoledor",
+  "imb": 82690,
+  "img": "https://image.tmdb.org/t/p/w300/lTpE4JQ2C09NicqvDhwi70IRz62.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzVheWJoaGl6bHdjeg==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Comedia",
+    "Aventura"
+  ]
+},
+    {
+  "titulo": "Wifi Ralph",
+  "imb": 404368,
+  "img": "https://image.tmdb.org/t/p/w300/wfff5XoLdGQzCt2Nb4ZF6WYNLAq.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2N0aTk0bXgxaHB3eg==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Comedia",
+    "Aventura"
+  ]
+},
+     {
+  "titulo": "Alvin y las Ardillas: Aventura sobre ruedas",
+  "imb": 258509,
+  "img": "https://image.tmdb.org/t/p/w300/2i4tFydM1FbjlUPJ0sUjurSlKVO.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL29qZXZyMTIwcjVqOQ==",
+  "categoria": [
+    "Familia",
+    "Aventura",
+    "Comedia",
+    "Música",
+    "Animación"
+  ]
+},
+    {
+  "titulo": "Alvin y las Ardillas 2",
+  "imb": 23398,
+  "img": "https://image.tmdb.org/t/p/w300/1DqgIFHVJwjlaIITCcYtobrirfd.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzl6M3o1bWJxMWlseg==",
+  "categoria": [
+    "Comedia",
+    "Familia",
+    "Animación",
+    "Fantasía",
+    "Música"
+  ]
+},
+    {
+  "titulo": "Alvin y las Ardillas 3",
+  "imb": 55301,
+  "img": "https://image.tmdb.org/t/p/w300/ipy52l2X0sj5cLuuA6DggMdx8yW.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzRuY2swcDl1OTUzbw==",
+  "categoria": [
+    "Comedia",
+    "Fantasía",
+    "Familia",
+    "Música",
+    "Animación"
+  ]
+},
+    {
   "titulo": "PAW Patrol: La súper película",
   "imb": 893723,
   "img": "https://image.tmdb.org/t/p/w300/74UljzdgFuYo0BqzuEO2s2azObe.jpg",
@@ -820,19 +942,7 @@ const movies = [
     "Ciencia ficción"
   ]
 },
-  {
-  "titulo": "Alvin y las Ardillas: Aventura sobre ruedas",
-  "imb": 258509,
-  "img": "https://image.tmdb.org/t/p/w300/2i4tFydM1FbjlUPJ0sUjurSlKVO.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL29qZXZyMTIwcjVqOQ==",
-  "categoria": [
-    "Familia",
-    "Aventura",
-    "Comedia",
-    "Música",
-    "Animación"
-  ]
-},
+
   {
   "titulo": "Maléfica",
   "imb": 102651,
