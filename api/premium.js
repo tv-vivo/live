@@ -1,5 +1,84 @@
 const movies = [
     {
+  "titulo": "Robot salvaje",
+  "imb": 1184918,
+  "img": "https://image.tmdb.org/t/p/w300/sDoXpaKZmrzCSJH63zZvQQ9A7VK.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3lmNmNzcGtkcHpjeQ==",
+  "categoria": [
+    "Animación",
+    "Ciencia ficción",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "The King's Man: El Origen",
+  "imb": 476669,
+  "img": "https://image.tmdb.org/t/p/w300/3vBuTxmO4fqbZiZe8i9cqmfiUh6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3FoejZ5b2VocjJsZw==",
+  "categoria": [
+    "Acción",
+    "Comedia",
+    "Aventura",
+    "Suspense"
+  ]
+},
+{
+  "titulo": "Kingsman: El círculo dorado",
+  "imb": 343668,
+  "img": "https://image.tmdb.org/t/p/w300/d0tCSswCeMBzaDsyXc82qfDDvPD.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzRnd3R6NGN5bm1jMw==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Kingsman: El Servicio Secreto",
+  "imb": 207703,
+  "img": "https://image.tmdb.org/t/p/w300/zQEq15TOtFcrwZgLKPBCYaJVylq.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3R1ZDlneHY1dHA1cA==",
+  "categoria": [
+    "Crimen",
+    "Comedia",
+    "Acción",
+    "Aventura"
+  ]
+},
+    {
+  "titulo": "Mortadelo y Filemón contra Jimmy el locuaz",
+  "imb": 227738,
+  "img": "https://image.tmdb.org/t/p/w300/sPe5NAeegRoRTkngYfZgANppNN.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2dkMjUwZ3NtNGo3bw==",
+  "categoria": [
+    "Comedia",
+    "Animación",
+    "Aventura"
+  ]
+},
+    {
+  "titulo": "Lluvia de Hamburguesas 2: La Venganza de las Sobras",
+  "imb": 109451,
+  "img": "https://image.tmdb.org/t/p/w300/wLnAUHnQXacLZs1PJnkq0ns0u2y.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzJkbXBlaHk1YjN4eg==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Lluvia de Hamburguesas",
+  "imb": 22794,
+  "img": "https://image.tmdb.org/t/p/w300/cMs3pxK1xjse7fJooGZsWAlrk6Q.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2k4cGs1cHdjMm5ndQ==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+    {
   "titulo": "Equipo foca",
   "imb": 823610,
   "img": "https://image.tmdb.org/t/p/w300/m7qA3Im0QNJped98ViHUXgnibnw.jpg",
@@ -374,6 +453,17 @@ const movies = [
     "Comedia",
     "Bélica",
     "Drama"
+  ]
+},
+        {
+  "titulo": "Tinker bell y La Bestia de Nunca Jamas",
+  "imb": 297270,
+  "img": "https://image.tmdb.org/t/p/w300/14Yjf8xW2uWkZ3ZhagbrKMXbe70.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2Fvb3o5NnM4enA2Zg==",
+  "categoria": [
+    "Aventura",
+    "Animación",
+    "Familia"
   ]
 },
      {
