@@ -1,5 +1,35 @@
 const movies = [
     {
+  "titulo": "Harry Potter y la orden del Fénix",
+  "imb": 675,
+  "img": "https://image.tmdb.org/t/p/w300/zN5DWGV6IO30asXrHzGju9mo20P.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3lhZmx5Zm9la2w5OA==",
+  "categoria": [
+    "Aventura",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Harry Potter y el misterio del príncipe",
+  "imb": 767,
+  "img": "https://image.tmdb.org/t/p/w300/vvb9r7ZH4Zn35sXIwFTb08lMGaU.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzZ0bGp2NXg1d3NycQ==",
+  "categoria": [
+    "Aventura",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Harry Potter y el cáliz de fuego",
+  "imb": 674,
+  "img": "https://image.tmdb.org/t/p/w300/5hrrncgY7GfRHz6JmnhPlvJUONe.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2ZmZWd1MWp0a2x4Mw==",
+  "categoria": [
+    "Aventura",
+    "Fantasía"
+  ]
+},
+    {
   "titulo": "Harry Potter y el prisionero de Azkaban",
   "imb": 673,
   "img": "https://image.tmdb.org/t/p/w300/wF9aoo4YZmpKP4bZPSy4Zwwek6G.jpg",
