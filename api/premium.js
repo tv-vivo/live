@@ -1,5 +1,15 @@
 const movies = [
     {
+  "titulo": "Harry Potter y el prisionero de Azkaban",
+  "imb": 673,
+  "img": "https://image.tmdb.org/t/p/w300/wF9aoo4YZmpKP4bZPSy4Zwwek6G.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzdpMHBjbnV6cHkycA==",
+  "categoria": [
+    "Aventura",
+    "Fantasía"
+  ]
+},
+    {
   "titulo": "Valiente",
   "imb": 62177,
   "img": "https://image.tmdb.org/t/p/w300/eVt6IKkzKqNs80TX0JVan6sjH5Z.jpg",
