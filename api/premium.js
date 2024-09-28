@@ -1,5 +1,27 @@
 const movies = [
     {
+  "titulo": "Bambi II",
+  "imb": 13205,
+  "img": "https://image.tmdb.org/t/p/w300/enl6RjnQEriJqMyGcMb72qgT8Ei.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3g4ZG5pcG84czlzMg==",
+  "categoria": [
+    "Animación",
+    "Drama",
+    "Familia"
+  ]
+},
+    {
+  "titulo": "Bambi",
+  "imb": 3170,
+  "img": "https://image.tmdb.org/t/p/w300/90Shq6yU7vqXskmZbX2AEf57ddy.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2szZTljN2N5dHl4Yg==",
+  "categoria": [
+    "Animación",
+    "Drama",
+    "Familia"
+  ]
+},
+    {
   "titulo": "Robot salvaje",
   "imb": 1184918,
   "img": "https://image.tmdb.org/t/p/w300/sDoXpaKZmrzCSJH63zZvQQ9A7VK.jpg",
