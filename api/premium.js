@@ -1,4 +1,36 @@
-const movies = [
+const movies = [}
+    {
+  "titulo": "Valiente",
+  "imb": 62177,
+  "img": "https://image.tmdb.org/t/p/w300/eVt6IKkzKqNs80TX0JVan6sjH5Z.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2RmYXN4YzczOWh0bg==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Comedia",
+    "Familia",
+    "Acción",
+    "Fantasía"
+  ]
+},
+    {
+  "titulo": "Son Como Niños 2",
+  "imb": 109418,
+  "img": "https://image.tmdb.org/t/p/w300/6TRhV0E6wDQjMEtvYru0Kel6juW.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2V5eTJ2bjRsNjFxYw==",
+  "categoria": [
+    "Comedia"
+  ]
+},
+    {
+  "titulo": "Son Como Niños",
+  "imb": 38365,
+  "img": "https://image.tmdb.org/t/p/w300/r1mDA1SLjw2yiYhhLiAjrd2Pt1l.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3oyNnhsNXM3bjIxYw==",
+  "categoria": [
+    "Comedia"
+  ]
+},
     {
   "titulo": "Guardianes de la Galaxia volumen 3",
   "imb": 447365,
