@@ -1,5 +1,14 @@
 const movies = [
     {
+  "titulo": "De Noche Con El Diablo",
+  "imb": 938614,
+  "img": "https://image.tmdb.org/t/p/w300/jga2jfUWXuVdaBn3WojJooLTSeC.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Nsdzl1dXNwN2Fqaw==",
+  "categoria": [
+    "Terror"
+  ]
+},
+    {
   "titulo": "Parque mágico",
   "imb": 400157,
   "img": "https://image.tmdb.org/t/p/w300/eW6JtZ5cyzfVe5s9DFDKaJay94b.jpg",
@@ -171,7 +180,7 @@ const movies = [
   "titulo": "Sherlock Gnomes",
   "imb": 370567,
   "img": "https://image.tmdb.org/t/p/w300/wqnzpJR3PwS4doVkAkt9seSEpoX.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL21yN3Mxdnh5NDU2cA==",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL213dnM0NTR6emR6eQ==",
   "categoria": [
     "Animación",
     "Familia",
@@ -218,7 +227,7 @@ const movies = [
   "titulo": "Abracadabra 2",
   "imb": 642885,
   "img": "https://image.tmdb.org/t/p/w300/gbbZNVuGSD6cPGZ4sfcrA59EKNY.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3dsNW95bDEweGFiYQ==",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2YyNnBzeXQ3dHpwYg==",
   "categoria": [
     "Fantasía",
     "Comedia",
@@ -229,7 +238,7 @@ const movies = [
   "titulo": "Viaje 2: La Isla Misteriosa",
   "imb": 72545,
   "img": "https://image.tmdb.org/t/p/w300/hAy2yUav8QPnDzfOGihNI527NjY.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2dscHI0YnFrczBkZw==",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2M1NDV6aThobGo1cw==",
   "categoria": [
     "Aventura",
     "Acción",
@@ -240,7 +249,7 @@ const movies = [
   "titulo": "Viaje al centro de la Tierra",
   "imb": 88751,
   "img": "https://image.tmdb.org/t/p/w300/uWWKeB6iPtn5PIckZK0L4yw3Fg2.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3l0aTdoa3VybHNzNQ==",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzR4MTV5NnlkMWFrOQ==",
   "categoria": [
     "Acción",
     "Ciencia ficción",
