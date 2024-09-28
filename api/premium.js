@@ -1,5 +1,27 @@
 const movies = [
     {
+  "titulo": "Pantera Negra",
+  "imb": 284054,
+  "img": "https://image.tmdb.org/t/p/w300/lAPzezdc5E6DFnttJwCWXZ9A9C6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3MyMnFmc2phYnNmdw==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+    {
+  "titulo": "Pantera Negra: Wakanda por siempre",
+  "imb": 505642,
+  "img": "https://image.tmdb.org/t/p/w300/mYpT2R7639KvKZ668uoQGS2QNFp.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzc1OHk4amh0MDdpNQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+    {
   "titulo": "Iron Man 3",
   "imb": 68721,
   "img": "https://image.tmdb.org/t/p/w300/cW0fOIZONkgeiMJDYzqUcgl4MUn.jpg",
