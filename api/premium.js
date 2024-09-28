@@ -1,4 +1,4 @@
-const movies = [}
+const movies = [
     {
   "titulo": "Valiente",
   "imb": 62177,
