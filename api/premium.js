@@ -1,5 +1,15 @@
 const movies = [
         {
+  "titulo": "Turbo",
+  "imb": 77950,
+  "img": "https://image.tmdb.org/t/p/w300/lDARMqluCrWaFgybY9KHLY96L3n.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2c3MWdjeGYzczQ1aw==",
+  "categoria": [
+    "Animación",
+    "Familia"
+  ]
+},
+        {
   "titulo": "La Leyenda Del Charro Negro",
   "imb": 494656,
   "img": "https://image.tmdb.org/t/p/w300/fDLJ5vIeRL68cIHlob11w2pBzH0.jpg",
