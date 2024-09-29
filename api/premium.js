@@ -1,5 +1,16 @@
 const movies = [
         {
+  "titulo": "Alien: Romulus",
+  "imb": 945961,
+  "img": "https://image.tmdb.org/t/p/w300/8PYqGSd8MOm5ce8io4qNSAiSExW.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2ExczVpbjkycTZhcw==",
+  "categoria": [
+    "Terror",
+    "Ciencia ficción",
+    "Acción"
+  ]
+},
+        {
   "titulo": "Turbo",
   "imb": 77950,
   "img": "https://image.tmdb.org/t/p/w300/lDARMqluCrWaFgybY9KHLY96L3n.jpg",
