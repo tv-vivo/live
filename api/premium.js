@@ -1,5 +1,15 @@
 const movies = [
     {
+  "titulo": "Un Vecino Gruñón",
+  "imb": 937278,
+  "img": "https://image.tmdb.org/t/p/w300/8bNLrZt9lrmnt6LsaGG8GfDfgYR.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2preWpkYXA1dHV4cw==",
+  "categoria": [
+    "Comedia",
+    "Drama"
+  ]
+},
+    {
   "titulo": "De Noche Con El Diablo",
   "imb": 938614,
   "img": "https://image.tmdb.org/t/p/w300/jga2jfUWXuVdaBn3WojJooLTSeC.jpg",
