@@ -1,5 +1,15 @@
 const movies = [
     {
+  "titulo": "Yo, Robot",
+  "imb": 2048,
+  "img": "https://image.tmdb.org/t/p/w300/u0tUxQQxrbKX3GIfsCYeHrrYPzV.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzA1Nzd3MTB0N3docQ==",
+  "categoria": [
+    "Acción",
+    "Ciencia ficción"
+  ]
+},
+    {
   "titulo": "El último maestro del aire",
   "imb": 10196,
   "img": "https://image.tmdb.org/t/p/w300/ztvnkvNYtZReU9iQyY94PXw3nzs.jpg",
