@@ -1,5 +1,16 @@
 const movies = [
     {
+  "titulo": "El último maestro del aire",
+  "imb": 10196,
+  "img": "https://image.tmdb.org/t/p/w300/ztvnkvNYtZReU9iQyY94PXw3nzs.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2l4bmx4djQ4cnZhbw==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+    {
   "titulo": "Astro Kid",
   "imb": 580600,
   "img": "https://image.tmdb.org/t/p/w300/jDZZl36lkxRqrLfpQRsEr2MP5Bq.jpg",
