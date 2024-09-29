@@ -1,5 +1,236 @@
 const movies = [
         {
+  "titulo": "La Leyenda Del Charro Negro",
+  "imb": 494656,
+  "img": "https://image.tmdb.org/t/p/w300/fDLJ5vIeRL68cIHlob11w2pBzH0.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2o5Zzl5dWEwaGp3Zg==",
+  "categoria": [
+    "Animación",
+    "Fantasía",
+    "Acción",
+    "Familia",
+    "Terror"
+  ]
+},
+        {
+  "titulo": "La Leyenda de la Nahuala",
+  "imb": 29826,
+  "img": "https://image.tmdb.org/t/p/w300/nQ94eTRXQogJTDwlbq0R8VXSNMZ.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzN6Zno3eDNqNWh5MA==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Fantasía",
+    "Terror"
+  ]
+},
+        {
+  "titulo": "La Leyenda de la Llorona",
+  "imb": 116322,
+  "img": "https://image.tmdb.org/t/p/w300/vBiqoYfDIWKKzZTiQScqgCO09UD.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2MydHhoYng2dmg1Nw==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Fantasía",
+    "Terror"
+  ]
+},
+        {
+  "titulo": "La Leyenda de las Momias de Guanajuato",
+  "imb": 268690,
+  "img": "https://image.tmdb.org/t/p/w300/j2szysGPr5F3pYZNcT83sMBLkP.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25wc3E4OTNudHp0ag==",
+  "categoria": [
+    "Animación",
+    "Terror",
+    "Aventura",
+    "Comedia",
+    "Familia"
+  ]
+},
+        {
+  "titulo": "La Leyenda del Chupacabras",
+  "imb": 388045,
+  "img": "https://image.tmdb.org/t/p/w300/137StSquVSbMhLUB55kmRhMC8t8.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25wc3E4OTNudHp0ag==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Fantasía",
+    "Terror",
+    "Familia"
+  ]
+},
+          {
+"titulo": "La Leyenda de los Chaneques",
+"imb": 1150394,
+"img": "https://image.tmdb.org/t/p/w300/4f9ghI3utknpeBZSAzNuIKKATOA.jpg",
+"url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2hwdGl0NjNoOHF3ZA==",
+"categoria": [
+  "Animación",
+  "Comedia",
+  "Familia",
+  "Terror"
+]
+},
+        {
+  "titulo": "Monstermanía",
+  "imb": 598331,
+  "img": "https://image.tmdb.org/t/p/w300/gcXK4JF72yGwPWiom1egCzhN7oS.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3c4djA3Z2ttbnVtdA==",
+  "categoria": [
+    "Animación",
+    "Familia"
+  ]
+},
+        {
+  "titulo": "Megamente",
+  "imb": 38055,
+  "img": "https://image.tmdb.org/t/p/w300/9ECHsUtlnqSrhoOyGdXe1AvDt1t.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzA3Y3h3ZnVib3F1bQ==",
+  "categoria": [
+    "Animación",
+    "Acción",
+    "Comedia",
+    "Familia",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Megamente contra el sindicato de la perdición",
+  "imb": 1239251,
+  "img": "https://image.tmdb.org/t/p/w300/jf0VOTuKY2UUqK8NtXrxhtY9CVP.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3ZxeG5ubHg4bXMxcg==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Ready Player One: Comienza el juego",
+  "imb": 333339,
+  "img": "https://image.tmdb.org/t/p/w300/2iuVrtC5IpwLtSFSgkIIIKLs0Zq.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzUxMmNkaTRnYnZocw==",
+  "categoria": [
+    "Aventura",
+    "Acción",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Estación Zombie: tren a Busan",
+  "imb": 396535,
+  "img": "https://image.tmdb.org/t/p/w300/anomz7b3GQtHPFH34SODDBBIUad.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3I3cnhxZWpqYWwxMw==",
+  "categoria": [
+    "Terror",
+    "Suspense",
+    "Acción",
+    "Aventura"
+  ]
+},
+        {
+  "titulo": "Estación Zombie 2: Península",
+  "imb": 581392,
+  "img": "https://image.tmdb.org/t/p/w300/qvqYLT9VUVMG2PNk5DrvlaXLSxj.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzZqeWEzcW1pbG9zaQ==",
+  "categoria": [
+    "Terror",
+    "Aventura",
+    "Acción",
+    "Suspense"
+  ]
+},
+        {
+  "titulo": "Paul",
+  "imb": 39513,
+  "img": "https://image.tmdb.org/t/p/w300/aouM9ermlgnPkJZmwDymIGS9C9M.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2o4ZjVkYXRzOTV3bA==",
+  "categoria": [
+    "Aventura",
+    "Comedia",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "La Gran Aventura LEGO 2",
+  "imb": 280217,
+  "img": "https://image.tmdb.org/t/p/w300/pOMqelYclqbnj4f7mL5KgSN5rJj.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3E2cXJwd2hrc2d6OQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+        {
+  "titulo": "La Gran Aventura LEGO",
+  "imb": 137106,
+  "img": "https://image.tmdb.org/t/p/w300/faKcUazMUagPhx9N3kKNaUCrES4.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3cyeWoxaGNwYWRrbg==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Comedia",
+    "Fantasía"
+  ]
+},
+        {
+  "titulo": "Una Noche en el Museo 3: El Secreto de la Tumba",
+  "imb": 181533,
+  "img": "https://image.tmdb.org/t/p/w300/4n65LTrzmSLtI7o1th45kYiAxCK.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzl6MjU4eHR4cDlnNg==",
+  "categoria": [
+    "Aventura",
+    "Comedia",
+    "Fantasía",
+    "Familia"
+  ]
+},
+        {
+  "titulo": "Una Noche en el Museo 2: La Batalla del Smithsoniano",
+  "imb": 18360,
+  "img": "https://image.tmdb.org/t/p/w300/1KmzAIkylNYJogVUUriELhlyK79.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Bnb2wxOHR5ZmZ0dA==",
+  "categoria": [
+    "Aventura",
+    "Fantasía",
+    "Acción",
+    "Comedia",
+    "Familia"
+  ]
+},
+        {
+  "titulo": "Una noche en el museo",
+  "imb": 1593,
+  "img": "https://image.tmdb.org/t/p/w300/kLfZhPinRkRu8VqgsnstyRT4Oct.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzZtMzJhNHg1b2ZsYg==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Comedia",
+    "Familia",
+    "Fantasía"
+  ]
+},
+        {
+  "titulo": "Lo que el agua se llevó",
+  "imb": 11619,
+  "img": "https://image.tmdb.org/t/p/w300/r7l8CUoSsXP2N1KUndZzVsrpXrd.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3ljcXViYzV1ZmdpMg==",
+  "categoria": [
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia"
+  ]
+},
+        {
   "titulo": "Al rescate de Fondo de Bikini: La película de Arenita Mejillas",
   "imb": 831815,
   "img": "https://image.tmdb.org/t/p/w300/q8LdEq7DyeeHRWjhy8USd1CmesU.jpg",
@@ -2832,18 +3063,7 @@ const movies = [
   "Aventura"
 ]
 },
-  {
-"titulo": "La Leyenda de los Chaneques",
-"imb": 1150394,
-"img": "https://image.tmdb.org/t/p/w300/4f9ghI3utknpeBZSAzNuIKKATOA.jpg",
-"url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2hwdGl0NjNoOHF3ZA==",
-"categoria": [
-  "Animación",
-  "Comedia",
-  "Familia",
-  "Terror"
-]
-},
+
   {
 "titulo": "Titanes del Pacífico: La insurrección",
 "imb": 268896,
