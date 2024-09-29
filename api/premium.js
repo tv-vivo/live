@@ -3073,19 +3073,6 @@ const movies = [
   "Aventura"
 ]
 },
-
-  {
-"titulo": "Titanes del Pacífico: La insurrección",
-"imb": 268896,
-"img": "https://image.tmdb.org/t/p/w300/cAQRgMxyuy3qhjCitR0hHJhEPAI.jpg",
-"url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2FxMzI2ZGRhM2FpZg==",
-"categoria": [
-  "Acción",
-  "Fantasía",
-  "Ciencia ficción",
-  "Aventura"
-]
-},
   {
 "titulo": "Avengers: Infinity War",
 "imb": 299536,
