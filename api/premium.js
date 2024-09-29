@@ -1,5 +1,17 @@
 const movies = [
     {
+  "titulo": "Astro Kid",
+  "imb": 580600,
+  "img": "https://image.tmdb.org/t/p/w300/jDZZl36lkxRqrLfpQRsEr2MP5Bq.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2V5emhtZXIwanE3ZQ==",
+  "categoria": [
+    "Animación",
+    "Comedia",
+    "Aventura",
+    "Familia"
+  ]
+},
+    {
   "titulo": "Un Vecino Gruñón",
   "imb": 937278,
   "img": "https://image.tmdb.org/t/p/w300/8bNLrZt9lrmnt6LsaGG8GfDfgYR.jpg",
