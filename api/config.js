@@ -30,8 +30,8 @@
                 user: '1234',
                 key: '1234',
                 fechaVencimiento: {
-                    dia: 30,
-                    mes: 9,
+                    dia: 6,
+                    mes: 10,
                     year: 2024
                 }
             },
