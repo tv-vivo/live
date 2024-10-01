@@ -1,5 +1,115 @@
 const movies = [
         {
+  "titulo": "Thor",
+  "imb": 10195,
+  "img": "https://image.tmdb.org/t/p/w300/qFAVW4XJaxhj7PcpiUI5hhO9bOX.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2F6NDZodnVwNnN3eg==",
+  "categoria": [
+    "Aventura",
+    "Fantasía",
+    "Acción"
+  ]
+},
+        {
+  "titulo": "Thor: Amor y Trueno",
+  "imb": 616037,
+  "img": "https://image.tmdb.org/t/p/w300/z9ajF6E39Hg2pXUofmUYgZHvdX.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25kcnE1dnRkenJnbg==",
+  "categoria": [
+    "Fantasía",
+    "Acción",
+    "Comedia"
+  ]
+},
+        {
+  "titulo": "Thor: un mundo oscuro",
+  "imb": 76338,
+  "img": "https://image.tmdb.org/t/p/w300/gPAmH41VpK5UPaNhAiNJePzrL8z.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Budm9zNzc1aWwyMg==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Fantasía"
+  ]
+},
+          {
+  "titulo": "Thor: Ragnarok",
+  "imb": 284053,
+  "img": "https://image.tmdb.org/t/p/w300/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3R2N2tjcTQwcmdjbA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "The Marvels",
+  "imb": 609681,
+  "img": "https://image.tmdb.org/t/p/w300/lb8NmRdlpSQfNmpA7d6THvvHmXS.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3F3N3h3eXQwaXA2Mg==",
+  "categoria": [
+    "Ciencia ficción",
+    "Aventura",
+    "Acción"
+  ]
+},
+        {
+  "titulo": "Capitana Marvel",
+  "imb": 299537,
+  "img": "https://image.tmdb.org/t/p/w300/5SPa7dZ85p54xa7E9tHRmfKq5ce.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3F2cmlrZ3lqZTVobw==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Capitán América: El Primer Vengador",
+  "imb": 1771,
+  "img": "https://image.tmdb.org/t/p/w300/i5eSA5DK5iAv53SB4yv57bN56o6.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3gzcWxsc2FvdmdidQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Capitán América y el Soldado del Invierno",
+  "imb": 100402,
+  "img": "https://image.tmdb.org/t/p/w300/3Zv12uAqBxj4xAdeHeVySEQzY1o.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3hxMnloOG0xbHlkZA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+         {
+  "titulo": "Capitán América: Civil War",
+  "imb": 271110,
+  "img": "https://image.tmdb.org/t/p/w300/g6UTwUVFYWI8VPWo5GylnbZVhin.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2w3ZmdlNWkwdWFwdw==",
+  "categoria": [
+    "Aventura",
+    "Acción",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Guasón",
+  "imb": 475557,
+  "img": "https://image.tmdb.org/t/p/w300/v0eQLbzT6sWelfApuYsEkYpzufl.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzg0bnhpcXZkMmtyeA==",
+  "categoria": [
+    "Crimen",
+    "Suspense",
+    "Drama"
+  ]
+},
+        {
   "titulo": "Alien: Romulus",
   "imb": 945961,
   "img": "https://image.tmdb.org/t/p/w300/8PYqGSd8MOm5ce8io4qNSAiSExW.jpg",
@@ -1710,18 +1820,7 @@ const movies = [
     "Comedia"
   ]
 },
- 
-  {
-  "titulo": "Thor: Ragnarok",
-  "imb": 284053,
-  "img": "https://image.tmdb.org/t/p/w300/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3R2N2tjcTQwcmdjbA==",
-  "categoria": [
-    "Acción",
-    "Aventura",
-    "Ciencia ficción"
-  ]
-},
+
   {
   "titulo": "La Cumbre Escarlata",
   "imb": 201085,
@@ -2259,17 +2358,6 @@ const movies = [
     "Acción",
     "Aventura",
     "Fantasía"
-  ]
-},
-  {
-  "titulo": "Capitán América: Civil War",
-  "imb": 271110,
-  "img": "https://image.tmdb.org/t/p/w300/g6UTwUVFYWI8VPWo5GylnbZVhin.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2w3ZmdlNWkwdWFwdw==",
-  "categoria": [
-    "Aventura",
-    "Acción",
-    "Ciencia ficción"
   ]
 },
   {
