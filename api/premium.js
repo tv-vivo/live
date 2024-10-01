@@ -1,5 +1,105 @@
 const movies = [
         {
+  "titulo": "El hombre araña 2",
+  "imb": 558,
+  "img": "https://image.tmdb.org/t/p/w300/p9R3lUNzpHnivyGpKwEPUNGdmmH.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3Vjazc0NDJzczZrcg==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "El Sorprendente Hombre-Araña 2: La Amenaza de Electro",
+  "imb": 102382,
+  "img": "https://image.tmdb.org/t/p/w300/pyxjizLYG86Bxl4mntCWaWXZAko.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3p4dTI5Yjc2andhNw==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Spider-Man 2: Lejos de Casa",
+  "imb": 429617,
+  "img": "https://image.tmdb.org/t/p/w300/iKVR1ba3W1wCm9bVCcpnNvxQUWX.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2lnc2hkZG1vbDVmbQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Spider-Man: Sin camino a casa",
+  "imb": 634649,
+  "img": "https://image.tmdb.org/t/p/w300/miZFgV81xG324rpUknQX8dtXuBl.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2Y5NXljbDJ1aDFveQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "El Sorprendente Hombre-Araña",
+  "imb": 1930,
+  "img": "https://image.tmdb.org/t/p/w300/4cw1Vpp68ec518BHiS6gfa3yDoU.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2EyejQzd2tlc2Vxcw==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Spider-Man: De Regreso a Casa",
+  "imb": 315635,
+  "img": "https://image.tmdb.org/t/p/w300/yJfPC6pjSJ5VOsVyXhx5PXBe0mR.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3BvZDV0bm1vNzI2ZA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción",
+    "Drama"
+  ]
+},
+          {
+"titulo": "Spider-Man: A través del Spider-Verso",
+"imb": 569094,
+"img": "https://image.tmdb.org/t/p/w300/37WcNMgNOMxdhT87MFl7tq7FM1.jpg",
+"url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2ttam5mdmJxdDd5bw==",
+"categoria": [
+  "Animación",
+  "Acción",
+  "Aventura",
+  "Ciencia ficción"
+]
+},
+        {
+  "titulo": "El hombre araña",
+  "imb": 557,
+  "img": "https://image.tmdb.org/t/p/w300/bCDaKZLRkrVVtPNyHxUfKvepW1N.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3g1eDZpZXN2emYxZg==",
+  "categoria": [
+    "Acción",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "El hombre araña 3",
+  "imb": 559,
+  "img": "https://image.tmdb.org/t/p/w300/lkuQzlShE2uzJcsZYU4zBI4VQZP.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3V6MGJwcGhyNmZ3aw==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción"
+  ]
+},
+        {
   "titulo": "Thor",
   "imb": 10195,
   "img": "https://image.tmdb.org/t/p/w300/qFAVW4XJaxhj7PcpiUI5hhO9bOX.jpg",
@@ -2839,18 +2939,7 @@ const movies = [
     "Animación"
   ]
 },
-  {
-"titulo": "Spider-Man: A través del Spider-Verso",
-"imb": 569094,
-"img": "https://image.tmdb.org/t/p/w300/37WcNMgNOMxdhT87MFl7tq7FM1.jpg",
-"url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2ttam5mdmJxdDd5bw==",
-"categoria": [
-  "Animación",
-  "Acción",
-  "Aventura",
-  "Ciencia ficción"
-]
-},
+
   {
 "titulo": "Spider-Man: Un Nuevo Universo",
 "imb": 324857,
