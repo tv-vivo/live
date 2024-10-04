@@ -302,6 +302,17 @@ const movies = [
     "Ciencia ficción"
   ]
 },
+  {
+  "titulo": "Guasón 2: Folie à Deux",
+  "imb": 889737,
+  "img": "https://image.tmdb.org/t/p/w300/tMMYwxrPwVPrxz3DqXs8DnVIOx0.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzh3YWRibTV4czZmZQ==",
+  "categoria": [
+    "Drama",
+    "Crimen",
+    "Suspense"
+  ]
+},
         {
   "titulo": "Guasón",
   "imb": 475557,
