@@ -1,4 +1,37 @@
 const movies = [
+{
+  "titulo": "Deadpool",
+  "imb": 293660,
+  "img": "https://image.tmdb.org/t/p/w300/3TUYy0XvhPQBhrXJwRIaOoYFOBO.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25lMXpvZnBvbHJlbA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Comedia"
+  ]
+},
+{
+  "titulo": "Deadpool 2",
+  "imb": 383498,
+  "img": "https://image.tmdb.org/t/p/w300/fgPTa4IS07Pygz0Q1WJnRgOP7r7.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2ZvaDRpa3FoOHlhbw==",
+  "categoria": [
+    "Acción",
+    "Comedia",
+    "Aventura"
+  ]
+},
+        {
+  "titulo": "Deadpool & Wolverine",
+  "imb": 533535,
+  "img": "https://image.tmdb.org/t/p/w300/9TFSqghEHrlBMRR63yTx80Orxva.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2oxeHVpencyY2phOQ==",
+  "categoria": [
+    "Acción",
+    "Comedia",
+    "Ciencia ficción"
+  ]
+},
   {
   "titulo": "Gigantes de Acero",
   "imb": 39254,
@@ -66,17 +99,6 @@ const movies = [
     "Suspense",
     "Ciencia ficción",
     "Drama"
-  ]
-},
-        {
-  "titulo": "Deadpool & Wolverine",
-  "imb": 533535,
-  "img": "https://image.tmdb.org/t/p/w300/9TFSqghEHrlBMRR63yTx80Orxva.jpg",
-  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2oxeHVpencyY2phOQ==",
-  "categoria": [
-    "Acción",
-    "Comedia",
-    "Ciencia ficción"
   ]
 },
         {
