@@ -1,4 +1,26 @@
 const movies = [
+{
+  "titulo": "El hoyo",
+  "imb": 619264,
+  "img": "https://image.tmdb.org/t/p/w300/qv30R1uDDKTLWDlNc3qi6MRdRf0.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL200dWN4ZTZkazVhdg==",
+  "categoria": [
+    "Drama",
+    "Ciencia ficción",
+    "Suspense"
+  ]
+},
+        {
+  "titulo": "El hoyo 2",
+  "imb": 1125510,
+  "img": "https://image.tmdb.org/t/p/w300/3awoWMKDfTROjGB2vivky1TCSRd.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2x0cnRubGU3Y3BhaQ==",
+  "categoria": [
+    "Suspense",
+    "Ciencia ficción",
+    "Drama"
+  ]
+},
         {
   "titulo": "Deadpool & Wolverine",
   "imb": 533535,
