@@ -1,5 +1,40 @@
 const movies = [
         {
+  "titulo": "Deadpool & Wolverine",
+  "imb": 533535,
+  "img": "https://image.tmdb.org/t/p/w300/9TFSqghEHrlBMRR63yTx80Orxva.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2oxeHVpencyY2phOQ==",
+  "categoria": [
+    "Acción",
+    "Comedia",
+    "Ciencia ficción"
+  ]
+},
+        {
+  "titulo": "Río 2",
+  "imb": 172385,
+  "img": "https://image.tmdb.org/t/p/w300/xx1k3kCfIs95eAMa1pglXv74cRp.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzQ1eng3am8xNWhnZQ==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Comedia",
+    "Familia"
+  ]
+},
+        {
+  "titulo": "Río",
+  "imb": 46195,
+  "img": "https://image.tmdb.org/t/p/w300/ydExhIrbFvPedN9tSIHzzniU1Dd.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2dua2hxMnAwcDl0Mg==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Comedia",
+    "Familia"
+  ]
+},
+        {
   "titulo": "El hombre araña 2",
   "imb": 558,
   "img": "https://image.tmdb.org/t/p/w300/p9R3lUNzpHnivyGpKwEPUNGdmmH.jpg",
