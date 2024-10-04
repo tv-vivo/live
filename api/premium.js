@@ -1,5 +1,29 @@
 const movies = [
   {
+  "titulo": "Los increíbles 2",
+  "imb": 260513,
+  "img": "https://image.tmdb.org/t/p/w300/iNIKq8r155eRFlsoaxgfRYs71qY.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3A3YnV0dGszY2UzdQ==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Animación",
+    "Familia"
+  ]
+},
+  {
+  "titulo": "Los increíbles",
+  "imb": 9806,
+  "img": "https://image.tmdb.org/t/p/w300/al1jusd4T7JPatZlj4BuYkDDOzr.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzJlbG92MHBxYmJmNA==",
+  "categoria": [
+    "Acción",
+    "Aventura",
+    "Animación",
+    "Familia"
+  ]
+},
+  {
   "titulo": "Los Locos Addams",
   "imb": 481084,
   "img": "https://image.tmdb.org/t/p/w300/307Y96L1iJ6gujCfuGPWNTqgbBd.jpg",
