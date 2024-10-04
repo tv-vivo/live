@@ -1,5 +1,16 @@
 const movies = [
   {
+  "titulo": "Gigantes de Acero",
+  "imb": 39254,
+  "img": "https://image.tmdb.org/t/p/w300/gqjKG4Z24pjYxcOfCd9p6WAnYlG.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzc2dHN1cjVsbnF4MA==",
+  "categoria": [
+    "Acción",
+    "Ciencia ficción",
+    "Drama"
+  ]
+},
+  {
   "titulo": "Los increíbles 2",
   "imb": 260513,
   "img": "https://image.tmdb.org/t/p/w300/iNIKq8r155eRFlsoaxgfRYs71qY.jpg",
