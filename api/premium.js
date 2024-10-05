@@ -1,4 +1,74 @@
 const movies = [
+  {
+  "titulo": "Ovejas y Lobos",
+  "imb": 394759,
+  "img": "https://image.tmdb.org/t/p/w300/erfVogV3igwd10jOILhmztyGSu7.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2F0MzRwam53NHV5OQ==",
+  "categoria": [
+    "Aventura",
+    "Animación",
+    "Comedia",
+    "Familia",
+    "Fantasía",
+    "Romance"
+  ]
+},
+  {
+  "titulo": "El expreso polar",
+  "imb": 5255,
+  "img": "https://image.tmdb.org/t/p/w300/ja6QGEUkP8t3wjjoHYvpRStomlT.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL21xazhjbWI1ZHRtYg==",
+  "categoria": [
+    "Animación",
+    "Aventura",
+    "Familia",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Los hermanos guardianes",
+  "imb": 366644,
+  "img": "https://image.tmdb.org/t/p/w300/fVyxIFAg3vb0AwDErlO63Vj1wFq.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL25lNGVid2Uzdmhmcw==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Fantasía"
+  ]
+},
+  {
+  "titulo": "Los Pitufos en la aldea perdida",
+  "imb": 137116,
+  "img": "https://image.tmdb.org/t/p/w300/zqXn3gaMBNHNK7YHdYNidwWrJoT.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3gxM3YwcjF3eGV5Mg==",
+  "categoria": [
+    "Animación",
+    "Familia",
+    "Aventura",
+    "Comedia"
+  ]
+},
+{
+  "titulo": "Al Filo del Mañana",
+  "imb": 137113,
+  "img": "https://image.tmdb.org/t/p/w300/7Rq8FBUeSoYUWlKIWHHyADZGQiH.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL2l4aGJtenZ6aGcwdA==",
+  "categoria": [
+    "Acción",
+    "Ciencia ficción"
+  ]
+},
+  {
+  "titulo": "La Guerra Del Mañana",
+  "imb": 588228,
+  "img": "https://image.tmdb.org/t/p/w300/tzp6VzED2TBc02bkYoYnQa6r2OK.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lLzIyazRlczEwdzVzZw==",
+  "categoria": [
+    "Acción",
+    "Ciencia ficción",
+    "Aventura"
+  ]
+},
 {
   "titulo": "Deadpool",
   "imb": 293660,
