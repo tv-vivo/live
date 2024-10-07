@@ -137,6 +137,19 @@ const movies = [
     "Familia"
   ]
 },
+{
+  "titulo": "Los Locos Addams 2",
+  "imb": 639721,
+  "img": "https://image.tmdb.org/t/p/w300/esOfrTHCoGXbysiLGeimR8nT94q.jpg",
+  "url": "https://vpn-movie-ofc.blogspot.com/2024/05/embed_27.html?r=aHR0cHM6Ly9wbGF5ZXJ3aXNoLmNvbS9lL3FhemtianU3Ym93NA==",
+  "categoria": [
+    "Familia",
+    "Animación",
+    "Comedia",
+    "Fantasía",
+    "Aventura"
+  ]
+},
   {
   "titulo": "Los Locos Addams",
   "imb": 481084,
